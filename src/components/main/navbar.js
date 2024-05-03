@@ -1,5 +1,3 @@
-import { StyledCardWithCols } from '../../styles/card/CardWithCols.styles'
-
 function Navbar() {
     const navbarItems = [
         {
@@ -29,16 +27,16 @@ function Navbar() {
         }
       ]
     return (
-        <StyledCardWithCols className='fixed-top p-10' justifyContent="space-between" height="50px">
-            <div className='FS20'>Yasaman</div>
-            <StyledCardWithCols>
+        <div style={{background:'white'}} className='fixed-top px-4 py-3 d-flex justify-content-between align-items-center'height="50px">
+            <div className='fs-2'>Yasaman</div>
+            <div>
                 {navbarItems.map((item)=>{
                     return(
                         <a className='m-2' href={item.address} key={item.id}>{item.name}</a>
                     );
                 })}
-            </StyledCardWithCols>
-        </StyledCardWithCols>
+            </div>
+        </div>
     );
 }
 
