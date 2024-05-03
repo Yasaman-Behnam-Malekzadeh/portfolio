@@ -1,11 +1,11 @@
 import Navbar from '../src/components/main/navbar'
-import CardItemExperience from '../src/components/card/aboutMe/cardItemExperience'
+import CardItem from '../src/components/card/aboutMe/cardItem'
 
 function About () {
     const experiences =[
         {
             id:1,
-            compony_name:'Venture Leap',
+            name:'Venture Leap',
             position:'Front end engineer',
             start_date:'October 2022',
             end_date:'February 2023',
@@ -19,7 +19,7 @@ function About () {
         },
         {
             id:2,
-            compony_name:'Lastsecond',
+            name:'Lastsecond',
             position:'Front end engineer',
             start_date:'January 2021',
             end_date:'March 2022',
@@ -33,7 +33,7 @@ function About () {
         },
         {
             id:3,
-            compony_name:'Chargoon',
+            name:'Chargoon',
             position:'QA engineer',
             start_date:'March 2016',
             end_date:'April 2020',
@@ -46,10 +46,40 @@ function About () {
             skills: 'TFS - Unit testing - End to End testing - Integration test - Scrum '
         },
     ]
+
+    const educations=[
+        {
+            id:1,
+            name:'Computer System Networking and Telecommunications',
+            position:'Master',
+            start_date:'2018',
+            end_date:'2020',
+            description:`
+            Iran University of Science and Technology
+            `,
+            linkedin_address:'https://www.linkedin.com/company/iran-university-of-science-and-technology---iust/',
+            website_address:'https://www.iust.ac.ir/en',
+            logo_address:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS-vOLKUHqfArZL-lQREZyA7GawqfIQQD8d-U-ixSQx4wLJt8-ndf_nj5QUW9TGSeIKEo&usqp=CAU',
+        },
+        {
+            id:2,
+            name:'Information Technology',
+            position:'Bachelor',
+            start_date:'2018',
+            end_date:'2020',
+            description:`
+            K . N . Toosi University of Technology
+            `,
+            linkedin_address:'https://www.linkedin.com/school/kntoosi/?originalSubdomain=ir',
+            website_address:'https://en.kntu.ac.ir/',
+            logo_address:'https://wp.kntu.ac.ir/aliakbarian/imgs/kntu.png',
+        },
+    ]
+
     return (
-        <>
+        <div>
             <Navbar/>
-            <div className='d-flex justify-content-between align-items-center'>
+            <div className='d-flex justify-content-between align-items-center' style={{backgroundColor:'#EDCDBB'}}>
                     <img src="https://i.ibb.co/LxtC2Rg/file.png" alt='about-me'/>
                 <div className='m-4'>
                     <div className='fs-3'>About me</div>
@@ -60,14 +90,14 @@ function About () {
                     <br/>I firmly believe that tools are important, but it's even more important to be excited about learning. That's what helps both companies and developers grow.   
                 </div>
             </div>
-            <div className='m-4'>
+            <div className='mt-5 container'>
                 <div className='fs-3 mb-5'>Work experiences: </div>
                 <div className=''>
                     {
                         experiences.map((item)=>(
-                            <CardItemExperience 
+                            <CardItem
                                 key={item.id} 
-                                compony_name={item.compony_name}
+                                name={item.name}
                                 position={item.position}
                                 start_date={item.start_date}
                                 end_date={item.end_date}
@@ -82,10 +112,28 @@ function About () {
                 </div>
             </div>
                 
-            <div>
-            
+            <div className='container'>
+                <div className='fs-3 mb-5'>Education: </div>
+                <div className=''>
+                    {
+                        educations.map((item)=>(
+                            <CardItem
+                                key={item.id} 
+                                name={item.name}
+                                position={item.position}
+                                start_date={item.start_date}
+                                end_date={item.end_date}
+                                description={item.description}
+                                linkedin_address={item.linkedin_address}
+                                website_address={item.website_address}
+                                logo_address={item.logo_address}
+                                skills={item.skills}
+                            />
+                        ))
+                    }
+                </div>
             </div>
-        </>
+        </div>
     )
 }
 

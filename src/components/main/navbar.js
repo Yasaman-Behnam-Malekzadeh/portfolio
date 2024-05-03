@@ -27,7 +27,7 @@ function Navbar() {
         }
       ]
     return (
-        <div style={{background:'white'}} className='fixed-top px-4 py-3 d-flex justify-content-between align-items-center'height="50px">
+        <div style={{background:'#EDCDBB'}} className='fixed-top px-4 py-3 d-flex justify-content-between align-items-center'height="50px">
             <div className='fs-2'>Yasaman</div>
             <div>
                 {navbarItems.map((item)=>{
