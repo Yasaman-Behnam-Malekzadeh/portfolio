@@ -18,16 +18,15 @@ function home() {
           <div className="fs-4">Based on Berlin</div>
           If you are looking for a Front-end engineer
           <br />
-          who has a keen eye for any bug
+          who has a huge enthusisem for translating UI concept
           <br />
-          and a huge enthusisem for translating UI concept
-          <br />
-          into visually intresting <strong>I'm here. </strong>
+          into visually intresting
+          <br />a keen eye for any bug <strong>I'm here. </strong>
         </div>
         <a
-          href="#contact-me"
+          href="#contact"
           className="mt-3 btn btn-lg"
-          style={{ backgroundColor: "#DD7E7C" }}
+          style={{ backgroundColor: "#DD7E7C", color: "#f8f3f0" }}
         >
           Contact Me
         </a>

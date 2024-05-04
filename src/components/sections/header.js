@@ -23,7 +23,7 @@ function header() {
     {
       id: 5,
       name: "Contact",
-      address: "/Contact",
+      address: "#contact",
     },
   ];
   return (

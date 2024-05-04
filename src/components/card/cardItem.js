@@ -13,7 +13,10 @@ function cardItem({
   skills,
 }) {
   return (
-    <div className="card m-5" style={{ backgroundColor: "#f8f3f0" }}>
+    <div
+      className="card m-5"
+      style={{ backgroundColor: "#f8f3f0", borderColor: "#590D22" }}
+    >
       <div className="row m-2">
         <div className="card-body position-relative ">
           <img
@@ -28,7 +31,6 @@ function cardItem({
             {name} - {position}
           </div>
           <div className="card-text">
-            {" "}
             {start_date} - {end_date}
           </div>
           <div className="card-text">{description}</div>
@@ -44,14 +46,16 @@ function cardItem({
               <a
                 href={website_address}
                 target="_blank"
-                className="btn btn-primary btn-sm"
+                className="btn btn-sm"
+                style={{ backgroundColor: "#590D22", color: "#f8f3f0" }}
               >
                 <BoxArrowUpRight />
               </a>
               <a
                 href={linkedin_address}
                 target="_blank"
-                className="ms-2 btn btn-primary btn-sm"
+                className="ms-2 btn btn-sm"
+                style={{ backgroundColor: "#590D22", color: "#f8f3f0" }}
               >
                 <Linkedin />
               </a>
