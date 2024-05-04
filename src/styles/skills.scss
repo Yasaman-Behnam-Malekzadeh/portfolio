@@ -2,10 +2,10 @@
 
 .skills {
   position: relative;
-  @include flex-around;
+  @include flex-center;
   flex-direction: column;
   background-color: $light-cream;
-  height: 500px;
+  height: 800px;
   &__title {
     color: $dark-red;
   }

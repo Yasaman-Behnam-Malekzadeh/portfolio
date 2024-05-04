@@ -33,8 +33,7 @@
   }
 
   &__svg {
-    position: absolute;
+    @include svg-design;
     bottom: -5px;
-    width: 100%;
   }
 }

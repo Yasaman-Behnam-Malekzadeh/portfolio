@@ -16,6 +16,11 @@ $rose-pink: #dd7e7c;
   justify-content: space-between;
   align-items: center;
 }
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @mixin red-button {
   background-color: $dark-red;
   color: $light-cream;
@@ -28,4 +33,9 @@ $rose-pink: #dd7e7c;
     background: $medium-dark-red;
     color: $light-cream;
   }
+}
+@mixin svg-design {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
 }

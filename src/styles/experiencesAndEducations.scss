@@ -2,6 +2,9 @@
 
 .experiences-educations {
   background-color: $medium-cream;
+  &__svg {
+    @include svg-design;
+  }
 }
 
 .card-item-section {

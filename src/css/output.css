@@ -39,8 +39,9 @@
 }
 .home-section__svg {
   position: absolute;
-  bottom: -5px;
+  z-index: 2;
   width: 100%;
+  bottom: -5px;
 }
 
 .about-me {
@@ -67,18 +68,18 @@
 .about-me__bottom {
   position: absolute;
   z-index: 2;
-  bottom: -5px;
   width: 100%;
+  bottom: -6px;
 }
 
 .skills {
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #f8f3f0;
-  height: 500px;
+  height: 800px;
 }
 .skills__title {
   color: #6b0f29;
@@ -96,6 +97,27 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+}
+.header-section__wrapped__left {
+  color: #6b0f29;
+}
+.header-section__wrapped__right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header-section__wrapped__right a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  color: #6b0f29;
+  transition: all 0.2s ease-in-out;
+}
+.header-section__wrapped__right a:hover {
+  background-color: #6b0f29;
+  color: #edcdbb;
 }
 
 .contact-me {
@@ -156,6 +178,11 @@
 
 .experiences-educations {
   background-color: #edcdbb;
+}
+.experiences-educations__svg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
 }
 
 .card-item-section__title {

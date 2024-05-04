@@ -1,4 +1,5 @@
 import CardItemSection from "../card/cardItemsection";
+import curveSvg from "../../svg/bottom experiences section.png";
 
 function experiencesAndEducations() {
   const experiences = [
@@ -92,6 +93,9 @@ function experiencesAndEducations() {
       <div className="container pt-4">
         <CardItemSection info={experiences} title="Work experiences:" />
         <CardItemSection info={educations} title="Education:" />
+      </div>
+      <div className="experiences-educations__svg">
+        <img src={curveSvg} alt="curve" height={"100%"} width={"100%"} />
       </div>
     </div>
   );

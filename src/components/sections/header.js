@@ -28,19 +28,12 @@ function header() {
   ];
   return (
     <div className="header-section fixed-top">
-      <div className="container header-section__wrapped">
-        <div className="fs-2" style={{ color: "#590D22" }}>
-          Yasaman.BM
-        </div>
-        <div>
+      <div className="header-section__wrapped container-md">
+        <div className="fs-3 header-section__wrapped__left">Yasaman.BM</div>
+        <div className="header-section__wrapped__right">
           {navbarItems.map((item) => {
             return (
-              <a
-                className="ms-5 text-decoration-none"
-                style={{ color: "#590D22" }}
-                href={item.address}
-                key={item.id}
-              >
+              <a className="p-3" href={item.address} key={item.id}>
                 {item.name}
               </a>
             );

@@ -19,9 +19,7 @@
     opacity: 0.5;
   }
   &__bottom {
-    position: absolute;
-    z-index: 2;
-    bottom: -5px;
-    width: 100%;
+    @include svg-design;
+    bottom: -6px;
   }
 }
