@@ -1,0 +1,27 @@
+@import "./variable.scss";
+
+.about-me {
+  @include flex-between;
+  position: relative;
+  background-color: $light-cream;
+  height: 600px;
+  &__left {
+    position: relative;
+    width: 30%;
+  }
+  &__right {
+    width: 80%;
+  }
+  &__img {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    opacity: 0.5;
+  }
+  &__bottom {
+    position: absolute;
+    z-index: 2;
+    bottom: -5px;
+    width: 100%;
+  }
+}

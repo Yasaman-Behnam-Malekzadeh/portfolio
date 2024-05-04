@@ -13,15 +13,11 @@ function cardItem({
   skills,
 }) {
   return (
-    <div
-      className="card m-5"
-      style={{ backgroundColor: "#f8f3f0", borderColor: "#590D22" }}
-    >
+    <div className="card-item card m-5">
       <div className="row m-2">
-        <div className="card-body position-relative ">
+        <div className="card-item__body card-body">
           <img
-            style={{ borderRadius: "50%", left: "0px", top: "-32px" }}
-            className="rounded-circle position-absolute"
+            className="rounded-circle"
             src={logo_address}
             alt={`${name}-logo`}
             height={"50px"}
@@ -34,28 +30,22 @@ function cardItem({
             {start_date} - {end_date}
           </div>
           <div className="card-text">{description}</div>
-          <div className="d-flex justify-content-between">
-            <div>
+          <div className="card-item__body__skills-btn d-flex justify-content-between">
+            <div className="skills-row">
               {skills !== undefined && (
                 <div>
                   <strong>Skills:</strong> {skills}
                 </div>
               )}
             </div>
-            <div>
-              <a
-                href={website_address}
-                target="_blank"
-                className="btn btn-sm"
-                style={{ backgroundColor: "#590D22", color: "#f8f3f0" }}
-              >
+            <div className="buttons">
+              <a href={website_address} target="_blank" className="btn btn-sm">
                 <BoxArrowUpRight />
               </a>
               <a
                 href={linkedin_address}
                 target="_blank"
                 className="ms-2 btn btn-sm"
-                style={{ backgroundColor: "#590D22", color: "#f8f3f0" }}
               >
                 <Linkedin />
               </a>

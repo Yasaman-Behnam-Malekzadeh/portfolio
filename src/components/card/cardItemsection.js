@@ -2,10 +2,8 @@ import CardItem from "./cardItem";
 
 function cardItemEducation({ info, title }) {
   return (
-    <div className="container pb-3">
-      <div className="fs-3 mb-5" style={{ color: "#590D22" }}>
-        {title}
-      </div>
+    <div className="card-item-section container pb-3">
+      <div className="card-item-section__title fs-3 mb-5">{title}</div>
       <div>
         {info.map((item) => (
           <CardItem

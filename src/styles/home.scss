@@ -1,0 +1,40 @@
+@import "./variable.scss";
+
+.home-section {
+  background-color: $medium-cream;
+  height: 800px;
+  @include flex-around;
+  position: relative;
+  &__left {
+    &__btn {
+      @include red-button;
+    }
+  }
+
+  &__right {
+    position: relative;
+    width: 30%;
+    height: 60%;
+    &__background {
+      background-color: $rose-pink;
+      border-bottom-right-radius: 40%;
+      border-top-left-radius: 40%;
+
+      height: 500px;
+      width: 450px;
+
+      position: absolute;
+      z-index: 0;
+    }
+    img {
+      position: absolute;
+      z-index: 1;
+    }
+  }
+
+  &__svg {
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+  }
+}

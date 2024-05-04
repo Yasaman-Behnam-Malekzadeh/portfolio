@@ -92,15 +92,9 @@ function skills() {
     },
   ];
   return (
-    <div
-      id="skills"
-      className="position-relative d-flex flex-column justify-content-center align-items-center"
-      style={{ backgroundColor: "#f8f3f0", height: "500px" }}
-    >
-      <div className="fs-3 mb-5" style={{ color: "#590D22" }}>
-        Skills:{" "}
-      </div>
-      <div className="card p-5" style={{ widows: "85%" }}>
+    <div id="skills" className="skills">
+      <div className="skills__title fs-3 mb-5">Skills:</div>
+      <div className="skills__card card p-5">
         <div className="body">
           {skills.map((item) => (
             <img

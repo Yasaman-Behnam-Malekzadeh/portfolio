@@ -1,0 +1,10 @@
+@import "./variable.scss";
+
+.header-section {
+  height: 60px;
+  background: $medium-cream;
+  &__wrapped {
+    @include flex-between;
+    height: 100%;
+  }
+}

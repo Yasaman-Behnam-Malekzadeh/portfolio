@@ -1,0 +1,37 @@
+@import "./variable.scss";
+
+.contact-me {
+  @include flex-around;
+  background-color: $medium-cream;
+  height: 600px;
+  &__info {
+    &__title {
+      color: $dark-red;
+      strong {
+        color: $dark-red;
+      }
+    }
+    &__btn {
+      a {
+        @include red-button;
+      }
+    }
+  }
+  &__form {
+    @include flex-between;
+    flex-direction: column;
+    width: 40%;
+    input,
+    textarea {
+      background-color: $light-cream;
+      border-color: $dark-red;
+      border-width: medium;
+    }
+    textarea {
+      height: 200px;
+    }
+    button {
+      @include red-button;
+    }
+  }
+}

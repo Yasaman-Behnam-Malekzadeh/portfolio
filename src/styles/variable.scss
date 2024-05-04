@@ -1,0 +1,31 @@
+//color range
+$dark-red: #6b0f29;
+$medium-dark-red: #981d40;
+$light-cream: #f8f3f0;
+$medium-cream: #edcdbb;
+$rose-pink: #dd7e7c;
+
+//mixin
+@mixin flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin red-button {
+  background-color: $dark-red;
+  color: $light-cream;
+  padding: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: $medium-dark-red;
+    color: $light-cream;
+  }
+}

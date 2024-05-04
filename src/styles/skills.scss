@@ -1,0 +1,15 @@
+@import "./variable.scss";
+
+.skills {
+  position: relative;
+  @include flex-around;
+  flex-direction: column;
+  background-color: $light-cream;
+  height: 500px;
+  &__title {
+    color: $dark-red;
+  }
+  &__card {
+    width: 85%;
+  }
+}

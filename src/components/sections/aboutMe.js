@@ -2,21 +2,16 @@ import curveSvg from "../../svg/Mediamodifier-Design(dark).png";
 
 function aboutMe() {
   return (
-    <div
-      id="about-me"
-      className="d-flex justify-content-between align-items-center position-relative"
-      style={{ backgroundColor: "#f8f3f0", height: "600px" }}
-    >
-      <div className="position-relative" style={{ width: "30%" }}></div>
+    <div id="about-me" className="about-me">
+      <div className="about-me__left"></div>
       <img
-        className="position-absolute z-1"
+        className="about-me__img"
         src="https://i.ibb.co/7tcFY4x/file.png"
         height={"500px"}
         alt="about-me"
-        style={{ bottom: "0", opacity: "0.5" }}
       />
 
-      <div className="m-4" style={{ width: "80%" }}>
+      <div className="about-me__right m-4">
         <strong className="fs-3">About me</strong>
         <br />I started as a test engineer for 4 years, using different types of
         testing such as <strong>Unit testing</strong> and{" "}
@@ -36,10 +31,7 @@ function aboutMe() {
         important to be excited about learning. That's what helps both companies
         and developers grow.
       </div>
-      <div
-        className="position-absolute z-2"
-        style={{ bottom: "-5px", width: "100%" }}
-      >
+      <div className="about-me__bottom">
         <img src={curveSvg} alt="curve" height={"100%"} width={"100%"} />
       </div>
     </div>

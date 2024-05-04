@@ -27,12 +27,8 @@ function header() {
     },
   ];
   return (
-    <div
-      style={{ background: "#EDCDBB" }}
-      className="fixed-top p-3"
-      height="50px"
-    >
-      <div className="container ps-5 d-flex justify-content-between align-items-center">
+    <div className="header-section fixed-top">
+      <div className="container header-section__wrapped">
         <div className="fs-2" style={{ color: "#590D22" }}>
           Yasaman.BM
         </div>
