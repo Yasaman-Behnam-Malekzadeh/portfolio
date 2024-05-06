@@ -1,31 +1,24 @@
 import curveSvg from "../../svg/k7dazo80g18lvr72nxf.png";
+import { useTranslation, Trans } from "react-i18next";
 
-function home() {
+function Home() {
+  const { t } = useTranslation("home");
   return (
     <div id="#" className="home-section">
       <div className="home-section__left">
         <div className="fs-1 mb-3 animate__animated animate__fadeInUp">
-          Hi,
-          <br />
-          I'm <strong>Yasaman</strong>
+          <Trans>{t("home.firstDescription")}</Trans>
         </div>
-        <h2 className="fs-2 mb-3 animate__animated animate__fadeInUp animate__delay-1s">
-          Front-end engineer
-        </h2>
         <div className="mb-3 animate__animated animate__fadeInUp animate__delay-1s">
-          <div className="fs-4">Based on Berlin</div>
-          If you are looking for a Front-end engineer
-          <br />
-          who has a huge enthusisem for translating UI concept
-          <br />
-          into visually intresting
-          <br />a keen eye for any bug <strong>I'm here. </strong>
+          <h2>{t("home.position")}</h2>
+          <div className="fs-4">{t("home.location")}</div>
+          <Trans>{t("home.secondDescription")}</Trans>
         </div>
         <a
           href="#contact"
           className="home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s"
         >
-          Contact Me
+          {t("home.btnName")}
         </a>
       </div>
       <div className="home-section__right">
@@ -50,4 +43,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;

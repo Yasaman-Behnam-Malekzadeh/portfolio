@@ -1,7 +1,6 @@
-import { useEffect, useRef } from "react";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
-import ScrollMagic from "scrollmagic";
+import { useTranslation } from "react-i18next";
 
 function CardItem({
   name,
@@ -14,45 +13,9 @@ function CardItem({
   logo_address,
   skills,
 }) {
-  const cardRef = useRef(null);
-
-  useEffect(() => {
-    const observerOptions = {
-      root: null, // Use the viewport as the root
-      rootMargin: "0px", // No margin
-      threshold: [0, 1], // Trigger when the target enters and leaves the viewport
-    };
-
-    const observerCallback = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // Target is intersecting with the viewport
-          entry.target.style.opacity = 1; // Make the card visible
-        } else {
-          // Target is not intersecting with the viewport
-          entry.target.style.opacity = 0; // Make the card invisible
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(
-      observerCallback,
-      observerOptions
-    );
-
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
-    }
-
-    return () => {
-      // Cleanup function (optional)
-      // Disconnect the observer when the component is unmounted
-      observer.disconnect();
-    };
-  }, []);
-
+  const { t } = useTranslation();
   return (
-    <div ref={cardRef} className=" card-item card m-5">
+    <div className=" card-item card m-5">
       <div className="row m-2">
         <div className="card-item__body card-body ">
           <img
@@ -63,10 +26,10 @@ function CardItem({
             width={"50px"}
           />
           <div className="card-title m-0 fs-3">
-            {name} - {position}
+            {t(name)} - {t(position)}
           </div>
           <div className="card-text">
-            {start_date} - {end_date}
+            {t(start_date)} - {t(end_date)}
           </div>
           <div className="card-text">{description}</div>
           <div className="card-item__body__skills-btn d-flex justify-content-between">

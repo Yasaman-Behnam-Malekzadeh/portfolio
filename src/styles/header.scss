@@ -7,10 +7,10 @@
     @include flex-between;
     height: 100%;
 
-    &__left {
+    &__logo {
       color: $dark-red;
     }
-    &__right {
+    &__menu {
       height: 100%;
       display: flex;
       align-items: center;
@@ -23,6 +23,17 @@
         &:hover {
           background-color: $dark-red;
           color: $medium-cream;
+        }
+      }
+    }
+    &__language {
+      img {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        border: 1px solid $dark-red;
+        transition: scale 0.15s ease;
+        &:hover {
+          cursor: pointer;
+          scale: 1.2;
         }
       }
     }

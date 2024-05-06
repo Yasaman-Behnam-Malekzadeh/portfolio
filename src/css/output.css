@@ -98,15 +98,15 @@
   align-items: center;
   height: 100%;
 }
-.header-section__wrapped__left {
+.header-section__wrapped__logo {
   color: #6b0f29;
 }
-.header-section__wrapped__right {
+.header-section__wrapped__menu {
   height: 100%;
   display: flex;
   align-items: center;
 }
-.header-section__wrapped__right a {
+.header-section__wrapped__menu a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,9 +115,18 @@
   color: #6b0f29;
   transition: all 0.2s ease-in-out;
 }
-.header-section__wrapped__right a:hover {
+.header-section__wrapped__menu a:hover {
   background-color: #6b0f29;
   color: #edcdbb;
+}
+.header-section__wrapped__language img {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #6b0f29;
+  transition: scale 0.15s ease;
+}
+.header-section__wrapped__language img:hover {
+  cursor: pointer;
+  scale: 1.2;
 }
 
 .contact-me {

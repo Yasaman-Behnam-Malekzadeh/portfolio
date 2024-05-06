@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 import "./css/output.css";
 import "animate.css";
+import "./i18n";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

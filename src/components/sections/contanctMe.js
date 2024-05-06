@@ -3,28 +3,30 @@ import { Envelope } from "react-bootstrap-icons";
 import { House } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
 import { Github } from "react-bootstrap-icons";
+import { useTranslation } from "react-i18next";
 
-function contactMe() {
+function ContactMe() {
+  const { t } = useTranslation("contact me");
   return (
     <div id="contact" className="contact-me">
       <din className="contact-me__info ">
         <div className="contact-me__info__title mb-5">
-          <strong className="fs-1 mb-2">Get in Touch!</strong>
+          <strong className="fs-1 mb-2">{t("contactMe.mainTitle")}</strong>
         </div>
         <div className="mb-3">
           <Phone className="me-2" />
-          <strong> +4917675408446</strong>
+          <strong>{t("contactMe.phone")}</strong>
         </div>
         <div className="mb-3">
           <Envelope className="me-2" />
-          <strong> malekzadeh.yasi@yahoo.com</strong>
+          <strong>{t("contactMe.email")}</strong>
         </div>
         <div className="mb-3">
           <House className="me-2" />
-          <strong> Berlin, Germany</strong>
+          <strong>{t("contactMe.location")}</strong>
         </div>
         <div className="contact-me__info__btn mt-4">
-          <div className="mb-3 fs-5">Let's get social:</div>
+          <div className="mb-3 fs-5">{t("contactMe.socialTitle")}</div>
           <a
             href="https://www.linkedin.com/in/yasaman-behnam-malekzadeh/"
             target="_blank"
@@ -46,29 +48,29 @@ function contactMe() {
       <form className="contact-me__form">
         <input
           type="text"
-          placeholder="Your name"
+          placeholder={t("contactMe.emailNameTitle")}
           className="p-3 form-control mb-3"
         />
         <input
           type="email"
-          placeholder="Email address"
+          placeholder={t("contactMe.emailTitle")}
           className="p-3 form-control mb-3"
         />
         <input
           type="text"
-          placeholder="Email subject"
+          placeholder={t("contactMe.emailSubject")}
           className="p-3 form-control mb-3"
         />
         <textarea
-          placeholder="Your message"
+          placeholder={t("contactMe.emailMessage")}
           className="p-3 form-control mb-3"
         ></textarea>
         <button type="submit" className="btn px-5">
-          Submit
+          {t("contactMe.btnSubmit")}
         </button>
       </form>
     </div>
   );
 }
 
-export default contactMe;
+export default ContactMe;
