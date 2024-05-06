@@ -94,18 +94,16 @@ function skills() {
   return (
     <div id="skills" className="skills">
       <div className="skills__title fs-3 mb-5">Skills:</div>
-      <div className="skills__card card p-5">
-        <div className="body">
-          {skills.map((item) => (
-            <img
-              key={item.id}
-              src={item.logo_address}
-              alt={`${item.name}-logo`}
-              height={"70px"}
-              className="me-2"
-            />
-          ))}
-        </div>
+      <div className="skills__items">
+        {skills.map((item) => (
+          <img
+            key={item.id}
+            src={item.logo_address}
+            alt={`${item.name}-logo`}
+            height={"70px"}
+            className="me-2"
+          />
+        ))}
       </div>
     </div>
   );

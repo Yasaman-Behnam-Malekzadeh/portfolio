@@ -1,7 +1,9 @@
+import { useEffect, useRef } from "react";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
+import ScrollMagic from "scrollmagic";
 
-function cardItem({
+function CardItem({
   name,
   position,
   start_date,
@@ -12,10 +14,47 @@ function cardItem({
   logo_address,
   skills,
 }) {
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    const observerOptions = {
+      root: null, // Use the viewport as the root
+      rootMargin: "0px", // No margin
+      threshold: [0, 1], // Trigger when the target enters and leaves the viewport
+    };
+
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Target is intersecting with the viewport
+          entry.target.style.opacity = 1; // Make the card visible
+        } else {
+          // Target is not intersecting with the viewport
+          entry.target.style.opacity = 0; // Make the card invisible
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions
+    );
+
+    if (cardRef.current) {
+      observer.observe(cardRef.current);
+    }
+
+    return () => {
+      // Cleanup function (optional)
+      // Disconnect the observer when the component is unmounted
+      observer.disconnect();
+    };
+  }, []);
+
   return (
-    <div className="card-item card m-5">
+    <div ref={cardRef} className=" card-item card m-5">
       <div className="row m-2">
-        <div className="card-item__body card-body">
+        <div className="card-item__body card-body ">
           <img
             className="rounded-circle"
             src={logo_address}
@@ -39,12 +78,18 @@ function cardItem({
               )}
             </div>
             <div className="buttons">
-              <a href={website_address} target="_blank" className="btn btn-sm">
+              <a
+                href={website_address}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-sm"
+              >
                 <BoxArrowUpRight />
               </a>
               <a
                 href={linkedin_address}
                 target="_blank"
+                rel="noreferrer"
                 className="ms-2 btn btn-sm"
               >
                 <Linkedin />
@@ -57,4 +102,4 @@ function cardItem({
   );
 }
 
-export default cardItem;
+export default CardItem;

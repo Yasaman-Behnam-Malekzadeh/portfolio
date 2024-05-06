@@ -8,7 +8,7 @@ import ContactMe from "./components/sections/contanctMe";
 
 function App() {
   return (
-    <>
+    <div style={{ fontFamily: "Georgia, sans-serif" }}>
       <Header />
       <Home />
       <AboutMe />
@@ -16,7 +16,7 @@ function App() {
       <Skills />
       <ContactMe />
       {/* https://kitpro.site/femine/wp-content/uploads/sites/107/2022/08/pattern-3-268x1024.png */}
-    </>
+    </div>
   );
 }
 

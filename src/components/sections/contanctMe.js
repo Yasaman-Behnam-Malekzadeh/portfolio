@@ -7,38 +7,39 @@ import { Github } from "react-bootstrap-icons";
 function contactMe() {
   return (
     <div id="contact" className="contact-me">
-      <din className="contact-me__info">
+      <din className="contact-me__info ">
         <div className="contact-me__info__title mb-5">
           <strong className="fs-1 mb-2">Get in Touch!</strong>
         </div>
         <div className="mb-3">
           <Phone className="me-2" />
-          <strong>Phone: +4917675408446</strong>
+          <strong> +4917675408446</strong>
         </div>
         <div className="mb-3">
           <Envelope className="me-2" />
-          <strong>Email: malekzadeh.yasi@yahoo.com</strong>
+          <strong> malekzadeh.yasi@yahoo.com</strong>
         </div>
         <div className="mb-3">
           <House className="me-2" />
-          <strong>Location : Berlin, Germany</strong>
+          <strong> Berlin, Germany</strong>
         </div>
-        <div className="contact-me__info__btn">
+        <div className="contact-me__info__btn mt-4">
+          <div className="mb-3 fs-5">Let's get social:</div>
           <a
             href="https://www.linkedin.com/in/yasaman-behnam-malekzadeh/"
             target="_blank"
-            className="btn me-3"
+            rel="noreferrer"
+            className="btn me-3 rounded-circle fs-5"
           >
             <Linkedin className="me-1" />
-            Linkedin
           </a>
           <a
             href="https://github.com/Yasaman-Behnam-Malekzadeh?tab=repositories"
             target="_blank"
-            className="btn"
+            rel="noreferrer"
+            className="btn rounded-circle fs-5"
           >
             <Github className="me-1" />
-            Github
           </a>
         </div>
       </din>

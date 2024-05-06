@@ -4,7 +4,7 @@ function cardItemEducation({ info, title }) {
   return (
     <div className="card-item-section container pb-3">
       <div className="card-item-section__title fs-3 mb-5">{title}</div>
-      <div>
+      <div className="card-item-section__items">
         {info.map((item) => (
           <CardItem
             key={item.id}

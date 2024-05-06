@@ -84,8 +84,8 @@
 .skills__title {
   color: #6b0f29;
 }
-.skills__card {
-  width: 85%;
+.skills__items {
+  width: 80%;
 }
 
 .header-section {
@@ -188,10 +188,23 @@
 .card-item-section__title {
   color: #6b0f29;
 }
+.card-item-section__items {
+  border-left: thick #6b0f29 solid;
+}
 
 .card-item {
   background-color: #f8f3f0 !important;
   border: 1px solid #6b0f29 !important;
+}
+.card-item:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -58px;
+  width: 15px;
+  height: 15px;
+  background: #6b0f29;
+  border-radius: 50%;
 }
 .card-item__body {
   position: relative;
