@@ -126,7 +126,7 @@
 }
 .header-section__wrapped__language img:hover {
   cursor: pointer;
-  scale: 1.2;
+  scale: 1.1;
 }
 
 .contact-me {
@@ -218,7 +218,15 @@
 .card-item__body {
   position: relative;
 }
-.card-item__body__skills-btn a {
+.card-item__body span {
+  color: #6b0f29;
+  font-weight: bold;
+}
+.card-item__body__skills-btn .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.card-item__body__skills-btn .buttons a {
   background-color: #6b0f29;
   color: #f8f3f0;
   padding: 13px;
@@ -228,7 +236,7 @@
   transition: all 0.2s ease-in-out;
   padding: 7px 10px;
 }
-.card-item__body__skills-btn a:hover {
+.card-item__body__skills-btn .buttons a:hover {
   background: #981d40;
   color: #f8f3f0;
 }

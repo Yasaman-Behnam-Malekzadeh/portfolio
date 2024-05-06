@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
 import { useTranslation } from "react-i18next";
@@ -14,6 +15,10 @@ function CardItem({
   skills,
 }) {
   const { t } = useTranslation();
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
   return (
     <div className=" card-item card m-5">
       <div className="row m-2">
@@ -31,15 +36,22 @@ function CardItem({
           <div className="card-text">
             {t(start_date)} - {t(end_date)}
           </div>
-          <div className="card-text">{description}</div>
-          <div className="card-item__body__skills-btn d-flex justify-content-between">
-            <div className="skills-row">
-              {skills !== undefined && (
-                <div>
-                  <strong>Skills:</strong> {skills}
-                </div>
-              )}
-            </div>
+          <div className="card-text card-item__body__description">
+            {isReadMore ? description.slice(0, 200) : description}
+            {description.length > 150 && (
+              <span onClick={toggleReadMore}>
+                {isReadMore ? "...read more" : " ...show less"}
+              </span>
+            )}
+          </div>
+          {/* <div className="card-text card-item__body__see-more">See more</div> */}
+          <div className="card-item__body__skills-btn">
+            {skills !== undefined && (
+              <div>
+                <strong>Skills:</strong> {skills}
+              </div>
+            )}
+
             <div className="buttons">
               <a
                 href={website_address}

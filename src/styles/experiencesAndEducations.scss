@@ -32,10 +32,18 @@
   }
   &__body {
     position: relative;
+    span {
+      color: $dark-red;
+      font-weight: bold;
+    }
     &__skills-btn {
-      a {
-        @include red-button;
-        padding: 7px 10px;
+      .buttons {
+        display: flex;
+        justify-content: flex-end;
+        a {
+          @include red-button;
+          padding: 7px 10px;
+        }
       }
     }
     img {
