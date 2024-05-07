@@ -3,6 +3,7 @@ import { useTranslation, Trans } from "react-i18next";
 
 function Home() {
   const { t } = useTranslation("home");
+
   return (
     <div id="#" className="home-section">
       <div className="home-section__left">
@@ -17,10 +18,13 @@ function Home() {
           <Trans>{t("home.secondDescription")}</Trans>
         </div>
         <a
-          href="#contact"
+          href="https://drive.google.com/file/d/11tlKWA57FWOFsUJ_eNpYdnSRwQWCIubX/view?usp=drive_link"
+          download
+          target="_blank"
+          rel="noreferrer"
           className="home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s"
         >
-          {t("home.btnName")}
+          {t("home.downloadResume")}
         </a>
       </div>
       <div className="home-section__right">

@@ -46,13 +46,13 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
           id="basic-navbar-nav"
-          className="header-section__wrapped__menu d-lg-flex"
+          className="header-section__wrapped__menu"
         >
           <Nav className="menu-list d-flex">
             {navbarItems.map((item) => {
               return (
                 <Nav.Link
-                  className="nav-link p-3"
+                  className="menu-list__item nav-link"
                   href={item.address}
                   key={item.id}
                 >
