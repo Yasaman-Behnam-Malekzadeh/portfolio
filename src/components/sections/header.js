@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Navbar, Nav } from "react-bootstrap";
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -37,38 +38,51 @@ function Header() {
   };
 
   return (
-    <nav id="navbar" className="header-section fixed-top">
+    <Navbar expand="lg" id="navbar" className="header-section fixed-top">
       <div className="header-section__wrapped container-md ">
-        <div className="fs-3 header-section__wrapped__logo">Yasaman.BM</div>
-        <div className=" header-section__wrapped__menu">
-          {navbarItems.map((item) => {
-            return (
-              <a className="nav-link p-3" href={item.address} key={item.id}>
-                {item.name}
-              </a>
-            );
-          })}
-        </div>
-        <div className="header-section__wrapped__language">
-          <img
-            onClick={() => changeLanguage("en")}
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png"
-            alt={t("English")}
-            height={"30px"}
-            width={"40px"}
-            className="me-3"
-          />
-          <img
-            onClick={() => changeLanguage("de")}
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png"
-            alt={t("Deutsch")}
-            height={"30px"}
-            width={"40px"}
-            className=""
-          />
-        </div>
+        <Navbar.Brand className="fs-3 header-section__wrapped__logo">
+          {"< Yasaman.BM />"}
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          className="header-section__wrapped__menu d-lg-flex"
+        >
+          <Nav className="menu-list d-flex">
+            {navbarItems.map((item) => {
+              return (
+                <Nav.Link
+                  className="nav-link p-3"
+                  href={item.address}
+                  key={item.id}
+                >
+                  {item.name}
+                </Nav.Link>
+              );
+            })}
+          </Nav>
+          <Nav className="menu-language">
+            <Nav.Link onClick={() => changeLanguage("en")}>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png"
+                alt={t("English")}
+                height="30px"
+                width="40px"
+                className="me-3"
+              />
+            </Nav.Link>
+            <Nav.Link onClick={() => changeLanguage("de")}>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png"
+                alt={t("Deutsch")}
+                height="30px"
+                width="40px"
+              />
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </div>
-    </nav>
+    </Navbar>
   );
 }
 

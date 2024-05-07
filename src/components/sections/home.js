@@ -9,8 +9,10 @@ function Home() {
         <div className="fs-1 mb-3 animate__animated animate__fadeInUp">
           <Trans>{t("home.firstDescription")}</Trans>
         </div>
-        <div className="mb-3 animate__animated animate__fadeInUp animate__delay-1s">
-          <h2>{t("home.position")}</h2>
+        <h2 className="animate__animated animate__fadeInUp">
+          {t("home.position")}
+        </h2>
+        <div className="mb-4 animate__animated animate__fadeInUp animate__delay-1s">
           <div className="fs-4">{t("home.location")}</div>
           <Trans>{t("home.secondDescription")}</Trans>
         </div>
@@ -30,9 +32,8 @@ function Home() {
           />
         </div>
         <img
-          className="animate__animated animate__fadeInUp"
+          className="logo-pic animate__animated animate__fadeInUp"
           src="https://i.ibb.co/6YqFy13/file-1.png"
-          height={"500px"}
           alt="first-page"
         />
       </div>

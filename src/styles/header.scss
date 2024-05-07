@@ -1,39 +1,52 @@
 @import "./variable.scss";
 
 .header-section {
-  height: 60px;
-  background: $medium-cream;
+  background-color: $medium-cream;
   &__wrapped {
-    @include flex-between;
     height: 100%;
+    // .show {
+    //   background-color: transparent;
+    // }
 
     &__logo {
       color: $dark-red;
     }
     &__menu {
       height: 100%;
-      display: flex;
-      align-items: center;
-      a {
-        @include flex-center;
-        height: 100%;
+      @include flex-around;
+
+      @media (max-width: 991px) {
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      .menu-list {
+        display: flex;
+
         text-decoration: none;
         color: $dark-red;
-        transition: all 0.2s ease-in-out;
+        @media (max-width) {
+          flex-direction: column;
+          align-items: center;
+        }
         &:hover {
           background-color: $dark-red;
           color: $medium-cream;
         }
       }
-    }
-    &__language {
-      img {
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-        border: 1px solid $dark-red;
-        transition: scale 0.15s ease;
-        &:hover {
-          cursor: pointer;
-          scale: 1.1;
+      .menu-language {
+        @media (max-width: 991px) {
+          display: flex;
+          flex-direction: row;
+        }
+        img {
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          border: 1px solid $dark-red;
+          transition: scale 0.15s ease;
+          &:hover {
+            cursor: pointer;
+            scale: 1.1;
+          }
         }
       }
     }

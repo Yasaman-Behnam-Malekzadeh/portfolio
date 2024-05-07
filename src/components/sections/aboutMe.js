@@ -10,7 +10,6 @@ function AboutMe() {
       <img
         className="about-me__img"
         src="https://i.ibb.co/7tcFY4x/file.png"
-        height={"500px"}
         alt="about-me"
       />
 

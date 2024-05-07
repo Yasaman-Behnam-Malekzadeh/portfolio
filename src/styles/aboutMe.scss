@@ -5,6 +5,9 @@
   position: relative;
   background-color: $light-cream;
   height: 600px;
+  @media (max-width: 700px) {
+    height: 700px;
+  }
   &__left {
     position: relative;
     width: 30%;
@@ -13,10 +16,14 @@
     width: 80%;
   }
   &__img {
+    @media (max-width: 1200px) {
+      height: 400px;
+    }
+    height: 500px;
     position: absolute;
     z-index: 1;
     bottom: 0;
-    opacity: 0.5;
+    opacity: 0.3;
   }
   &__bottom {
     @include svg-design;

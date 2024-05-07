@@ -4,7 +4,16 @@
   @include flex-around;
   background-color: $medium-cream;
   height: 600px;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    height: 1000px;
+  }
   &__info {
+    @media (max-width: 1200px) {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
     &__title {
       color: $dark-red;
       strong {
@@ -21,6 +30,9 @@
     @include flex-between;
     flex-direction: column;
     width: 40%;
+    @media (max-width: 1200px) {
+      width: 80%;
+    }
     input,
     textarea {
       background-color: $light-cream;
