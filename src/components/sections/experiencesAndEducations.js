@@ -71,7 +71,7 @@ function ExperiencesAndEducations() {
   ];
 
   return (
-    <div className="experiences-educations">
+    <div id="experience-education" className="experiences-educations">
       <div className="container pt-4">
         <CardItemSection info={experiences} title="Work experiences:" />
         <CardItemSection info={educations} title="Education:" />

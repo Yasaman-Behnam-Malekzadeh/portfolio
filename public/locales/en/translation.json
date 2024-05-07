@@ -28,6 +28,7 @@
   "skills": {
     "title": "skills"
   },
+  "experienceEducation": "experiences/education",
   "experiences": {
     "ventureLeap": {
       "name": "Venture Leap",

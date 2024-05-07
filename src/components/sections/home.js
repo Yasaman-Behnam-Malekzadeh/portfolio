@@ -5,7 +5,7 @@ function Home() {
   const { t } = useTranslation("home");
 
   return (
-    <div id="#" className="home-section">
+    <div id="home" className="home-section">
       <div className="home-section__left">
         <div className="fs-1 mb-3 animate__animated animate__fadeInUp">
           <Trans>{t("home.firstDescription")}</Trans>

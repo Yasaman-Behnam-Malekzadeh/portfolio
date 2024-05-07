@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Navbar, Nav } from "react-bootstrap";
+import Scrollspy from "react-scrollspy";
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -9,7 +10,7 @@ function Header() {
     {
       id: 1,
       name: t("home.title"),
-      address: "#",
+      address: "#home",
     },
     {
       id: 2,
@@ -18,16 +19,21 @@ function Header() {
     },
     {
       id: 3,
-      name: t("skills.title"),
-      address: "#skills",
+      name: t("experienceEducation"),
+      address: "#experience-education",
     },
     {
       id: 4,
-      name: t("Portfolio"),
-      address: "/Portfolio",
+      name: t("skills.title"),
+      address: "#skills",
     },
+    // {
+    //   id: 5,
+    //   name: t("Portfolio"),
+    //   address: "/Portfolio",
+    // },
     {
-      id: 5,
+      id: 6,
       name: t("contactMe.title"),
       address: "#contact",
     },
@@ -38,7 +44,7 @@ function Header() {
   };
 
   return (
-    <Navbar expand="lg" id="navbar" className="header-section fixed-top">
+    <Navbar expand="lg" id="navbar" className="navbar header-section fixed-top">
       <div className="header-section__wrapped container-md ">
         <Navbar.Brand className="fs-3 header-section__wrapped__logo">
           {"< Yasaman.BM />"}
@@ -48,11 +54,21 @@ function Header() {
           id="basic-navbar-nav"
           className="header-section__wrapped__menu"
         >
-          <Nav className="menu-list d-flex">
+          <Scrollspy
+            items={[
+              "home",
+              "about-me",
+              "experience-education",
+              "skills",
+              "contact",
+            ]}
+            currentClassName="active"
+            className="menu-list d-flex"
+          >
             {navbarItems.map((item) => {
               return (
                 <Nav.Link
-                  className="menu-list__item nav-link"
+                  className="menu-list__item nav-link me-3 p-2"
                   href={item.address}
                   key={item.id}
                 >
@@ -60,7 +76,8 @@ function Header() {
                 </Nav.Link>
               );
             })}
-          </Nav>
+          </Scrollspy>
+
           <Nav className="menu-language">
             <Nav.Link onClick={() => changeLanguage("en")}>
               <img
@@ -68,7 +85,7 @@ function Header() {
                 alt={t("English")}
                 height="30px"
                 width="40px"
-                className="me-3"
+                className="me-1"
               />
             </Nav.Link>
             <Nav.Link onClick={() => changeLanguage("de")}>
