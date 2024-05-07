@@ -46,7 +46,7 @@ function CardItem({
           </div>
           {/* <div className="card-text card-item__body__see-more">See more</div> */}
           <div className="card-item__body__skills-btn">
-            {skills !== undefined && (
+            {skills !== "" && (
               <div>
                 <strong>Skills:</strong> {skills}
               </div>

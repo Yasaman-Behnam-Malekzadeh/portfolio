@@ -7,17 +7,17 @@ function Header() {
   const navbarItems = [
     {
       id: 1,
-      name: t("Home"), // Using translation function t() to translate
+      name: t("home.title"),
       address: "#",
     },
     {
       id: 2,
-      name: t("About me"),
+      name: t("aboutMe.title"),
       address: "#about-me",
     },
     {
       id: 3,
-      name: t("Skills"),
+      name: t("skills.title"),
       address: "#skills",
     },
     {
@@ -27,7 +27,7 @@ function Header() {
     },
     {
       id: 5,
-      name: t("Contact"),
+      name: t("contactMe.title"),
       address: "#contact",
     },
   ];
@@ -37,13 +37,13 @@ function Header() {
   };
 
   return (
-    <div className="header-section fixed-top">
-      <div className="header-section__wrapped container-md">
+    <nav id="navbar" className="header-section fixed-top">
+      <div className="header-section__wrapped container-md ">
         <div className="fs-3 header-section__wrapped__logo">Yasaman.BM</div>
-        <div className="header-section__wrapped__menu">
+        <div className=" header-section__wrapped__menu">
           {navbarItems.map((item) => {
             return (
-              <a className="p-3" href={item.address} key={item.id}>
+              <a className="nav-link p-3" href={item.address} key={item.id}>
                 {item.name}
               </a>
             );
@@ -68,7 +68,7 @@ function Header() {
           />
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 

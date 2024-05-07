@@ -11,7 +11,12 @@ import i18n from "./i18n";
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
-      <div style={{ fontFamily: "Georgia, sans-serif" }}>
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#navbar"
+        data-bs-smooth-scroll="true"
+        style={{ fontFamily: "Georgia, sans-serif" }}
+      >
         <Header />
         <Home />
         <AboutMe />

@@ -1,5 +1,6 @@
 {
   "home": {
+    "title": "home",
     "firstDescription": "Hi, <br />I'm <strong>Yasaman</strong>",
     "secondDescription": "If you are looking for a Front-end engineer <br /> who has a huge enthusisem for translating UI concept<br /> into visually intresting <br />a keen eye for any bug <strong>I'm here. </strong>",
     "location": "Based on Berlin",
@@ -11,6 +12,7 @@
     "description": "<br />I started as a test engineer for 4 years, using different types of testing such as <strong>Unit testing</strong> and <strong>End-to-End testing</strong>. These experiences helped me develop a keen eye for detail. <br /> After that, I got interested in front-end development. I learned about <strong>React</strong> and <strong>Vue.js</strong>, and in my first job as a front-end developer, I made over 20 pages for both mobile and desktop displays using Vue.js, SASS, BEM, and Bootstrap-Vue. <br /> Later, I worked with React, Axios, TypeScript, and Styled-Components on projects in Europe. <br />I worked with many team members and liked working together using <strong>Agile methods</strong> and <strong>Scrum</strong>. <br />I firmly believe that tools are important, but it's even more important to be excited about learning. That's what helps both companies and developers grow."
   },
   "contactMe": {
+    "title": "contact",
     "mainTitle": "Get in Touch!",
     "phone": "+4917675408446",
     "emailNameTitle": "Your name",
@@ -21,5 +23,65 @@
     "location": "Berlin, Germany",
     "socialTitle": "Let's get social:",
     "btnSubmit": "Submit"
+  },
+  "skills": {
+    "title": "skills"
+  },
+  "experiences": {
+    "ventureLeap": {
+      "name": "Venture Leap",
+      "position": "Front end engineer",
+      "startDate": "October 2022",
+      "endDate": "February 2023",
+      "description": "As a member of Probatix's Cockpit project, I contributed to the development of a cutting-edge Lab administration solution. I developed and maintained the fronten portion of the Cockpit dashboard, collaborating closely with cross-functional teams to ensure seamless integration and a user-friendly interface. Through code reviews and troubleshooting, I fostered a culture of high-quality code and continuous improvement.",
+      "linkedinAddress": "https://www.linkedin.com/company/venture-leap/?originalSubdomain=de",
+      "websiteAddress": "https://venture-leap.com/en/",
+      "logoAddress": "https://media.licdn.com/dms/image/C4D0BAQHqiRpPeUQ5vg/company-logo_200_200/0/1641991331248/venture_leap_logo?e=2147483647&v=beta&t=0S0gP-yBbX82vQryUatiKUCzFstbpGYqEKro5ECJM8g",
+      "skills": "React - TypeScript - CSS - HTML - Axios - Styled-component - GitHub - Figma - Symfony - Scrum"
+    },
+    "Lastsecond": {
+      "name": "Lastsecond",
+      "position": "Front end engineer",
+      "startDate": "January 2021",
+      "endDate": "March 2022",
+      "description": "As the front-end developer at LastSecond.ir, I successfully revamped the company's website, implementing Vue.js and Sass to create a mobile and desktop. friendly design. This project included rewriting the main pages for tours, hotels,flights, itineraries, blogs, restaurants, videos, and attractions. Through effective communication and collaboration with backend developers, UI/UX designers, and the product manager, I ensured alignment with project objectives.",
+      "linkedinAddress": "https://www.linkedin.com/company/lastsecond/?originalSubdomain=ir",
+      "websiteAddress": "https://lastsecond.ir/",
+      "logoAddress": "https://pbs.twimg.com/profile_images/1230005817832886272/raLLVHAj_400x400.jpg",
+      "skills": "Vue.js - Bootstrap-Vue - HTML - Javasciprt - SASS - Linux - GitLab - Zeplin - Scrum"
+    },
+    "Chargoon": {
+      "name": "Chargoon",
+      "position": "QA engineer",
+      "startDate": "March 2016",
+      "endDate": "April 2020",
+      "description": "As a Manual Tester at Chargoon, tested three platforms using TFS, collaborating with a team of 10+ developers, 3 scrum masters, and 2 test engineers for efficient testing.",
+      "linkedinAddress": "https://www.linkedin.com/company/chargoon/",
+      "websiteAddress": "https://www.chargoon.com/",
+      "logoAddress": "https://yt3.googleusercontent.com/ytc/AIdro_l_JUvw77W0OYlx5PQPBoCtYE828mhGf_X13kVy=s900-c-k-c0x00ffffff-no-rj",
+      "skills": "TFS - Unit testing - End to End testing - Integration test - Scrum "
+    }
+  },
+  "education": {
+    "master": {
+      "name": "Computer System Networking and Telecommunications",
+      "position": "Master",
+      "startDate": "2018",
+      "endDate": "2022",
+      "description": "Iran University of Science and Technology",
+      "linkedinAddress": "https://www.linkedin.com/company/iran-university-of-science-and-technology---iust/",
+      "websiteAddress": "https://www.iust.ac.ir/en",
+      "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS-vOLKUHqfArZL-lQREZyA7GawqfIQQD8d-U-ixSQx4wLJt8-ndf_nj5QUW9TGSeIKEo&usqp=CAU"
+    },
+    "bachelor": {
+      "name": "Information Technology",
+      "position": "Bachelor",
+      "startDate": "2010",
+      "endDate": "2014",
+      "description": "K . N . Toosi University of Technology",
+      "linkedinAddress": "https://www.linkedin.com/school/kntoosi/?originalSubdomain=ir",
+      "websiteAddress": "https://en.kntu.ac.ir/",
+      "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ1yWlcro0afcO0XN3HFcgg32ILkzRWOJejJyhOo5Zrw&s"
+    }
   }
 }
