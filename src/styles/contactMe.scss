@@ -3,10 +3,9 @@
 .contact-me {
   @include flex-around;
   background-color: $medium-cream;
-  height: 600px;
+  padding: 100px 0;
   @media (max-width: 1200px) {
     flex-direction: column;
-    height: 1000px;
   }
   &__info {
     @media (max-width: 1200px) {

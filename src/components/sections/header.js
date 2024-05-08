@@ -10,22 +10,22 @@ function Header() {
     {
       id: 1,
       name: t("home.title"),
-      address: "#home",
+      address: "home",
     },
     {
       id: 2,
       name: t("aboutMe.title"),
-      address: "#about-me",
+      address: "about-me",
     },
     {
       id: 3,
       name: t("experienceEducation"),
-      address: "#experience-education",
+      address: "experience-education",
     },
     {
       id: 4,
       name: t("skills.title"),
-      address: "#skills",
+      address: "skills",
     },
     // {
     //   id: 5,
@@ -35,7 +35,7 @@ function Header() {
     {
       id: 6,
       name: t("contactMe.title"),
-      address: "#contact",
+      address: "contact",
     },
   ];
 
@@ -69,7 +69,7 @@ function Header() {
               return (
                 <Nav.Link
                   className="menu-list__item nav-link me-3 p-2"
-                  href={item.address}
+                  href={`#${item.address}`}
                   key={item.id}
                 >
                   {item.name}
