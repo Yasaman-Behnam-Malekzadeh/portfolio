@@ -1,4 +1,5 @@
 import { useState } from "react";
+import curveSvg from "../../svg/bottom experiences section.png";
 
 function Skills() {
   const skills = [
@@ -72,6 +73,9 @@ function Skills() {
 
   return (
     <div id="skills" className="skills">
+      <div className="skills__svg">
+        <img src={curveSvg} alt="curve" height={"100%"} width={"100%"} />
+      </div>
       <div className="skills__title fs-3 mb-5">Skills:</div>
       <div
         className="skills__items"

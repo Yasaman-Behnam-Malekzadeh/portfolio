@@ -7,6 +7,10 @@
   background-color: $light-cream;
   padding-top: 270px;
   padding-bottom: 50px;
+
+  @media (max-width: 1000px) {
+    padding-top: 120px;
+  }
   &__title {
     color: $dark-red;
   }
@@ -26,5 +30,11 @@
     button {
       @include red-button;
     }
+  }
+
+  &__svg {
+    position: absolute;
+    top: 0;
+    @include svg-design;
   }
 }

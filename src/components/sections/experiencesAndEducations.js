@@ -1,5 +1,5 @@
 import CardItemSection from "../card/cardItemsection";
-import curveSvg from "../../svg/bottom experiences section.png";
+// import curveSvg from "../../svg/bottom experiences section.png";
 import { useTranslation } from "react-i18next";
 
 function ExperiencesAndEducations() {
@@ -76,9 +76,9 @@ function ExperiencesAndEducations() {
         <CardItemSection info={experiences} title="Work experiences:" />
         <CardItemSection info={educations} title="Education:" />
       </div>
-      <div className="experiences-educations__svg">
+      {/* <div className="experiences-educations__svg">
         <img src={curveSvg} alt="curve" height={"100%"} width={"100%"} />
-      </div>
+      </div> */}
     </div>
   );
 }
