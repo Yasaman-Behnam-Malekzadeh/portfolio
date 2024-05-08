@@ -211,6 +211,17 @@
   scale: 1.1;
 }
 
+.offcanvas {
+  max-width: 200px;
+  background-color: #edcdbb;
+}
+.offcanvas .menu-language {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
 .contact-me {
   display: flex;
   justify-content: space-around;
@@ -304,6 +315,55 @@
 }
 .card-item-section__items {
   border-left: thick #6b0f29 solid;
+}
+
+.card-item {
+  background-color: #f8f3f0 !important;
+  border: 1px solid #6b0f29 !important;
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
+}
+.card-item:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -58px;
+  width: 15px;
+  height: 15px;
+  background: #6b0f29;
+  border-radius: 50%;
+}
+.card-item__body {
+  position: relative;
+}
+.card-item__body span {
+  color: #6b0f29;
+  font-weight: bold;
+}
+.card-item__body__skills-btn .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.card-item__body__skills-btn .buttons a {
+  background-color: #6b0f29;
+  color: #f8f3f0;
+  padding: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
+  padding: 7px 10px;
+}
+.card-item__body__skills-btn .buttons a:hover {
+  background: #981d40;
+  color: #f8f3f0;
+}
+.card-item__body img {
+  position: absolute;
+  border: 1px solid #6b0f29;
+  left: 0px;
+  top: -32px;
 }
 
 .card-item {

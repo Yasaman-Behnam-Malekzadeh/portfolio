@@ -1,0 +1,41 @@
+@import "../variable.scss";
+
+.card-item {
+  background-color: $light-cream !important;
+  border: 1px solid $dark-red !important;
+  box-shadow: $box-shadow;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -58px;
+    width: 15px;
+    height: 15px;
+    background: $dark-red;
+    border-radius: 50%;
+  }
+  &__body {
+    position: relative;
+    span {
+      color: $dark-red;
+      font-weight: bold;
+    }
+    &__skills-btn {
+      .buttons {
+        display: flex;
+        justify-content: flex-end;
+        a {
+          @include red-button;
+          padding: 7px 10px;
+        }
+      }
+    }
+    img {
+      position: absolute;
+      border: 1px solid $dark-red;
+      left: 0px;
+      top: -32px;
+    }
+  }
+}
