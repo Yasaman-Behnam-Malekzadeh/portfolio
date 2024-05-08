@@ -5,11 +5,24 @@
   @include flex-center;
   flex-direction: column;
   background-color: $light-cream;
-  height: 800px;
+  margin-top: 200px;
+  padding-bottom: 50px;
   &__title {
     color: $dark-red;
   }
   &__items {
     width: 80%;
+    &__progress {
+      .progress {
+        &-bar {
+          background-color: $rose-pink;
+        }
+      }
+    }
+  }
+  &__btn {
+    button {
+      @include red-button;
+    }
   }
 }

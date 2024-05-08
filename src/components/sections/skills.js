@@ -1,112 +1,113 @@
-function skills() {
+import { useState } from "react";
+
+function Skills() {
   const skills = [
     {
       id: 1,
       name: "React",
-      logo_address:
-        "https://cdn.iconscout.com/icon/free/png-256/free-react-4-1175110.png",
+      percentage: 95,
     },
     {
       id: 2,
       name: "Vue.js",
-      logo_address:
-        "https://w7.pngwing.com/pngs/492/902/png-transparent-vuejs-original-wordmark-logo-icon-thumbnail.png",
+      percentage: 85,
     },
     {
       id: 3,
       name: "TypeScript",
-      logo_address:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+      percentage: 80,
     },
     {
       id: 4,
       name: "Bootstrap",
-      logo_address:
-        "https://cdn.icon-icons.com/icons2/2415/PNG/512/bootstrap_plain_wordmark_logo_icon_146620.png",
+      percentage: 95,
     },
     {
       id: 5,
       name: "sass",
-      logo_address:
-        "https://banner2.cleanpng.com/20180815/xbk/kisspng-sass-logo-cascading-style-sheets-scalable-vector-g-codzero-cms-blog-tool-publishing-platform-5b74aaa0de6192.1715579115343725129109.jpg",
+      percentage: 95,
     },
     {
       id: 6,
-      name: "graph-ql",
-      logo_address:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFmAUyRK1v3AJ7f_DVldmhyKAU2d9DYRVA-zwpqVWTjQ&s",
+      name: "Styled-component",
+      percentage: 90,
     },
     {
       id: 7,
       name: "Axios",
-      logo_address:
-        "https://user-images.githubusercontent.com/16843090/101181820-f3a63780-3612-11eb-9d3a-05452f2b0ad8.png",
+      percentage: 90,
     },
     {
       id: 8,
-      name: "github",
-      logo_address:
-        "https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png",
+      name: "Github",
+      percentage: 80,
     },
     {
       id: 9,
-      name: "styled-component",
-      logo_address:
-        "https://corevaluetech.com/assets/illustrations/styled-component.webp",
+      name: "jQuery",
+      percentage: 90,
     },
     {
       id: 10,
-      name: "jQuery",
-      logo_address:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbs4kl1SJb4BDmHo-uDxfqk2cNPyhZuuI0WZjUmW1N0w&s",
+      name: "JavaScript",
+      percentage: 90,
     },
     {
       id: 11,
-      name: "JavaScript",
-      logo_address:
-        "https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png",
+      name: "css",
+      percentage: 100,
     },
     {
       id: 12,
-      name: "css",
-      logo_address:
-        "https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png",
+      name: "html",
+      percentage: 100,
     },
     {
       id: 13,
-      name: "html",
-      logo_address:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s",
-    },
-    {
-      id: 14,
-      name: "rest",
-      logo_address:
-        "https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg",
-    },
-    {
-      id: 15,
-      name: "scrum",
-      logo_address:
-        "https://miro.medium.com/v2/resize:fit:860/0*VaaPYZgMh214NLle.png",
+      name: "Graph-Ql",
+      percentage: 60,
     },
   ];
+  const [showMore, setShowMore] = useState(true);
+
   return (
     <div id="skills" className="skills">
       <div className="skills__title fs-3 mb-5">Skills:</div>
-      <div className="skills__items">
+      <div
+        className="skills__items"
+        style={{
+          height: showMore ? "230px" : "100%",
+          overflow: "hidden",
+        }}
+      >
         {skills.map((item) => (
-          <img
-            key={item.id}
-            src={item.logo_address}
-            alt={`${item.name}-logo`}
-            height={"70px"}
-            className="me-2"
-          />
+          <div className="skills__items__progress" key={item.id}>
+            <div>{item.name}</div>
+            <div
+              className="progress mb-3"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                className="progress-bar progress-bar-striped progress-bar-animated"
+                style={{ width: `${item.percentage}%` }}
+              >
+                {item.percentage}%
+              </div>
+            </div>
+          </div>
         ))}
+      </div>
+      <div className="skills__btn">
+        <button onClick={() => setShowMore(!showMore)}>
+          {showMore === true ? "show more" : "show less"}
+        </button>
       </div>
     </div>
   );
 }
 
-export default skills;
+export default Skills;
