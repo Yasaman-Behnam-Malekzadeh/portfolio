@@ -1,0 +1,10 @@
+@import "../variable.scss";
+
+.card-item-section {
+  &__title {
+    color: $dark-red;
+  }
+  &__items {
+    border-left: thick $dark-red solid;
+  }
+}
