@@ -33,15 +33,15 @@ function ContactMe() {
             rel="noreferrer"
             className="btn me-3 rounded-circle fs-5"
           >
-            <Linkedin className="me-1" />
+            <Linkedin />
           </a>
           <a
             href="https://github.com/Yasaman-Behnam-Malekzadeh?tab=repositories"
             target="_blank"
             rel="noreferrer"
-            className="btn rounded-circle fs-5"
+            className="btn rounded-circle fs-3"
           >
-            <Github className="me-1" />
+            <Github />
           </a>
         </div>
       </din>

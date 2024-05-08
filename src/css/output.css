@@ -14,7 +14,20 @@
 @media (max-width: 1000px) {
   .home-section {
     flex-direction: column-reverse;
-    height: 1200px;
+    height: 1100px;
+  }
+}
+@media (max-width: 800px) {
+  .home-section {
+    flex-direction: column-reverse;
+    height: 1000px;
+  }
+}
+@media (max-width: 440px) {
+  .home-section {
+    flex-direction: column-reverse;
+    height: 950px;
+    padding-top: 60px;
   }
 }
 @media (max-width: 1200px) {
@@ -229,13 +242,6 @@
   background: #981d40;
   color: #f8f3f0;
 }
-.skills__svg {
-  position: absolute;
-  top: 0;
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-}
 
 .header-section {
   background-color: #edcdbb;
@@ -319,6 +325,9 @@
 }
 .contact-me__info__title strong {
   color: #6b0f29;
+}
+.contact-me__info__btn {
+  margin-bottom: 20px;
 }
 .contact-me__info__btn a {
   background-color: #6b0f29;

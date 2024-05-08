@@ -31,10 +31,4 @@
       @include red-button;
     }
   }
-
-  &__svg {
-    position: absolute;
-    top: 0;
-    @include svg-design;
-  }
 }

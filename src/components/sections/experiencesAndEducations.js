@@ -1,5 +1,5 @@
 import CardItemSection from "../card/cardItemsection";
-// import curveSvg from "../../svg/bottom experiences section.png";
+import curveSvg from "../../svg/bottom experiences section.png";
 import { useTranslation } from "react-i18next";
 
 function ExperiencesAndEducations() {
@@ -73,12 +73,15 @@ function ExperiencesAndEducations() {
   return (
     <div id="experience-education" className="experiences-educations">
       <div className="container pt-4">
-        <CardItemSection info={experiences} title="Work experiences:" />
-        <CardItemSection info={educations} title="Education:" />
+        <CardItemSection
+          info={experiences}
+          title={`${t("experiences.title")}:`}
+        />
+        <CardItemSection info={educations} title={`${t("education.title")}:`} />
       </div>
-      {/* <div className="experiences-educations__svg">
+      <div className="experiences-educations__svg">
         <img src={curveSvg} alt="curve" height={"100%"} width={"100%"} />
-      </div> */}
+      </div>
     </div>
   );
 }
