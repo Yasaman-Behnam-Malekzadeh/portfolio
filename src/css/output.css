@@ -252,6 +252,11 @@
 .header-section__wrapped__logo {
   color: #6b0f29;
 }
+.header-section__wrapped__logo:hover {
+  color: #6b0f29;
+  scale: 1.05;
+  cursor: pointer;
+}
 .header-section__wrapped__menu {
   height: 100%;
   justify-content: end;

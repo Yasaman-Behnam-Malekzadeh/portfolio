@@ -56,9 +56,12 @@ function Header() {
       {isMobile ? (
         <Navbar className="navbar header-section fixed-top">
           <div className="header-section__wrapped container-md">
-            <Navbar.Brand className="fs-3 header-section__wrapped__logo">
+            <Nav.Link
+              href="#home"
+              className="fs-3 header-section__wrapped__logo"
+            >
               {"< Yasaman.BM />"}
-            </Navbar.Brand>
+            </Nav.Link>
             <Offcanvas
               show={showMenu}
               onHide={() => setShowMenu(false)}
@@ -122,9 +125,12 @@ function Header() {
       ) : (
         <Navbar id="navbar" className="navbar header-section fixed-top">
           <div className="header-section__wrapped container-md">
-            <Navbar.Brand className="fs-3 header-section__wrapped__logo">
+            <Nav.Link
+              href="#home"
+              className="fs-3 header-section__wrapped__logo"
+            >
               {"< Yasaman.BM />"}
-            </Navbar.Brand>
+            </Nav.Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse
               id="basic-navbar-nav"

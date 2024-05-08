@@ -7,15 +7,15 @@
 
     &__logo {
       color: $dark-red;
+      &:hover {
+        color: $dark-red;
+        scale: 1.05;
+        cursor: pointer;
+      }
     }
     &__menu {
       height: 100%;
       justify-content: end;
-
-      // @media (max-width: 991px) {
-      //   flex-direction: column;
-      //   align-items: flex-end;
-      // }
 
       .menu-list {
         display: flex;
