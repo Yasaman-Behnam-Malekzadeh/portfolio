@@ -13,7 +13,9 @@
   &__items {
     width: 80%;
     &__progress {
+      padding: 0 10px;
       .progress {
+        box-shadow: $box-shadow;
         &-bar {
           background-color: $rose-pink;
         }

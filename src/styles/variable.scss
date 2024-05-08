@@ -5,7 +5,9 @@ $light-cream: #f8f3f0;
 $medium-cream: #edcdbb;
 $rose-pink: #dd7e7c;
 
-//mixin
+$box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
+
+//mixins
 @mixin flex-around {
   display: flex;
   justify-content: space-around;
@@ -30,6 +32,7 @@ $rose-pink: #dd7e7c;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
   border: none;
+  box-shadow: $box-shadow;
   &:hover {
     background: $medium-dark-red;
     color: $light-cream;

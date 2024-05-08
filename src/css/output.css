@@ -26,6 +26,7 @@
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
   border: none;
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
 }
 .home-section__left__btn:hover {
   background: #981d40;
@@ -132,6 +133,12 @@
 .skills__items {
   width: 80%;
 }
+.skills__items__progress {
+  padding: 0 10px;
+}
+.skills__items__progress .progress {
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
+}
 .skills__items__progress .progress-bar {
   background-color: #dd7e7c;
 }
@@ -144,6 +151,7 @@
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
   border: none;
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
 }
 .skills__btn button:hover {
   background: #981d40;
@@ -237,6 +245,7 @@
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
   border: none;
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
 }
 .contact-me__info__btn a:hover {
   background: #981d40;
@@ -259,6 +268,7 @@
   background-color: #f8f3f0;
   border-color: #6b0f29;
   border-width: medium;
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
 }
 .contact-me__form textarea {
   height: 200px;
@@ -272,6 +282,7 @@
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
   border: none;
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
 }
 .contact-me__form button:hover {
   background: #981d40;
@@ -298,6 +309,7 @@
 .card-item {
   background-color: #f8f3f0 !important;
   border: 1px solid #6b0f29 !important;
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
 }
 .card-item:before {
   content: "";
@@ -329,6 +341,7 @@
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
   border: none;
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
   padding: 7px 10px;
 }
 .card-item__body__skills-btn .buttons a:hover {
