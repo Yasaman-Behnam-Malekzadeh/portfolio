@@ -39,7 +39,7 @@ function ContactMe() {
             href="https://github.com/Yasaman-Behnam-Malekzadeh?tab=repositories"
             target="_blank"
             rel="noreferrer"
-            className="btn rounded-circle fs-3"
+            className="btn me-3 rounded-circle fs-5"
           >
             <Github />
           </a>
