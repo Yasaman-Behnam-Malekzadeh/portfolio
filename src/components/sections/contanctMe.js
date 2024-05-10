@@ -5,6 +5,8 @@ import { Linkedin } from "react-bootstrap-icons";
 import { Github } from "react-bootstrap-icons";
 import { useTranslation } from "react-i18next";
 
+import waveCopyright from "../../svg/copyright.png";
+
 function ContactMe() {
   const { t } = useTranslation("contact me");
   return (
@@ -69,6 +71,7 @@ function ContactMe() {
           {t("contactMe.btnSubmit")}
         </button>
       </form>
+      <img className="contact-me__svg" src={waveCopyright} alt="wave" />
     </div>
   );
 }

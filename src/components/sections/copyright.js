@@ -1,8 +1,6 @@
-import waveCopyright from "../../svg/copyright.png";
 function Copyright() {
   return (
     <div className="copyright">
-      <img className="copyright__svg" src={waveCopyright} alt="wave" />
       <div className="copyright__text">
         Copyright
         <footer>

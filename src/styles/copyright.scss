@@ -2,13 +2,8 @@
 
 .copyright {
   height: 40px;
-  position: relative;
   background-color: $dark-red;
-  &__svg {
-    @include svg-design;
-    position: absolute;
-    top: -90px;
-  }
+
   &__text {
     display: flex;
     justify-content: center;

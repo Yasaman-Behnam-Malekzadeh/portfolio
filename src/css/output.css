@@ -317,6 +317,7 @@
 }
 
 .contact-me {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -396,18 +397,16 @@
   background: #981d40;
   color: #f8f3f0;
 }
-
-.copyright {
-  height: 40px;
-  position: relative;
-  background-color: #6b0f29;
-}
-.copyright__svg {
+.contact-me__svg {
   position: absolute;
   z-index: 2;
   width: 100%;
-  position: absolute;
-  top: -90px;
+  bottom: -3px;
+}
+
+.copyright {
+  height: 40px;
+  background-color: #6b0f29;
 }
 .copyright__text {
   display: flex;

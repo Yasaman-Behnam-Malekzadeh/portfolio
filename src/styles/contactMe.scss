@@ -1,6 +1,7 @@
 @import "./variable.scss";
 
 .contact-me {
+  position: relative;
   @include flex-around;
   background-color: $medium-cream;
   padding: 100px 0;
@@ -46,5 +47,9 @@
     button {
       @include red-button;
     }
+  }
+  &__svg {
+    @include svg-design;
+    bottom: -3px;
   }
 }
