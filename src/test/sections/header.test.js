@@ -1,17 +1,17 @@
 import navbarItems from "../../data/navbarItems.json";
 
-const navItems = navbarItems.length;
+const navItemsLength = navbarItems.length;
 
 //all data check
 describe("data check", () => {
   test("Number of NavItems = 5", () => {
-    expect(navItems).toBe(5);
+    expect(navItemsLength).toBe(5);
   });
   test("Number of Nav Items greater than 4", () => {
-    expect(navItems).toBeGreaterThan(4);
+    expect(navItemsLength).toBeGreaterThan(4);
   });
   test("Number of navItems less than 6", () => {
-    expect(navItems).toBeLessThan(6);
+    expect(navItemsLength).toBeLessThan(6);
   });
 });
 
