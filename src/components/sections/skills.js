@@ -1,73 +1,7 @@
 import { useState } from "react";
+import skills from "../../data/skills.json";
 
 function Skills() {
-  const skills = [
-    {
-      id: 1,
-      name: "React",
-      percentage: 95,
-    },
-    {
-      id: 2,
-      name: "Vue.js",
-      percentage: 85,
-    },
-    {
-      id: 3,
-      name: "TypeScript",
-      percentage: 80,
-    },
-    {
-      id: 4,
-      name: "Bootstrap",
-      percentage: 95,
-    },
-    {
-      id: 5,
-      name: "sass",
-      percentage: 95,
-    },
-    {
-      id: 6,
-      name: "Styled-component",
-      percentage: 90,
-    },
-    {
-      id: 7,
-      name: "Axios",
-      percentage: 90,
-    },
-    {
-      id: 8,
-      name: "Github",
-      percentage: 80,
-    },
-    {
-      id: 9,
-      name: "jQuery",
-      percentage: 90,
-    },
-    {
-      id: 10,
-      name: "JavaScript",
-      percentage: 90,
-    },
-    {
-      id: 11,
-      name: "css",
-      percentage: 100,
-    },
-    {
-      id: 12,
-      name: "html",
-      percentage: 100,
-    },
-    {
-      id: 13,
-      name: "Graph-Ql",
-      percentage: 60,
-    },
-  ];
   const [showMore, setShowMore] = useState(true);
 
   return (

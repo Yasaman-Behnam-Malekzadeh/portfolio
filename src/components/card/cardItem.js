@@ -25,8 +25,8 @@ function CardItem({
         <div className="card-item__body card-body ">
           <img
             className="rounded-circle"
-            src={logo_address}
-            alt={`${name}-logo`}
+            src={t(logo_address)}
+            alt={`${t(name)}-logo`}
             height={"50px"}
             width={"50px"}
           />
@@ -37,8 +37,8 @@ function CardItem({
             {t(start_date)} - {t(end_date)}
           </div>
           <div className="card-text card-item__body__description">
-            {isReadMore ? description.slice(0, 200) : description}
-            {description.length > 150 && (
+            {isReadMore ? t(description).slice(0, 200) : t(description)}
+            {t(description).length > 150 && (
               <span onClick={toggleReadMore}>
                 {isReadMore ? "...read more" : " ...show less"}
               </span>
@@ -46,15 +46,15 @@ function CardItem({
           </div>
           {/* <div className="card-text card-item__body__see-more">See more</div> */}
           <div className="card-item__body__skills-btn">
-            {skills !== "" && (
+            {t(skills) !== "" && (
               <div>
-                <strong>Skills:</strong> {skills}
+                <strong>Skills:</strong> {t(skills)}
               </div>
             )}
 
             <div className="buttons">
               <a
-                href={website_address}
+                href={t(website_address)}
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-sm"
@@ -62,7 +62,7 @@ function CardItem({
                 <BoxArrowUpRight />
               </a>
               <a
-                href={linkedin_address}
+                href={t(linkedin_address)}
                 target="_blank"
                 rel="noreferrer"
                 className="ms-2 btn btn-sm"

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "education.master.name",
+    "position": "education.master.position",
+    "start_date": "education.master.startDate",
+    "end_date": "education.master.endDate",
+    "description": "education.master.description",
+    "linkedin_address": "education.master.linkedinAddress",
+    "website_address": "education.master.websiteAddress",
+    "logo_address": "education.master.logoAddress",
+    "skills": "education.master.skills"
+  },
+  {
+    "id": 2,
+    "name": "education.bachelor.name",
+    "position": "education.bachelor.position",
+    "start_date": "education.bachelor.startDate",
+    "end_date": "education.bachelor.endDate",
+    "description": "education.bachelor.description",
+    "linkedin_address": "education.bachelor.linkedinAddress",
+    "website_address": "education.bachelor.websiteAddress",
+    "logo_address": "education.bachelor.logoAddress",
+    "skills": "education.bachelor.skills"
+  }
+]

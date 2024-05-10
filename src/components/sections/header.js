@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Navbar, Nav, Offcanvas } from "react-bootstrap";
 import Scrollspy from "react-scrollspy";
 import { List } from "react-bootstrap-icons";
+import navbarItems from "../../data/navbarItems.json";
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -18,34 +19,6 @@ function Header() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  const navbarItems = [
-    {
-      id: 1,
-      name: t("home.title"),
-      address: "home",
-    },
-    {
-      id: 2,
-      name: t("aboutMe.title"),
-      address: "about-me",
-    },
-    {
-      id: 3,
-      name: t("experienceEducation"),
-      address: "experience-education",
-    },
-    {
-      id: 4,
-      name: t("skills.title"),
-      address: "skills",
-    },
-    {
-      id: 6,
-      name: t("contactMe.title"),
-      address: "contact",
-    },
-  ];
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -87,7 +60,7 @@ function Header() {
                         key={item.id}
                         onClick={() => setShowMenu(false)}
                       >
-                        {item.name}
+                        {t(item.name)}
                       </Nav.Link>
                     );
                   })}
@@ -154,7 +127,7 @@ function Header() {
                       href={`#${item.address}`}
                       key={item.id}
                     >
-                      {item.name}
+                      {t(item.name)}
                     </Nav.Link>
                   );
                 })}
