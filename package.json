@@ -31,6 +31,7 @@
     "start": "GENERATE_SOURCEMAP=false react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "coverage":"npm run test -- --coverage",
     "eject": "react-scripts eject",
     "dev": "next dev"
   },
