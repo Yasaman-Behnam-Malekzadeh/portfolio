@@ -4,7 +4,7 @@
   position: relative;
   @include flex-around;
   background-color: $medium-cream;
-  padding: 100px 0;
+  padding: 130px 0;
   @media (max-width: 1200px) {
     flex-direction: column;
   }

@@ -1,12 +1,14 @@
 import { useState } from "react";
 import skills from "../../data/skills.json";
+import { useTranslation } from "react-i18next";
 
 function Skills() {
   const [showMore, setShowMore] = useState(true);
+  const { t } = useTranslation("skills");
 
   return (
     <div id="skills" className="skills">
-      <div className="skills__title fs-3 mb-5">Skills:</div>
+      <div className="skills__title fs-3 mb-5">{t("skills.title")}:</div>
       <div
         className="skills__items"
         style={{
