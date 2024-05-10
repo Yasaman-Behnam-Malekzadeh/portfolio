@@ -306,6 +306,16 @@
   flex-direction: row;
 }
 
+.experiences-educations {
+  background-color: #edcdbb;
+  padding-top: 70px;
+}
+.experiences-educations__svg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
 .contact-me {
   display: flex;
   justify-content: space-around;
@@ -387,14 +397,22 @@
   color: #f8f3f0;
 }
 
-.experiences-educations {
-  background-color: #edcdbb;
-  padding-top: 70px;
+.copyright {
+  height: 40px;
+  position: relative;
+  background-color: #6b0f29;
 }
-.experiences-educations__svg {
+.copyright__svg {
   position: absolute;
   z-index: 2;
   width: 100%;
+  position: absolute;
+  top: -90px;
+}
+.copyright__text {
+  display: flex;
+  justify-content: center;
+  color: #f8f3f0;
 }
 
 .card-item {

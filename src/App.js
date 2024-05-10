@@ -7,6 +7,7 @@ import Skills from "./components/sections/skills";
 import ContactMe from "./components/sections/contanctMe";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
+import Copyright from "./components/sections/copyright";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ExperienceAndEducations />
       <Skills />
       <ContactMe />
+      <Copyright />
       {/* https://kitpro.site/femine/wp-content/uploads/sites/107/2022/08/pattern-3-268x1024.png */}
     </I18nextProvider>
   );
