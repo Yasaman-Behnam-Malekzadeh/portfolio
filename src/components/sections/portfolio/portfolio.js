@@ -25,10 +25,12 @@ function Portfolio() {
             />
             <div className="card-body card-details">
               <h5 class="card-title">{item.name}</h5>
-              <div className="card-text mb-3">{item.description}</div>
+              <div className="card-text card-details__describe mb-3">
+                {item.description}
+              </div>
               <div className="card-details__technologies">
                 {item.technologies.map((item) => (
-                  <div className="card-text">{item}</div>
+                  <div className="card-text"> {item} / </div>
                 ))}
               </div>
 
