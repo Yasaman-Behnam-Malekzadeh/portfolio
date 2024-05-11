@@ -94,6 +94,7 @@
     }
   },
   "projects": {
+    "title": "Einige einfache Projekte",
     "portfolio": {
       "name": "Portfolio",
       "description": "Meine persönliche Website, die meine Erfahrungen, Ausbildung und auch einige einfache Projekte zeigt. Es ist eine zweisprachige Website."

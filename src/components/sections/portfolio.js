@@ -7,7 +7,7 @@ function Portfolio() {
   const { t } = useTranslation();
   return (
     <div id="portfolio" className="portfolio">
-      <div className="portfolio__title fs-3 mt-5">Some simple projects:</div>
+      <div className="portfolio__title fs-3 mt-5">{t("projects.title")}:</div>
       <div className="portfolio__cards">
         {project.map((item) => (
           <div key={item.id} className="card portfolio__cards__item">
