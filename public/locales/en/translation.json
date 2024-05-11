@@ -90,5 +90,19 @@
       "websiteAddress": "https://en.kntu.ac.ir/",
       "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ1yWlcro0afcO0XN3HFcgg32ILkzRWOJejJyhOo5Zrw&s"
     }
+  },
+  "projects": {
+    "portfolio": {
+      "name": "portfolio",
+      "description": "My personal website which show my Experiences, Education and also some simple projects. It's a two languages website."
+    },
+    "applications": {
+      "name": "List of Applications",
+      "description": "A simple website with sign up and sign in and also show a list of applications with adding, editing and deleting application."
+    },
+    "githubUser": {
+      "name": "List of Github users",
+      "description": "A simple website which shows a list of github user with pagination and also a page of each github user with their information."
+    }
   }
 }

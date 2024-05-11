@@ -1,29 +1,29 @@
 [
   {
     "id": 1,
-    "name": "portfolio",
+    "name": "projects.portfolio.name",
     "technologies": ["React", "Bootstrap", "SCSS", "Jest", "React-Bootstrap"],
     "imgAddress": "https://i.ibb.co/Gcz6jJ0/Screenshot-2024-05-11-at-10-44-58.png",
     "websiteAddress": "#",
     "githubAddress": "https://github.com/Yasaman-Behnam-Malekzadeh/portfolio",
-    "description": "My personal website which show my Experiences, Education and also some simple projects. It's a two languages website."
+    "description": "projects.portfolio.description"
   },
   {
     "id": 2,
-    "name": "List of Applications",
+    "name": "projects.applications.name",
     "technologies": ["React", "Bootstrap", "Axios", "SCSS"],
     "imgAddress": "https://i.ibb.co/6vVwb7p/Screenshot-2024-05-11-at-12-34-18.png",
     "websiteAddress": "#",
     "githubAddress": "https://github.com/Yasaman-Behnam-Malekzadeh/demo-front-Probatix",
-    "description": "A simple website with sign up and sign in and also show a list of applications with adding, editing and deleting application."
+    "description": "projects.applications.description"
   },
   {
     "id": 3,
-    "name": "List of github users",
+    "name": "projects.githubUser.name",
     "technologies": ["React", "Bootstrap", "Axios", "React-Bootstrap", "SCSS"],
     "imgAddress": "https://i.ibb.co/LJ8BwdW/Screenshot-2024-05-11-at-12-44-32.png",
     "websiteAddress": "#",
     "githubAddress": "https://github.com/Yasaman-Behnam-Malekzadeh/ReactProject1-GithubUser",
-    "description": "A simple website which shows a list of github user with pagination and also a page of each github user with their information."
+    "description": "projects.githubUser.description"
   }
 ]
