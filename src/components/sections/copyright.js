@@ -6,7 +6,7 @@ function Copyright() {
         <footer>
           <p>&copy;</p>
         </footer>
-        2024 yasaman-bm.com. All Rights Reserved
+        2024 yasaman.dev. All Rights Reserved
       </div>
     </div>
   );

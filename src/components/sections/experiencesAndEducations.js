@@ -1,5 +1,5 @@
 import CardItemSection from "../card/cardItemsection";
-import curveSvg from "../../svg/bottom experiences section.png";
+import SvgBottom from "../../files/experiencesEducation/svg-bottom.png";
 import { useTranslation } from "react-i18next";
 import experiences from "../../data/experiences.json";
 import educations from "../../data/education.json";
@@ -17,7 +17,7 @@ function ExperiencesAndEducations() {
         <CardItemSection info={educations} title={`${t("education.title")}:`} />
       </div>
       <div className="experiences-educations__svg">
-        <img src={curveSvg} alt="curve" height={"100%"} width={"100%"} />
+        <img src={SvgBottom} alt="curve" height={"100%"} width={"100%"} />
       </div>
     </div>
   );

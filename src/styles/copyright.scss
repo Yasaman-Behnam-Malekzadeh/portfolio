@@ -1,12 +1,18 @@
 @import "./variable.scss";
 
 .copyright {
-  height: 40px;
+  height: 35px;
   background-color: $dark-red;
 
   &__text {
     display: flex;
     justify-content: center;
     color: $light-cream;
+    @media (max-width: 700px) {
+      font-size: 14px;
+    }
+    @media (max-width: 440px) {
+      font-size: 12px;
+    }
   }
 }

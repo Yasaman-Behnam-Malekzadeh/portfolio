@@ -1,5 +1,8 @@
-import curveSvg from "../../svg/k7dazo80g18lvr72nxf.png";
+import SvgBottom from "../../files/home/svg-bottom.png";
 import { useTranslation, Trans } from "react-i18next";
+import Resume from "../../files/home/Front end developer- Yasaman Behnam Malekzadeh.pdf";
+import FlowerBackground from "../../files/home/flower-background.png";
+import YasamanPortrait from "../../files/home/yasaman-portrait-1.png";
 
 function Home() {
   const { t } = useTranslation("home");
@@ -18,7 +21,7 @@ function Home() {
           <Trans>{t("home.secondDescription")}</Trans>
         </div>
         <a
-          href="https://drive.google.com/file/d/11tlKWA57FWOFsUJ_eNpYdnSRwQWCIubX/view?usp=drive_link"
+          href={Resume}
           download
           target="_blank"
           rel="noreferrer"
@@ -31,18 +34,18 @@ function Home() {
         <div className="home-section__right__background">
           <img
             className="animate__animated animate__fadeInLeft"
-            src="https://elementorpress.com/templatekit-pro/layout48/wp-content/uploads/2022/07/services-design-element.png"
+            src={FlowerBackground}
             alt="home-flower"
           />
         </div>
         <img
           className="logo-pic animate__animated animate__fadeInUp"
-          src="https://i.ibb.co/6YqFy13/file-1.png"
+          src={YasamanPortrait}
           alt="first-page"
         />
       </div>
       <div className="home-section__svg">
-        <img src={curveSvg} alt="curve" height={"100%"} width={"100%"} />
+        <img src={SvgBottom} alt="curve" height={"100%"} width={"100%"} />
       </div>
     </div>
   );

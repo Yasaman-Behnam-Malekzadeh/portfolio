@@ -44,7 +44,6 @@ function CardItem({
               </span>
             )}
           </div>
-          {/* <div className="card-text card-item__body__see-more">See more</div> */}
           <div className="card-item__body__skills-btn">
             {t(skills) !== "" && (
               <div>

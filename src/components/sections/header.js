@@ -33,7 +33,7 @@ function Header() {
               href="#home"
               className="fs-3 header-section__wrapped__logo"
             >
-              {"< Yasaman.BM />"}
+              {"< Yasaman.dev />"}
             </Nav.Link>
             <Offcanvas
               show={showMenu}
@@ -102,7 +102,7 @@ function Header() {
               href="#home"
               className="fs-3 header-section__wrapped__logo"
             >
-              {"< Yasaman.BM />"}
+              {"< Yasaman.dev />"}
             </Nav.Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse

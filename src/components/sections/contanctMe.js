@@ -5,7 +5,7 @@ import { Linkedin } from "react-bootstrap-icons";
 import { Github } from "react-bootstrap-icons";
 import { useTranslation } from "react-i18next";
 
-import waveCopyright from "../../svg/copyright.png";
+import SvgBottom from "../../files/contactMe/svg-bottom.png";
 
 function ContactMe() {
   const { t } = useTranslation("contact me");
@@ -47,7 +47,7 @@ function ContactMe() {
           </a>
         </div>
       </din>
-      <form className="contact-me__form">
+      {/* <form className="contact-me__form">
         <input
           type="text"
           placeholder={t("contactMe.emailNameTitle")}
@@ -70,8 +70,8 @@ function ContactMe() {
         <button type="submit" className="btn px-5">
           {t("contactMe.btnSubmit")}
         </button>
-      </form>
-      <img className="contact-me__svg" src={waveCopyright} alt="wave" />
+      </form> */}
+      <img className="contact-me__svg" src={SvgBottom} alt="wave" />
     </div>
   );
 }

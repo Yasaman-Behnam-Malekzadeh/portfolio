@@ -4,7 +4,7 @@
     "name": "projects.portfolio.name",
     "technologies": ["React", "Bootstrap", "SCSS", "Jest", "React-Bootstrap"],
     "imgAddress": "https://i.ibb.co/Gcz6jJ0/Screenshot-2024-05-11-at-10-44-58.png",
-    "websiteAddress": "#",
+    "websiteAddress": "https://yasaman.dev/",
     "githubAddress": "https://github.com/Yasaman-Behnam-Malekzadeh/portfolio",
     "description": "projects.portfolio.description"
   },
