@@ -1,6 +1,7 @@
 import { useState } from "react";
 import skills from "../../data/skills.json";
 import { useTranslation } from "react-i18next";
+import Portfolio from "./portfolio";
 
 function Skills() {
   const [showMore, setShowMore] = useState(true);
@@ -42,6 +43,8 @@ function Skills() {
           {showMore === true ? "show more" : "show less"}
         </button>
       </div>
+
+      <Portfolio />
     </div>
   );
 }

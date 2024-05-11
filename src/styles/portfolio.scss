@@ -1,17 +1,12 @@
-@import "../variable.scss";
+@import "./variable.scss";
 
 .portfolio {
   background-color: $light-cream;
-  padding-top: 270px;
-  padding-bottom: 50px;
-  &__skills {
-    @include flex-center;
-    button {
-      @include red-button;
-
-      margin-right: 10px;
-      border-radius: 10px;
-    }
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &__title {
+    color: $dark-red;
   }
 
   &__cards {

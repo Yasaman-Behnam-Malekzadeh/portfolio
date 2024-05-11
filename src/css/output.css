@@ -272,30 +272,12 @@
 
 .portfolio {
   background-color: #f8f3f0;
-  padding-top: 270px;
-  padding-bottom: 50px;
-}
-.portfolio__skills {
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-.portfolio__skills button {
-  background-color: #6b0f29;
-  color: #f8f3f0;
-  padding: 13px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 5px;
-  transition: all 0.2s ease-in-out;
-  border: none;
-  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
-  margin-right: 10px;
-  border-radius: 10px;
-}
-.portfolio__skills button:hover {
-  background: #981d40;
-  color: #f8f3f0;
+.portfolio__title {
+  color: #6b0f29;
 }
 .portfolio__cards {
   margin-top: 50px;
