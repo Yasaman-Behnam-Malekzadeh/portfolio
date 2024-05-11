@@ -25,6 +25,9 @@
     "socialTitle": "Let's get social:",
     "btnSubmit": "Submit"
   },
+  "portfolio": {
+    "title": "Portfolio"
+  },
   "skills": {
     "title": "Skills"
   },

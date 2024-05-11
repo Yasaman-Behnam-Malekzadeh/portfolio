@@ -1,0 +1,40 @@
+@import "../variable.scss";
+
+.portfolio {
+  background-color: $light-cream;
+  padding-top: 270px;
+  padding-bottom: 50px;
+  &__skills {
+    @include flex-center;
+    button {
+      @include red-button;
+
+      margin-right: 10px;
+      border-radius: 10px;
+    }
+  }
+
+  &__cards {
+    margin-top: 50px;
+    @include flex-around;
+    flex-wrap: wrap;
+    &__item {
+      width: 25%;
+      box-shadow: $box-shadow;
+      @media (max-width: 1000px) {
+        width: 70%;
+        margin-bottom: 30px;
+      }
+      a {
+        @include red-button;
+        padding: 8px 12px;
+      }
+      .card-details {
+        &__technologies {
+          display: flex;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

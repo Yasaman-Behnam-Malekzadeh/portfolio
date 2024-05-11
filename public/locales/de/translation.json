@@ -25,6 +25,9 @@
     "socialTitle": "Lasst uns gesellig werden:",
     "btnSubmit": "Einreichen"
   },
+  "portfolio": {
+    "title": "Portfolio"
+  },
   "skills": {
     "title": "Fähigkeiten"
   },
