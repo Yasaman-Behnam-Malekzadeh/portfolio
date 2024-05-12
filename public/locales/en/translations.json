@@ -2,7 +2,7 @@
   "home": {
     "title": "home",
     "firstDescription": "Hi, <br />I'm <strong>Yasaman</strong>",
-    "secondDescription": "If you are looking for a Front-end engineer <br /> who has a huge enthusisem for translating UI concept<br /> into visually intresting <br />a keen eye for any bug <strong>I'm here. </strong>",
+    "secondDescription": "If you are looking for a Front-end engineer <br /> who has a huge enthusisem for translating UI concept,<br /> into visually intresting, <br />a keen eye for coordination with design <strong>I'm here. </strong>",
     "location": "Based on Berlin",
     "position": "Front-end engineer",
     "btnName": "Contact Me",
@@ -10,10 +10,10 @@
   },
   "aboutMe": {
     "title": "About me",
-    "description": "<br />I started as a test engineer for 4 years, using different types of testing such as <strong>Unit testing</strong> and <strong>End-to-End testing</strong>. These experiences helped me develop a keen eye for detail. <br /> After that, I got interested in front-end development. I learned about <strong>React</strong> and <strong>Vue.js</strong>, and in my first job as a front-end developer, I made over 20 pages for both mobile and desktop displays using Vue.js, SASS, BEM, and Bootstrap-Vue. <br /> Later, I worked with React, Axios, TypeScript, and Styled-Components on projects in Europe. <br />I worked with many team members and liked working together using <strong>Agile methods</strong> and <strong>Scrum</strong>. <br />I firmly believe that tools are important, but it's even more important to be excited about learning. That's what helps both companies and developers grow."
+    "description": "<br />I started as a test engineer and there various types of testing such as <strong>Unit testing</strong>, <strong>End-to-End testing</strong> and <strong>Intgration test </strong> were utilized. <br /> These experiences helped me develop a keen eye for details and also what is important for End users. <br />As I learned and delved deeper into front-end development, <strong>React</strong> and <strong>Vue.js</strong> sparked my interest.<br /> In the first front-end developer role, over 20 pages were crafted for both mobile and desktop displays using Vue.js, SASS, BEM, and Bootstrap-Vue. <br /> Later, I worked with React, Axios, TypeScript, and Styled-Components on projects in Europe. <br />I've collaborated with numerous teams in environments where <strong>Agile methodologies</strong> and <strong>Scrum</strong> were employed. <br />I firmly believe that tools are important, but it's even more important to be excited about learning.<br /> This enthusiasm contributes to the growth of both companies and developers."
   },
   "contactMe": {
-    "title": "contact",
+    "title": "contact me",
     "mainTitle": "Get in Touch!",
     "phone": "+4917675408446",
     "emailNameTitle": "Your name",

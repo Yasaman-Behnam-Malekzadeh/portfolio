@@ -14,18 +14,21 @@
     height: 1100px;
   }
   @media (max-width: 800px) {
-    flex-direction: column-reverse;
     height: 1000px;
   }
   @media (max-width: 440px) {
-    flex-direction: column-reverse;
     height: 950px;
-    padding-top: 60px;
+  }
+  @media (max-width: 380px) {
+    height: 850px;
   }
 
   &__left {
     @media (max-width: 1200px) {
       width: 50%;
+    }
+    @media (max-width: 800px) {
+      width: 70%;
     }
     &__btn {
       @include red-button;

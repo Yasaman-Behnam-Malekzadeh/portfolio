@@ -82,20 +82,27 @@
 }
 @media (max-width: 800px) {
   .home-section {
-    flex-direction: column-reverse;
     height: 1000px;
   }
 }
 @media (max-width: 440px) {
   .home-section {
-    flex-direction: column-reverse;
     height: 950px;
-    padding-top: 60px;
+  }
+}
+@media (max-width: 380px) {
+  .home-section {
+    height: 850px;
   }
 }
 @media (max-width: 1200px) {
   .home-section__left {
     width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .home-section__left {
+    width: 70%;
   }
 }
 .home-section__left__btn {
@@ -211,8 +218,8 @@
   align-items: center;
   position: relative;
   background-color: #f8f3f0;
-  padding-top: 250px;
-  padding-bottom: 130px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 @media (max-width: 1000px) {
   .about-me {

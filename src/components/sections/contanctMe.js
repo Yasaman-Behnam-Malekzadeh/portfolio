@@ -9,11 +9,7 @@ import { useTranslation } from "react-i18next";
 import SvgBottom from "../../files/contactMe/svg-bottom.png";
 
 function ContactMe() {
-  const { t } = useTranslation(
-    "translation",
-    { keyPrefix: "contactMe" },
-    { useSuspense: false }
-  );
+  const { t } = useTranslation("translation");
   // const [formData, setFormData] = useState({
   //   senderEmail: "",
   //   emailAddress: "",
@@ -52,22 +48,22 @@ function ContactMe() {
     <div id="contact" className="contact-me">
       <div className="contact-me__info ">
         <div className="contact-me__info__title mb-5">
-          <strong className="fs-1 mb-2">{t("mainTitle")}</strong>
+          <strong className="fs-1 mb-2">{t("contactMe.mainTitle")}</strong>
         </div>
         <div className="mb-3">
           <Phone className="me-2" />
-          <strong>{t("phone")}</strong>
+          <strong>{t("contactMe.phone")}</strong>
         </div>
         <div className="mb-3">
           <Envelope className="me-2" />
-          <strong>{t("email")}</strong>
+          <strong>{t("contactMe.email")}</strong>
         </div>
         <div className="mb-3">
           <House className="me-2" />
-          <strong>{t("location")}</strong>
+          <strong>{t("contactMe.location")}</strong>
         </div>
         <div className="contact-me__info__btn mt-4">
-          <div className="mb-3 fs-5">{t("socialTitle")}</div>
+          <div className="mb-3 fs-5">{t("contactMe.socialTitle")}</div>
           <a
             href="https://www.linkedin.com/in/yasaman-behnam-malekzadeh/"
             target="_blank"

@@ -2,7 +2,7 @@
   "home": {
     "title": "home",
     "firstDescription": "Hallo, <br />Ich bin <strong>Yasaman</strong>",
-    "secondDescription": "Wenn Sie einen Front-End-Ingenieur suchen<br /> der eine große Begeisterung für die Übersetzung<br/> von UI-Konzepten hat<br /> in optisch interessant <br />ein scharfes Auge für jeden Fehler <strong>Ich bin hier. </strong>",
+    "secondDescription": "Wenn Sie einen Front-End-Ingenieur suchen,<br /> der eine große Begeisterung für die Übersetzung,<br/> von UI-Konzepten hat,<br /> in optisch interessant, <br />ein gutes Gespür für die Koordination mit Design<strong> Ich bin hier. </strong>",
     "location": "Basierend auf Berlin",
     "position": "Front-end Ingenieurin",
     "btnName": "Kontaktiere mich",
@@ -10,10 +10,10 @@
   },
   "aboutMe": {
     "title": "Über mich",
-    "description": "<br />Ich habe vier Jahre lang als Testingenieur angefangen und dabei verschiedene Arten von Tests angewendet, beispielsweise <strong>Unit-Tests</strong> und <strong>End-to-End tests</strong>. Diese Erfahrungen haben mir geholfen, einen scharfen Blick fürs Detail zu entwickeln. <br /> Danach interessierte ich mich für die Frontend-Entwicklung. Ich habe etwas über <strong>React</strong> und <strong>Vue.js</strong>, gelernt und in meinem ersten Job als Front-End-Entwickler habe ich mit Vue.js über 20 Seiten für Mobil- und Desktop-Anzeigen erstellt , SASS, BEM und Bootstrap-Vue. <br /> Später habe ich mit React, Axios, TypeScript und Styled-Components an Projekten in Europa gearbeitet. <br /> Ich habe mit vielen Teammitgliedern zusammengearbeitet und mochte die Zusammenarbeit mit <strong>Agilen Methoden</strong> und <strong>Scrum</strong>. <br /> Ich bin fest davon überzeugt, dass Tools wichtig sind, aber es ist noch wichtiger, sich für das Lernen zu begeistern. Das ist es, was sowohl Unternehmen als auch Entwicklern beim Wachstum hilft."
+    "description": "<br/>Ich habe als Testingenieur angefangen und dort wurden verschiedene Arten von Tests wie <strong>Unit-Tests</strong>, <strong>End-to-End-Tests</strong> und <strong>Integrationstests eingesetzt</strong>.Diese Erfahrungen haben mir geholfen, einen scharfen Blick für Details und auch für das, was für Endbenutzer wichtig ist, zu entwickeln.<br />Als ich mehr über die Frontend-Entwicklung lernte und mich damit beschäftigte, weckten <strong>React</strong> und <strong>Vue.js</strong> mein Interesse.In der ersten Front-End-Entwicklerrolle wurden über 20 Seiten sowohl für mobile als auch für Desktop-Anzeigen mit Vue.js, SASS, BEM und Bootstrap-Vue erstellt.<br /> Später habe ich mit React, Axios, TypeScript und Styled-Components an Projekten in Europa gearbeitet.<br />Ich habe mit zahlreichen Teams in Umgebungen zusammengearbeitet, in denen <strong> Agile Methoden</strong> und <strong>Scrum</strong> zum Einsatz kamen. <br /> Ich bin fest davon überzeugt, dass Werkzeuge wichtig sind, aber noch wichtiger ist es, mit Begeisterung beim Lernen zu sein. Diese Begeisterung trägt zum Wachstum von Unternehmen und Entwicklern bei.."
   },
   "contactMe": {
-    "title": "kontaktiere mich",
+    "title": "kontaktiere",
     "mainTitle": "In Kontakt kommen!",
     "phone": "+4917675408446",
     "emailNameTitle": "Ihr Name",
