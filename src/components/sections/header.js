@@ -4,6 +4,9 @@ import { Navbar, Nav, Offcanvas } from "react-bootstrap";
 import Scrollspy from "react-scrollspy";
 import { List } from "react-bootstrap-icons";
 import navbarItems from "../../data/navbarItems.json";
+import { Link as ScrollLink } from "react-scroll";
+import FlagOfGermany from "../../files/header/Flag_of_Germany.png";
+import FlagOfTheUK from "../../files/header/Flag_of_the_United_Kingdom.png";
 
 function Header() {
   const { t, i18n } = useTranslation("header");
@@ -54,21 +57,23 @@ function Header() {
                 >
                   {navbarItems.map((item) => {
                     return (
-                      <Nav.Link
+                      <ScrollLink
                         className="menu-list__item nav-link mb-3"
-                        href={`#${item.address}`}
+                        to={item.address}
+                        smooth={true}
+                        duration={100}
                         key={item.id}
                         onClick={() => setShowMenu(false)}
                       >
                         {t(item.name)}
-                      </Nav.Link>
+                      </ScrollLink>
                     );
                   })}
                 </Scrollspy>
                 <Nav className="menu-language">
                   <Nav.Link onClick={() => changeLanguage("en")}>
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png"
+                      src={FlagOfTheUK}
                       alt={t("English")}
                       height="30px"
                       width="40px"
@@ -77,7 +82,7 @@ function Header() {
                   </Nav.Link>
                   <Nav.Link onClick={() => changeLanguage("de")}>
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png"
+                      src={FlagOfGermany}
                       alt={t("Deutsch")}
                       height="30px"
                       width="40px"
@@ -122,13 +127,15 @@ function Header() {
               >
                 {navbarItems.map((item) => {
                   return (
-                    <Nav.Link
+                    <ScrollLink
                       className="menu-list__item nav-link me-3 p-2"
-                      href={`#${item.address}`}
+                      to={item.address}
+                      smooth={true}
+                      duration={100}
                       key={item.id}
                     >
                       {t(item.name)}
-                    </Nav.Link>
+                    </ScrollLink>
                   );
                 })}
               </Scrollspy>
@@ -136,7 +143,7 @@ function Header() {
               <Nav className="menu-language">
                 <Nav.Link onClick={() => changeLanguage("en")}>
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png"
+                    src={FlagOfTheUK}
                     alt={t("English")}
                     height="30px"
                     width="40px"
@@ -145,7 +152,7 @@ function Header() {
                 </Nav.Link>
                 <Nav.Link onClick={() => changeLanguage("de")}>
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png"
+                    src={FlagOfGermany}
                     alt={t("Deutsch")}
                     height="30px"
                     width="40px"

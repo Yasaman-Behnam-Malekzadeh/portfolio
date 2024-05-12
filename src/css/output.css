@@ -31,6 +31,9 @@
 .header-section__wrapped__menu .menu-list__item {
   color: #6b0f29;
 }
+.header-section__wrapped__menu .menu-list__item:hover {
+  cursor: pointer;
+}
 .header-section__wrapped__menu .menu-list__item.active {
   border-bottom: 2px solid #6b0f29;
 }

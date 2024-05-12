@@ -30,6 +30,9 @@
         }
         &__item {
           color: $dark-red;
+          &:hover {
+            cursor: pointer;
+          }
 
           &.active {
             border-bottom: 2px solid $dark-red;
