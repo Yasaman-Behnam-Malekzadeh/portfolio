@@ -5,7 +5,7 @@ import experiences from "../../data/experiences.json";
 import educations from "../../data/education.json";
 
 function ExperiencesAndEducations() {
-  const { t } = useTranslation();
+  const { t } = useTranslation("experiencesEducations");
 
   return (
     <div id="experience-education" className="experiences-educations">

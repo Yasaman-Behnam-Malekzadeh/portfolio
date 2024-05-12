@@ -15,13 +15,19 @@ i18n
       escapeValue: false,
     },
 
+    whitelist: ["en", "de"],
+
     react: {
-      wait: true,
-      useSuspense: false,
+      bindI18n: "languageChanged",
+      bindI18nStore: "",
+      transEmptyNodeValue: "",
+      transSupportBasicHtmlNodes: true,
+      transKeepBasicHtmlNodesFor: ["br", "strong", "i"],
+      useSuspense: true,
     },
 
     backend: {
-      loadPath: "/locales/{{lng}}/translation.json",
+      loadPath: "/locales/{{lng}}/translations.json",
     },
   });
 

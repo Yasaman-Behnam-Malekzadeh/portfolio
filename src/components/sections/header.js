@@ -6,7 +6,7 @@ import { List } from "react-bootstrap-icons";
 import navbarItems from "../../data/navbarItems.json";
 
 function Header() {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation("header");
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 

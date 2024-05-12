@@ -5,7 +5,7 @@ import Portfolio from "./portfolio";
 
 function Skills() {
   const [showMore, setShowMore] = useState(true);
-  const { t } = useTranslation("skills");
+  const { t } = useTranslation("skills", { keyPrefix: "" });
 
   return (
     <div id="skills" className="skills">

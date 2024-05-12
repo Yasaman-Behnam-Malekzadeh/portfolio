@@ -3,7 +3,7 @@ import { Github } from "react-bootstrap-icons";
 import project from "../../data/project.json";
 
 function Portfolio() {
-  const { t } = useTranslation();
+  const { t } = useTranslation("portfolio");
   return (
     <div id="portfolio" className="portfolio">
       <div className="portfolio__title fs-3 mt-5">{t("projects.title")}:</div>
@@ -15,12 +15,12 @@ function Portfolio() {
             href={item.websiteAddress}
           >
             <img
-              class="card-img"
+              className="card-img"
               src={item.imgAddress}
               alt={`${t(item.name)}-overview`}
             />
             <div className="card-body card-details">
-              <h5 class="card-title">{t(item.name)}</h5>
+              <h5 className="card-title">{t(item.name)}</h5>
               <div className="card-text card-details__describe mb-3">
                 {t(item.description)}
               </div>

@@ -4,66 +4,70 @@ import { House } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
 import { Github } from "react-bootstrap-icons";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+// import { useState } from "react";
 
 import SvgBottom from "../../files/contactMe/svg-bottom.png";
 
 function ContactMe() {
-  const { t } = useTranslation("contact me");
-  const [formData, setFormData] = useState({
-    senderEmail: "",
-    emailAddress: "",
-    emailTopic: "",
-    message: "",
-  });
+  const { t } = useTranslation(
+    "translation",
+    { keyPrefix: "contactMe" },
+    { useSuspense: false }
+  );
+  // const [formData, setFormData] = useState({
+  //   senderEmail: "",
+  //   emailAddress: "",
+  //   emailTopic: "",
+  //   message: "",
+  // });
 
-  const handleChange = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-    setFormData({ [name]: value });
-  };
+  // const handleChange = (e) => {
+  //   const name = e.target.name;
+  //   const value = e.target.value;
+  //   setFormData({ [name]: value });
+  // };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
 
-    try {
-      const response = await fetch("/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        console.log("Email sent successfully");
-      } else {
-        console.error("Failed to send email");
-      }
-    } catch (error) {
-      console.error("Error sending email:", error);
-    }
-  };
+  //   try {
+  //     const response = await fetch("/send-email", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify(formData),
+  //     });
+  //     if (response.ok) {
+  //       console.log("Email sent successfully");
+  //     } else {
+  //       console.error("Failed to send email");
+  //     }
+  //   } catch (error) {
+  //     console.error("Error sending email:", error);
+  //   }
+  // };
 
   return (
     <div id="contact" className="contact-me">
-      <din className="contact-me__info ">
+      <div className="contact-me__info ">
         <div className="contact-me__info__title mb-5">
-          <strong className="fs-1 mb-2">{t("contactMe.mainTitle")}</strong>
+          <strong className="fs-1 mb-2">{t("mainTitle")}</strong>
         </div>
         <div className="mb-3">
           <Phone className="me-2" />
-          <strong>{t("contactMe.phone")}</strong>
+          <strong>{t("phone")}</strong>
         </div>
         <div className="mb-3">
           <Envelope className="me-2" />
-          <strong>{t("contactMe.email")}</strong>
+          <strong>{t("email")}</strong>
         </div>
         <div className="mb-3">
           <House className="me-2" />
-          <strong>{t("contactMe.location")}</strong>
+          <strong>{t("location")}</strong>
         </div>
         <div className="contact-me__info__btn mt-4">
-          <div className="mb-3 fs-5">{t("contactMe.socialTitle")}</div>
+          <div className="mb-3 fs-5">{t("socialTitle")}</div>
           <a
             href="https://www.linkedin.com/in/yasaman-behnam-malekzadeh/"
             target="_blank"
@@ -81,14 +85,14 @@ function ContactMe() {
             <Github />
           </a>
         </div>
-      </din>
-      <form onSubmit={handleSubmit} className="contact-me__form">
+      </div>
+      {/* <form onSubmit={handleSubmit} className="contact-me__form">
         <input
           type="text"
           name="senderEmail"
           value={formData.senderName}
           onChange={handleChange}
-          placeholder={t("contactMe.emailNameTitle")}
+          placeholder={t("emailNameTitle")}
           className="p-3 form-control mb-3"
         />
         <input
@@ -96,7 +100,7 @@ function ContactMe() {
           name="emailAddress"
           value={formData.emailAddress}
           onChange={handleChange}
-          placeholder={t("contactMe.emailTitle")}
+          placeholder={t("emailTitle")}
           className="p-3 form-control mb-3"
         />
         <input
@@ -104,20 +108,20 @@ function ContactMe() {
           name="emailTopic"
           value={formData.emailTopic}
           onChange={handleChange}
-          placeholder={t("contactMe.emailSubject")}
+          placeholder={t("emailSubject")}
           className="p-3 form-control mb-3"
         />
         <textarea
           value={formData.message}
           name="message"
           onChange={handleChange}
-          placeholder={t("contactMe.emailMessage")}
+          placeholder={t("emailMessage")}
           className="p-3 form-control mb-3"
         ></textarea>
         <button type="submit" className="btn px-5">
-          {t("contactMe.btnSubmit")}
+          {t("btnSubmit")}
         </button>
-      </form>
+      </form> */}
       <img className="contact-me__svg" src={SvgBottom} alt="wave" />
     </div>
   );
