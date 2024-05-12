@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 
 function CardItem({
   name,
@@ -36,14 +36,16 @@ function CardItem({
           <div className="card-text">
             {t(start_date)} - {t(end_date)}
           </div>
-          <div className="card-text card-item__body__description">
-            {isReadMore ? t(description).slice(0, 200) : t(description)}
-            {t(description).length > 150 && (
-              <span onClick={toggleReadMore}>
-                {isReadMore ? "...read more" : " ...show less"}
-              </span>
-            )}
-          </div>
+          <Trans>
+            <div className="card-text card-item__body__description mb-2">
+              {isReadMore ? t(description).slice(0, 130) : t(description)}
+              {t(description).length > 50 && (
+                <span onClick={toggleReadMore} className="more">
+                  {isReadMore ? " ...read more" : " ...show less"}
+                </span>
+              )}
+            </div>
+          </Trans>
           <div className="card-item__body__skills-btn">
             {t(skills) !== "" && (
               <div>

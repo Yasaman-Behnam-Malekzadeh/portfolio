@@ -504,6 +504,9 @@
   color: #6b0f29;
   font-weight: bold;
 }
+.card-item__body__description .more {
+  cursor: pointer;
+}
 .card-item__body__skills-btn .buttons {
   display: flex;
   justify-content: flex-end;

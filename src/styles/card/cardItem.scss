@@ -21,6 +21,11 @@
       color: $dark-red;
       font-weight: bold;
     }
+    &__description {
+      .more {
+        cursor: pointer;
+      }
+    }
     &__skills-btn {
       .buttons {
         display: flex;
