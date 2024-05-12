@@ -5,12 +5,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 120px;
   &__title {
     color: $dark-red;
   }
 
   &__cards {
-    margin-top: 50px;
+    margin-top: 30px;
     @include flex-around;
     flex-wrap: wrap;
     &__item {

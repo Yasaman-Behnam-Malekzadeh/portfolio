@@ -13,7 +13,7 @@
     "name": "projects.applications.name",
     "technologies": ["React", "Bootstrap", "Axios", "SCSS"],
     "imgAddress": "https://i.ibb.co/6vVwb7p/Screenshot-2024-05-11-at-12-34-18.png",
-    "websiteAddress": "#",
+    "websiteAddress": "https://application-list.yasaman.dev",
     "githubAddress": "https://github.com/Yasaman-Behnam-Malekzadeh/demo-front-Probatix",
     "description": "projects.applications.description"
   },
@@ -22,7 +22,7 @@
     "name": "projects.githubUser.name",
     "technologies": ["React", "Bootstrap", "Axios", "React-Bootstrap", "SCSS"],
     "imgAddress": "https://i.ibb.co/LJ8BwdW/Screenshot-2024-05-11-at-12-44-32.png",
-    "websiteAddress": "#",
+    "websiteAddress": "https://github-user.yasaman.dev",
     "githubAddress": "https://github.com/Yasaman-Behnam-Malekzadeh/ReactProject1-GithubUser",
     "description": "projects.githubUser.description"
   }

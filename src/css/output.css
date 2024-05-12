@@ -275,12 +275,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 120px;
 }
 .portfolio__title {
   color: #6b0f29;
 }
 .portfolio__cards {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -371,7 +372,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #edcdbb;
-  padding: 130px 0;
+  padding: 140px 0;
 }
 @media (max-width: 1200px) {
   .contact-me {
@@ -452,7 +453,7 @@
 }
 
 .copyright {
-  height: 35px;
+  height: 40px;
   background-color: #6b0f29;
 }
 .copyright__text {
