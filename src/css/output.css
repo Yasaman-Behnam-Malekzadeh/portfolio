@@ -19,6 +19,7 @@
 .header-section__wrapped__menu .menu-list {
   display: flex;
   margin: 0;
+  padding: 0;
   text-decoration: none;
   color: #6b0f29;
 }
@@ -95,7 +96,7 @@
 }
 @media (max-width: 380px) {
   .home-section {
-    height: 850px;
+    height: 950px;
   }
 }
 @media (max-width: 1200px) {
@@ -144,6 +145,16 @@
   .home-section__right {
     width: 80%;
     height: 35%;
+  }
+}
+@media (max-width: 440px) {
+  .home-section__right {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .home-section__right {
+    padding-top: 30px;
   }
 }
 .home-section__right__background {
