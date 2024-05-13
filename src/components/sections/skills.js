@@ -1,7 +1,7 @@
 import { useState } from "react";
 import skills from "../../data/skills.json";
 import { useTranslation } from "react-i18next";
-import Portfolio from "./portfolio";
+// import Portfolio from "./portfolio";
 
 function Skills() {
   const [showMore, setShowMore] = useState(true);
@@ -44,7 +44,7 @@ function Skills() {
         </button>
       </div>
 
-      <Portfolio />
+      {/* <Portfolio /> */}
     </div>
   );
 }

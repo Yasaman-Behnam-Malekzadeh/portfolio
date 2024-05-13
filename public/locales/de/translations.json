@@ -1,16 +1,16 @@
 {
   "home": {
-    "title": "home",
+    "title": "Startseite",
     "firstDescription": "Hallo, <br />Ich bin <strong>Yasaman</strong>",
-    "secondDescription": "Wenn Sie einen Front-End-Ingenieur suchen,<br /> der eine große Begeisterung für die Übersetzung,<br/> von UI-Konzepten hat,<br /> in optisch interessant, <br />ein gutes Gespür für die Koordination mit Design<strong> Ich bin hier. </strong>",
+    "secondDescription": "Wenn Sie einen Frontend-Ingenieur suchen,<br /> der eine große Begeisterung für die Übersetzung,<br/> von UI-Konzepten hat,<br /> in optisch interessant, <br />ein gutes Gespür für die Koordination mit Design<strong> Ich bin hier. </strong>",
     "location": "Basierend auf Berlin",
-    "position": "Front-end Ingenieurin",
+    "position": "Frontend Ingenieurin",
     "btnName": "Kontaktiere mich",
     "downloadResume": "Lebenslauf herunterladen"
   },
   "aboutMe": {
     "title": "Über mich",
-    "description": "<br/>Ich habe als Testingenieur angefangen und dort wurden verschiedene Arten von Tests wie <strong>Unit-Tests</strong>, <strong>End-to-End-Tests</strong> und <strong>Integrationstests eingesetzt</strong>.Diese Erfahrungen haben mir geholfen, einen scharfen Blick für Details und auch für das, was für Endbenutzer wichtig ist, zu entwickeln.<br />Als ich mehr über die Frontend-Entwicklung lernte und mich damit beschäftigte, weckten <strong>React</strong> und <strong>Vue.js</strong> mein Interesse.In der ersten Front-End-Entwicklerrolle wurden über 20 Seiten sowohl für mobile als auch für Desktop-Anzeigen mit Vue.js, SASS, BEM und Bootstrap-Vue erstellt.<br /> Später habe ich mit React, Axios, TypeScript und Styled-Components an Projekten in Europa gearbeitet.<br />Ich habe mit zahlreichen Teams in Umgebungen zusammengearbeitet, in denen <strong> Agile Methoden</strong> und <strong>Scrum</strong> zum Einsatz kamen. <br /> Ich bin fest davon überzeugt, dass Werkzeuge wichtig sind, aber noch wichtiger ist es, mit Begeisterung beim Lernen zu sein. Diese Begeisterung trägt zum Wachstum von Unternehmen und Entwicklern bei.."
+    "description": "<br/>Ich habe als Testingenieur angefangen und dort wurden verschiedene Arten von Tests wie <strong>Unit-Tests</strong>, <strong>End-to-End-Tests</strong> und <strong>Integrationstests eingesetzt</strong>.Diese Erfahrungen haben mir geholfen, einen scharfen Blick für Details und auch für das, was für Endbenutzer wichtig ist, zu entwickeln.<br />Als ich mehr über die Frontend-Entwicklung lernte und mich damit beschäftigte, weckten <strong>React</strong> und <strong>Vue.js</strong> mein Interesse.In der ersten Frontend-Entwicklerrolle wurden über 20 Seiten sowohl für mobile als auch für Desktop-Anzeigen mit Vue.js, SASS, BEM und Bootstrap-Vue erstellt.<br /> Später habe ich mit React, Axios, TypeScript und Styled-Components an Projekten in Europa gearbeitet.<br />Ich habe mit zahlreichen Teams in Umgebungen zusammengearbeitet, in denen <strong> Agile Methoden</strong> und <strong>Scrum</strong> zum Einsatz kamen. <br /> Ich bin fest davon überzeugt, dass Werkzeuge wichtig sind, aber noch wichtiger ist es, mit Begeisterung beim Lernen zu sein. Diese Begeisterung trägt zum Wachstum von Unternehmen und Entwicklern bei.."
   },
   "contactMe": {
     "title": "kontaktiere",
@@ -36,10 +36,10 @@
     "title": "Arbeitserfahrungen",
     "ventureLeap": {
       "name": "Venture Leap",
-      "position": "Front end Ingenieur",
+      "position": "Frontend Ingenieur",
       "startDate": "Oktober2022",
       "endDate": "Februar 2023",
-      "description": "Als Mitglied des Cockpit-Projekts von Probatix habe ich zur Entwicklung einer hochmodernen Laborverwaltungslösung beigetragen. Ich habe den Fronten-Teil des Cockpit-Dashboards entwickelt und gepflegt und dabei eng mit funktionsübergreifenden Teams zusammengearbeitet, um eine nahtlose Integration und eine benutzerfreundliche Oberfläche sicherzustellen. Durch Codeüberprüfungen und Fehlerbehebung habe ich eine Kultur von qualitativ hochwertigem Code und kontinuierlicher Verbesserung gefördert.",
+      "description": "Als Mitglied des Cockpit-Projekts von Probatix habe ich zur Entwicklung einer hochmodernen Laborverwaltungslösung beigetragen. Ich habe den Frontend-Teil des Cockpit-Dashboards entwickelt und gepflegt und dabei eng mit funktionsübergreifenden Teams zusammengearbeitet, um eine nahtlose Integration und eine benutzerfreundliche Oberfläche sicherzustellen. <br/> Durch Codeüberprüfungen und Fehlerbehebung habe ich eine Kultur von qualitativ hochwertigem Code und kontinuierlicher Verbesserung gefördert. <br /> Das Team bestand aus einem DevOps-Ingenieur, drei Backend-Entwicklern, einem Scrum-Master und einer Qualitätssicherung.",
       "linkedinAddress": "https://www.linkedin.com/company/venture-leap/?originalSubdomain=de",
       "websiteAddress": "https://venture-leap.com/en/",
       "logoAddress": "https://media.licdn.com/dms/image/C4D0BAQHqiRpPeUQ5vg/company-logo_200_200/0/1641991331248/venture_leap_logo?e=2147483647&v=beta&t=0S0gP-yBbX82vQryUatiKUCzFstbpGYqEKro5ECJM8g",
@@ -47,10 +47,10 @@
     },
     "Lastsecond": {
       "name": "Lastsecond",
-      "position": "Front end Ingenieur",
+      "position": "Frontend Ingenieur",
       "startDate": "Januar 2021",
       "endDate": "März 2022",
-      "description": "Als Frontend-Entwickler bei LastSecond.ir habe ich die Website des Unternehmens erfolgreich überarbeitet und Vue.js und Sass implementiert, um eine mobile und Desktop-Version zu erstellen. freundliches Design. Dieses Projekt umfasste das Neuschreiben der Hauptseiten für Touren, Hotels, Flüge, Reiserouten, Blogs, Restaurants, Videos und Attraktionen. Durch effektive Kommunikation und Zusammenarbeit mit Backend-Entwicklern, UI/UX-Designern und dem Produktmanager stellte ich die Übereinstimmung mit den Projektzielen sicher.",
+      "description": "Als Frontend-Entwickler bei LastSecond.ir habe ich die Website des Unternehmens erfolgreich überarbeitet und Vue.js und Sass implementiert, um eine mobile und Desktop-Version zu erstellen. <br/> Freundliches Design. Dieses Projekt umfasste das Umschreiben der Hauptseiten für Touren, Hotels, Flüge, Reiserouten, Blogs, Restaurants, Videos und Attraktionen für Desktop und Mobilgeräte. <br/> Durch effektive Kommunikation und Zusammenarbeit mit Backend-Entwicklern, UI/UX-Designern und dem Produktmanager stellte ich die Übereinstimmung mit den Projektzielen sicher.",
       "linkedinAddress": "https://www.linkedin.com/company/lastsecond/?originalSubdomain=ir",
       "websiteAddress": "https://lastsecond.ir/",
       "logoAddress": "https://pbs.twimg.com/profile_images/1230005817832886272/raLLVHAj_400x400.jpg",
@@ -64,7 +64,7 @@
       "description": "Als manueller Tester bei Chargoon testete ich drei Plattformen mit TFS und arbeitete mit einem Team von mehr als 10 Entwicklern, 3 Scrum Mastern und 2 Testingenieuren für effiziente Tests zusammen.",
       "linkedinAddress": "https://www.linkedin.com/company/chargoon/",
       "websiteAddress": "https://www.chargoon.com/",
-      "logoAddress": "https://yt3.googleusercontent.com/ytc/AIdro_l_JUvw77W0OYlx5PQPBoCtYE828mhGf_X13kVy=s900-c-k-c0x00ffffff-no-rj",
+      "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacszHRS5oVtwErQ8TDlJ0LEFHT5xpi9oe6vl3ZeL_Fw&s",
       "skills": "TFS - Unit testing - End to End testing - Integration test - Scrum "
     }
   },
