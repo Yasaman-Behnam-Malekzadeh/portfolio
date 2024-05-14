@@ -78,7 +78,8 @@
       "description": "Iran University of Science and Technology",
       "linkedinAddress": "https://www.linkedin.com/company/iran-university-of-science-and-technology---iust/",
       "websiteAddress": "https://www.iust.ac.ir/en",
-      "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS-vOLKUHqfArZL-lQREZyA7GawqfIQQD8d-U-ixSQx4wLJt8-ndf_nj5QUW9TGSeIKEo&usqp=CAU"
+      "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS-vOLKUHqfArZL-lQREZyA7GawqfIQQD8d-U-ixSQx4wLJt8-ndf_nj5QUW9TGSeIKEo&usqp=CAU",
+      "skills": ""
     },
     "bachelor": {
       "name": "Information Technology",
@@ -88,7 +89,8 @@
       "description": "K . N . Toosi University of Technology",
       "linkedinAddress": "https://www.linkedin.com/school/kntoosi/?originalSubdomain=ir",
       "websiteAddress": "https://en.kntu.ac.ir/",
-      "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ1yWlcro0afcO0XN3HFcgg32ILkzRWOJejJyhOo5Zrw&s"
+      "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ1yWlcro0afcO0XN3HFcgg32ILkzRWOJejJyhOo5Zrw&s",
+      "skills": ""
     }
   },
   "projects": {

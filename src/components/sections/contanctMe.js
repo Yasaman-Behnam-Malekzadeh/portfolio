@@ -4,54 +4,54 @@ import { House } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
 import { Github } from "react-bootstrap-icons";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+// import { useState } from "react";
 
 import SvgBottom from "../../files/contactMe/svg-bottom.png";
 
 function ContactMe() {
   const { t } = useTranslation("translation");
-  const [formData, setFormData] = useState({
-    senderEmail: "",
-    emailAddress: "",
-    emailTopic: "",
-    message: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   senderEmail: "",
+  //   emailAddress: "",
+  //   emailTopic: "",
+  //   message: "",
+  // });
 
-  const handleChange = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-    setFormData((prevFormData) => ({
-      ...prevFormData,
-      [name]: value,
-    }));
-  };
+  // const handleChange = (e) => {
+  //   const name = e.target.name;
+  //   const value = e.target.value;
+  //   setFormData((prevFormData) => ({
+  //     ...prevFormData,
+  //     [name]: value,
+  //   }));
+  // };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await fetch("/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        console.log("Email sent successfully");
-      } else {
-        console.error("Failed to send email");
-      }
-    } catch (error) {
-      console.error("Error sending email:", error);
-    }
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     const response = await fetch("/send-email", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify(formData),
+  //     });
+  //     if (response.ok) {
+  //       console.log("Email sent successfully");
+  //     } else {
+  //       console.error("Failed to send email");
+  //     }
+  //   } catch (error) {
+  //     console.error("Error sending email:", error);
+  //   }
 
-    setFormData({
-      senderEmail: "",
-      emailAddress: "",
-      emailTopic: "",
-      message: "",
-    });
-  };
+  //   setFormData({
+  //     senderEmail: "",
+  //     emailAddress: "",
+  //     emailTopic: "",
+  //     message: "",
+  //   });
+  // };
 
   return (
     <div id="contact" className="contact-me">
@@ -91,35 +91,39 @@ function ContactMe() {
           </a>
         </div>
       </div>
-      <form onSubmit={handleSubmit} className="contact-me__form">
+      <form
+        data-static-form-name="contact"
+        // onSubmit={handleSubmit}
+        className="contact-me__form"
+      >
         <input
           type="text"
           name="senderEmail"
-          value={formData.senderEmail}
-          onChange={handleChange}
+          // value={formData.senderEmail}
+          // onChange={handleChange}
           placeholder={t("contactMe.emailNameTitle")}
           className="p-3 form-control mb-3"
         />
         <input
           type="email"
           name="emailAddress"
-          value={formData.emailAddress}
-          onChange={handleChange}
+          // value={formData.emailAddress}
+          // onChange={handleChange}
           placeholder={t("contactMe.emailTitle")}
           className="p-3 form-control mb-3"
         />
         <input
           type="text"
           name="emailTopic"
-          value={formData.emailTopic}
-          onChange={handleChange}
+          // value={formData.emailTopic}
+          // onChange={handleChange}
           placeholder={t("contactMe.emailSubject")}
           className="p-3 form-control mb-3"
         />
         <textarea
-          value={formData.message}
+          // value={formData.message}
           name="message"
-          onChange={handleChange}
+          // onChange={handleChange}
           placeholder={t("contactMe.emailMessage")}
           className="p-3 form-control mb-3"
         ></textarea>
