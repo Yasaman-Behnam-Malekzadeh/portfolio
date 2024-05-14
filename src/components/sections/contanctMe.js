@@ -82,42 +82,46 @@ function ContactMe() {
           </a>
         </div>
       </div>
-      {/* <form onSubmit={handleSubmit} className="contact-me__form">
+      <form
+        // onSubmit={handleSubmit}
+        className="contact-me__form"
+        data-static-form-name="contact"
+      >
         <input
           type="text"
           name="senderEmail"
-          value={formData.senderName}
-          onChange={handleChange}
+          // value={formData.senderName}
+          // onChange={handleChange}
           placeholder={t("emailNameTitle")}
           className="p-3 form-control mb-3"
         />
         <input
           type="email"
           name="emailAddress"
-          value={formData.emailAddress}
-          onChange={handleChange}
+          // value={formData.emailAddress}
+          // onChange={handleChange}
           placeholder={t("emailTitle")}
           className="p-3 form-control mb-3"
         />
         <input
           type="text"
           name="emailTopic"
-          value={formData.emailTopic}
-          onChange={handleChange}
+          // value={formData.emailTopic}
+          // onChange={handleChange}
           placeholder={t("emailSubject")}
           className="p-3 form-control mb-3"
         />
         <textarea
-          value={formData.message}
+          // value={formData.message}
           name="message"
-          onChange={handleChange}
+          // onChange={handleChange}
           placeholder={t("emailMessage")}
           className="p-3 form-control mb-3"
         ></textarea>
         <button type="submit" className="btn px-5">
           {t("btnSubmit")}
         </button>
-      </form> */}
+      </form>
       <img className="contact-me__svg" src={SvgBottom} alt="wave" />
     </div>
   );

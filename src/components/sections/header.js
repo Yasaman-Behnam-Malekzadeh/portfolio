@@ -33,7 +33,7 @@ function Header() {
         <Navbar className="navbar header-section fixed-top">
           <div className="header-section__wrapped container-md">
             <Nav.Link
-              href="#home"
+              href="https://yasaman.dev/"
               className="fs-3 header-section__wrapped__logo"
             >
               {"< Yasaman.dev />"}
