@@ -82,7 +82,7 @@ function ContactMe() {
           </a>
         </div>
       </div>
-      <form
+      {/* <form
         // onSubmit={handleSubmit}
         className="contact-me__form"
         data-static-form-name="contact"
@@ -121,7 +121,7 @@ function ContactMe() {
         <button type="submit" className="btn px-5">
           {t("btnSubmit")}
         </button>
-      </form>
+      </form> */}
       <img className="contact-me__svg" src={SvgBottom} alt="wave" />
     </div>
   );
