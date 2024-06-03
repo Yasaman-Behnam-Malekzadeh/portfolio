@@ -10,7 +10,7 @@
   },
   "aboutMe": {
     "title": "About me",
-    "description": "<br />I started as a test engineer and there various types of testing such as <strong>Unit testing</strong>, <strong>End-to-End testing</strong> and <strong>Intgration test </strong> were utilized. <br /> These experiences helped me develop a keen eye for details and also what is important for End users. <br />As I learned and delved deeper into Frontend development, <strong>React</strong> and <strong>Vue.js</strong> sparked my interest.<br /> In the first Frontend developer role, over 20 pages were crafted for both mobile and desktop displays using Vue.js, SASS, BEM, and Bootstrap-Vue. <br /> Later, I worked with React, Axios, TypeScript, and Styled-Components on projects in Europe. <br />I've collaborated with numerous teams in environments where <strong>Agile methodologies</strong> and <strong>Scrum</strong> were employed. <br />I firmly believe that tools are important, but it's even more important to be excited about learning.<br /> This enthusiasm contributes to the growth of both companies and developers."
+    "description": "<br />I began my journey as a test engineer, where I gained experience in various types of testing such as <strong>Unit testing</strong>, <strong>End-to-End testing</strong> and <strong>Intgration test </strong> were utilized. <br /> These experiences helped me develop a keen eye for details and also what is important for End users. <br />As I learned and delved deeper into Frontend development, <strong>React</strong> and <strong>Vue.js</strong> sparked my interest.<br /> In the first Frontend developer role, over 20 pages were crafted for both mobile and desktop displays using Vue.js, SASS, BEM, and Bootstrap-Vue. <br /> Later, I worked with React, Axios, TypeScript, and Styled-Components on projects in Europe. <br />Throughout my career, I've collaborated with numerous teams in environments where <strong>Agile methodologies</strong> and <strong>Scrum</strong> were employed. <br />I firmly believe that tools are important, it is even more crucial to maintain a passion for learning.<br /> This enthusiasm not only contributes to the growth of companies but also to the development of individual developers."
   },
   "contactMe": {
     "title": "Contact me",
@@ -70,6 +70,17 @@
   },
   "education": {
     "title": "Educations",
+    "coursea": {
+      "name": "Meta Front-End Developer",
+      "position": "Coursea",
+      "startDate": "January 2024",
+      "endDate": "May 2024",
+      "description": "Meta Course",
+      "linkedinAddress": "https://www.linkedin.com/in/yasaman-behnam-malekzadeh/details/certifications/",
+      "websiteAddress": "https://www.coursera.org/account/accomplishments/specialization/certificate/697CY3FTQTKT",
+      "logoAddress": "https://cdn.pixabay.com/photo/2021/12/14/22/29/meta-6871457_1280.png",
+      "skills": "React - Jest - Principles of UX/UI Design - Figma - Version control - Javascript - CSS - HTML5"
+    },
     "master": {
       "name": "Computer System Networking and Telecommunications",
       "position": "Master",

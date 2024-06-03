@@ -70,6 +70,17 @@
   },
   "education": {
     "title": "Ausbildung",
+    "coursea": {
+      "name": "Meta Front-End Developer",
+      "position": "Coursea",
+      "startDate": "Januar 2024",
+      "endDate": "Mai 2024",
+      "description": "Meta Course",
+      "linkedinAddress": "https://www.linkedin.com/in/yasaman-behnam-malekzadeh/details/certifications/",
+      "websiteAddress": "https://www.coursera.org/account/accomplishments/specialization/certificate/697CY3FTQTKT",
+      "logoAddress": "https://cdn.pixabay.com/photo/2021/12/14/22/29/meta-6871457_1280.png",
+      "skills": "React - Jest - Principles of UX/UI Design - Figma - Version control - Javascript - CSS - HTML5"
+    },
     "master": {
       "name": "Computersystemvernetzung und Telekommunikation",
       "position": "Meisterin",
