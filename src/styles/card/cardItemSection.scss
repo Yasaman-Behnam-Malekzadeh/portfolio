@@ -6,5 +6,8 @@
   }
   &__items {
     border-left: thick $dark-red solid;
+    @media (max-width: 700px) {
+      border-left: none;
+    }
   }
 }

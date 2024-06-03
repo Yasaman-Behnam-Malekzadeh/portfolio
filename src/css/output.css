@@ -498,6 +498,11 @@
   border: 1px solid #6b0f29 !important;
   box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
 }
+@media (max-width: 700px) {
+  .card-item {
+    margin: 0 0 50px 0 !important;
+  }
+}
 .card-item:before {
   content: "";
   position: absolute;
@@ -507,6 +512,11 @@
   height: 15px;
   background: #6b0f29;
   border-radius: 50%;
+}
+@media (max-width: 700px) {
+  .card-item:before {
+    content: none;
+  }
 }
 .card-item__body {
   position: relative;
@@ -550,6 +560,11 @@
 }
 .card-item-section__items {
   border-left: thick #6b0f29 solid;
+}
+@media (max-width: 700px) {
+  .card-item-section__items {
+    border-left: none;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */

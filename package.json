@@ -40,7 +40,8 @@
     "test": "react-scripts test",
     "coverage": "npm run test -- --coverage",
     "eject": "react-scripts eject",
-    "dev": "next dev"
+    "dev": "next dev",
+    "sass": "node-sass src/styles/input.scss src/css/output.css -w"
   },
   "eslintConfig": {
     "extends": [
@@ -64,7 +65,8 @@
     "@eslint/js": "^9.2.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
-    "globals": "^15.2.0"
+    "globals": "^15.2.0",
+    "node-sass": "^7.0.3"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "next.config.js",
