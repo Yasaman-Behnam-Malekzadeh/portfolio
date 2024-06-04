@@ -12,7 +12,7 @@
   },
   "aboutMe": {
     "title": "Über mich",
-    "description": "Ich begann meine Reise als Testingenieur, wo ich Erfahrungen in verschiedenen Testarten wie Unit-Tests, End-to-End-Tests und Integrationstests sammelte. Diese Erfahrungen halfen mir, ein scharfes Auge für Details und ein Verständnis dafür zu entwickeln, was für Endbenutzer wichtig ist.<br/> Als ich tiefer in die Frontend-Entwicklung eintauchte, weckten React und Vue.js mein Interesse. In meiner ersten Rolle als Frontend-Entwickler habe ich über 20 Seiten für mobile und Desktop-Displays mit Vue.js, SASS, BEM und Bootstrap-Vue entwickelt. Später entwickelte ich ein Dashboard für ein Online-Zahlungsunternehmen mit React, TypeScript, Styled-Components, Tailwind und Figma. Im Laufe meiner Karriere habe ich mit zahlreichen Teams in Umgebungen zusammengearbeitet, in denen agile Methoden und Scrum zum Einsatz kamen. <br /> Um meine React-Kenntnisse zu erweitern, nahm ich am Front-End-Developer-Zertifikatsprogramm von Meta teil, das unglaublich hilfreich war und meine Kenntnisse über Figma und andere Tools vertiefte. <br/> Ich bin der festen Überzeugung, dass Tools zwar wichtig sind, dass es aber noch wichtiger ist, eine Leidenschaft für das Lernen zu entwickeln. Diese Begeisterung trägt nicht nur zum Wachstum von Unternehmen bei, sondern auch zur Entwicklung der einzelnen Entwickler."
+    "description": "<br/>Ich begann meine Reise als Testingenieur, wo ich Erfahrungen in verschiedenen Testarten wie Unit-Tests, End-to-End-Tests und Integrationstests sammelte. Diese Erfahrungen halfen mir, ein scharfes Auge für Details und ein Verständnis dafür zu entwickeln, was für Endbenutzer wichtig ist.<br/> Als ich tiefer in die Frontend-Entwicklung eintauchte, weckten React und Vue.js mein Interesse. In meiner ersten Rolle als Frontend-Entwickler habe ich über 20 Seiten für mobile und Desktop-Displays mit Vue.js, SASS, BEM und Bootstrap-Vue entwickelt. Später entwickelte ich ein Dashboard für ein Online-Zahlungsunternehmen mit React, TypeScript, Styled-Components, Tailwind und Figma. Im Laufe meiner Karriere habe ich mit zahlreichen Teams in Umgebungen zusammengearbeitet, in denen agile Methoden und Scrum zum Einsatz kamen. <br /> Um meine React-Kenntnisse zu erweitern, nahm ich am Front-End-Developer-Zertifikatsprogramm von Meta teil, das unglaublich hilfreich war und meine Kenntnisse über Figma und andere Tools vertiefte. <br/> Ich bin der festen Überzeugung, dass Tools zwar wichtig sind, dass es aber noch wichtiger ist, eine Leidenschaft für das Lernen zu entwickeln. Diese Begeisterung trägt nicht nur zum Wachstum von Unternehmen bei, sondern auch zur Entwicklung der einzelnen Entwickler."
   },
   "contactMe": {
     "title": "kontaktiere",
@@ -38,7 +38,7 @@
     "title": "Arbeitserfahrungen",
     "zibal": {
       "name": "Zibal",
-      "position": "Frontend Ingenieur",
+      "position": "Front-End Ingenieur",
       "startDate": "Juni 2022",
       "endDate": "Jetzt",
       "description": "Zibal ist ein Online-Zahlungsunternehmen, das Finanz- und Zahlungslösungen für Unternehmen jeder Größe anbietet. Im Rahmen des Dashboard-Projekts von Zibal habe ich an der Erstellung von Dashboards mitgewirkt, mit denen Endbenutzer den Status von Finanztransaktionen überwachen und Berichte erstellen können. <br/> Ich war für die Entwicklung und Pflege des Frontend-Dashboards verantwortlich und arbeitete eng mit funktionsübergreifenden Teams zusammen, um eine nahtlose Integration und eine benutzerfreundliche Oberfläche zu gewährleisten. <br/> Durch die Durchführung von Code-Reviews und Fehlerbehebungen förderte ich eine Kultur des hochwertigen Codes und der kontinuierlichen Verbesserung.<br/>Das Team bestand aus einem DevOps-Ingenieur, drei Backend-Entwicklern, einem Scrum Master und einem QA-Spezialisten.",
@@ -49,7 +49,7 @@
     },
     "Lastsecond": {
       "name": "Lastsecond",
-      "position": "Frontend Ingenieur",
+      "position": "Front-End Ingenieur",
       "startDate": "Dezember 2020",
       "endDate": "March 2022",
       "description": "Ich habe als Frontend-Entwickler bei LastSecond.ir gearbeitet, einer persischen Hotel- und Flugreservierungswebsite. Zu meinen Aufgaben gehörte die Umgestaltung der Website des Unternehmens von einem veralteten Framework zu einem neuen, das Vue.js und Sass nutzte. Das Hauptziel bestand darin, ein mobiles und Desktop-freundliches Design zu schaffen. Ich musste die Hauptseiten für Touren, Hotels, Flüge, Reiserouten, Blogs, Restaurants, Videos und Attraktionen neu schreiben. <br/> Um sicherzustellen, dass das Projekt mit den Zielen übereinstimmte, arbeitete ich effektiv mit Backend-Entwicklern, UI/UX-Designern und dem Produktmanager zusammen. Dazu gehörte eine klare und konsistente Kommunikation während des gesamten Prozesses.",

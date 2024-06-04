@@ -1,6 +1,6 @@
 import CardItem from "./cardItem";
 
-function cardItemEducation({ info, title }) {
+function CardItemEducation({ info, title }) {
   return (
     <div className="card-item-section container pb-3">
       <div className="card-item-section__title fs-3 mb-5">{title}</div>
@@ -24,4 +24,4 @@ function cardItemEducation({ info, title }) {
   );
 }
 
-export default cardItemEducation;
+export default CardItemEducation;

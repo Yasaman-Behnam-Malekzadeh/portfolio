@@ -7,8 +7,8 @@
     "position": "Frontend engineer",
     "btnName": "Contact Me",
     "downloadResumeTooltip": "Download Resume",
-    "metaTooltip":"Meta Front-End developer certificate",
-    "figmaTooltip":"Portfolio Figma Plan"
+    "metaTooltip": "Meta Front-End developer certificate",
+    "figmaTooltip": "Portfolio Figma Plan"
   },
   "aboutMe": {
     "title": "About me",
@@ -38,7 +38,7 @@
     "title": "Work Experiences",
     "zibal": {
       "name": "Zibal",
-      "position": "Frontend engineer",
+      "position": "Front-End engineer",
       "startDate": "Jun 2022",
       "endDate": "Now",
       "description": "Zibal is an online payment company offering financial and payment solutions for businesses of all sizes. As part of Zibal's dashboard project, I contributed to creating dashboards that allow end users to monitor the status of financial transactions and generate reports.<br/> I was responsible for developing and maintaining the frontend dashboard, working closely with cross-functional teams to ensure seamless integration and a user-friendly interface.<br/>By conducting code reviews and troubleshooting, I promoted a culture of high-quality code and continuous improvement.<br/>The team comprised one DevOps engineer, three backend developers, one Scrum Master, and one QA specialist.",
@@ -49,7 +49,7 @@
     },
     "Lastsecond": {
       "name": "Lastsecond",
-      "position": "Frontend engineer",
+      "position": "Front-End engineer",
       "startDate": "December 2020",
       "endDate": "March 2022",
       "description": "Lastsecond is a website focused on travel and tourism in Iran. I worked as a front-end developer at LastSecond.ir, a Persian hotel and flight reservation website. My responsibilities included refactoring the company's website from an outdated framework to a new one that utilized Vue.js and Sass. The main aim was to create a mobile and desktop-friendly design. I had to rewrite the main pages for tours, hotels, flights, itineraries, blogs, restaurants, videos, and attractions. <br><br>To ensure the project aligned with the objectives, I collaborated effectively with backend developers, UI/UX designers, and the product manager. This involved clear and consistent communication throughout the process.",
