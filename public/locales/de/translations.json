@@ -34,22 +34,22 @@
   "experienceEducation": "Erfahrungen/Ausbildung",
   "experiences": {
     "title": "Arbeitserfahrungen",
-    "ventureLeap": {
-      "name": "Venture Leap",
+    "zibal": {
+      "name": "Zibal",
       "position": "Frontend Ingenieur",
-      "startDate": "Oktober2022",
-      "endDate": "Februar 2023",
-      "description": "Als Mitglied des Cockpit-Projekts von Probatix habe ich zur Entwicklung einer hochmodernen Laborverwaltungslösung beigetragen. <br /> Ich habe den Frontend-Teil des Cockpit-Dashboards entwickelt und gepflegt und dabei eng mit funktionsübergreifenden Teams zusammengearbeitet, um eine nahtlose Integration und eine benutzerfreundliche Oberfläche sicherzustellen. <br /> Durch Codeüberprüfungen und Fehlerbehebung habe ich eine Kultur von qualitativ hochwertigem Code und kontinuierlicher Verbesserung gefördert. <br />Das Team bestand aus einem DevOps-Ingenieur, drei Backend-Entwicklern, einem Scrum-Master und einer Qualitätssicherung.",
-      "linkedinAddress": "https://www.linkedin.com/company/venture-leap/?originalSubdomain=de",
-      "websiteAddress": "https://venture-leap.com/en/",
-      "logoAddress": "https://media.licdn.com/dms/image/C4D0BAQHqiRpPeUQ5vg/company-logo_200_200/0/1641991331248/venture_leap_logo?e=2147483647&v=beta&t=0S0gP-yBbX82vQryUatiKUCzFstbpGYqEKro5ECJM8g",
-      "skills": "React - TypeScript - CSS - HTML - Axios - Styled-component - GitHub - Figma - Symfony - Scrum"
+      "startDate": "Juni 2022",
+      "endDate": "Jetzt",
+      "description": "Zibal ist ein Online-Zahlungsunternehmen, das Finanz- und Zahlungslösungen für Unternehmen jeder Größe anbietet. Im Rahmen des Dashboard-Projekts von Zibal habe ich an der Erstellung von Dashboards mitgewirkt, mit denen Endbenutzer den Status von Finanztransaktionen überwachen und Berichte erstellen können. <br/> Ich war für die Entwicklung und Pflege des Frontend-Dashboards verantwortlich und arbeitete eng mit funktionsübergreifenden Teams zusammen, um eine nahtlose Integration und eine benutzerfreundliche Oberfläche zu gewährleisten. <br/> Durch die Durchführung von Code-Reviews und Fehlerbehebungen förderte ich eine Kultur des hochwertigen Codes und der kontinuierlichen Verbesserung.<br/>Das Team bestand aus einem DevOps-Ingenieur, drei Backend-Entwicklern, einem Scrum Master und einem QA-Spezialisten.",
+      "linkedinAddress": "https://www.linkedin.com/company/zibalco/",
+      "websiteAddress": "https://zibal.ir",
+      "logoAddress": "https://media.licdn.com/dms/image/C4D0BAQHi3aAtN3CRbQ/company-logo_200_200/0/1630576922514?e=2147483647&v=beta&t=9BXxKYTh0-HPcd5x_4O96Hqx-A-NAoOsZOLuQoSEuds",
+      "skills": "React - TypeScript - Next.js - Tailwind - GitHub - Figma - HTML5 - CSS"
     },
     "Lastsecond": {
       "name": "Lastsecond",
       "position": "Frontend Ingenieur",
-      "startDate": "Apr 2020",
-      "endDate": "Jul 2022",
+      "startDate": "Dezember 2020",
+      "endDate": "March 2022",
       "description": "Ich habe als Frontend-Entwickler bei LastSecond.ir gearbeitet, einer persischen Hotel- und Flugreservierungswebsite. Zu meinen Aufgaben gehörte die Umgestaltung der Website des Unternehmens von einem veralteten Framework zu einem neuen, das Vue.js und Sass nutzte. Das Hauptziel bestand darin, ein mobiles und Desktop-freundliches Design zu schaffen. Ich musste die Hauptseiten für Touren, Hotels, Flüge, Reiserouten, Blogs, Restaurants, Videos und Attraktionen neu schreiben. <br/> Um sicherzustellen, dass das Projekt mit den Zielen übereinstimmte, arbeitete ich effektiv mit Backend-Entwicklern, UI/UX-Designern und dem Produktmanager zusammen. Dazu gehörte eine klare und konsistente Kommunikation während des gesamten Prozesses.",
       "linkedinAddress": "https://www.linkedin.com/company/lastsecond/?originalSubdomain=ir",
       "websiteAddress": "https://lastsecond.ir/",

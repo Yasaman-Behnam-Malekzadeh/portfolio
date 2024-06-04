@@ -373,7 +373,7 @@
   background-color: #f8f3f0 !important;
   border: 1px solid #6b0f29 !important;
   box-shadow: 0 3px 6px 0 rgba(146, 119, 114, 0.42); }
-  @media (max-width: 700px) {
+  @media (max-width: 766px) {
     .card-item {
       margin: 0 0 50px 0 !important; } }
   .card-item:before {
@@ -385,7 +385,7 @@
     height: 15px;
     background: #6b0f29;
     border-radius: 50%; }
-    @media (max-width: 700px) {
+    @media (max-width: 766px) {
       .card-item:before {
         content: none; } }
   .card-item__body {
@@ -423,6 +423,6 @@
 
 .card-item-section__items {
   border-left: thick #6b0f29 solid; }
-  @media (max-width: 700px) {
+  @media (max-width: 766px) {
     .card-item-section__items {
       border-left: none; } }

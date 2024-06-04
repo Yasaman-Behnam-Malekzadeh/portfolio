@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "name": "experiences.ventureLeap.name",
-    "position": "experiences.ventureLeap.position",
-    "start_date": "experiences.ventureLeap.startDate",
-    "end_date": "experiences.ventureLeap.endDate",
-    "description": "experiences.ventureLeap.description",
-    "linkedin_address": "experiences.ventureLeap.linkedinAddress",
-    "website_address": "experiences.ventureLeap.websiteAddress",
-    "logo_address": "experiences.ventureLeap.logoAddress",
-    "skills": "experiences.ventureLeap.skills"
+    "name": "experiences.zibal.name",
+    "position": "experiences.zibal.position",
+    "start_date": "experiences.zibal.startDate",
+    "end_date": "experiences.zibal.endDate",
+    "description": "experiences.zibal.description",
+    "linkedin_address": "experiences.zibal.linkedinAddress",
+    "website_address": "experiences.zibal.websiteAddress",
+    "logo_address": "experiences.zibal.logoAddress",
+    "skills": "experiences.zibal.skills"
   },
   {
     "id": 2,

@@ -4,7 +4,7 @@
   background-color: $light-cream !important;
   border: 1px solid $dark-red !important;
   box-shadow: $box-shadow;
-  @media (max-width: 700px) {
+  @media (max-width: 766px) {
     margin: 0 0 50px 0 !important;
   }
 
@@ -17,7 +17,7 @@
     height: 15px;
     background: $dark-red;
     border-radius: 50%;
-    @media (max-width: 700px) {
+    @media (max-width: 766px) {
       content: none;
     }
   }

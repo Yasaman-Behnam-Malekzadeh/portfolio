@@ -34,34 +34,34 @@
   "experienceEducation": "Experiences/Educations",
   "experiences": {
     "title": "Work Experiences",
-    "ventureLeap": {
-      "name": "Venture Leap",
+    "zibal": {
+      "name": "Zibal",
       "position": "Frontend engineer",
-      "startDate": "October 2022",
-      "endDate": "February 2023",
-      "description": "As a member of Probatix's Cockpit project, I contributed to the development of a cutting-edge Lab administration solution. <br /> I developed and maintained the Frontend portion of the Cockpit dashboard, collaborating closely with cross-functional teams to ensure seamless integration and a user-friendly interface. <br /> Through code reviews and troubleshooting, I fostered a culture of high-quality code and continuous improvement. <br />Team included one devOps engineer, 3 backend developers, one Scrum master and one QA.",
-      "linkedinAddress": "https://www.linkedin.com/company/venture-leap/?originalSubdomain=de",
-      "websiteAddress": "https://venture-leap.com/en/",
-      "logoAddress": "https://media.licdn.com/dms/image/C4D0BAQHqiRpPeUQ5vg/company-logo_200_200/0/1641991331248/venture_leap_logo?e=2147483647&v=beta&t=0S0gP-yBbX82vQryUatiKUCzFstbpGYqEKro5ECJM8g",
-      "skills": "React - TypeScript - CSS - HTML - Axios - Styled-component - GitHub - Figma - Symfony - Scrum"
+      "startDate": "Jun 2022",
+      "endDate": "Now",
+      "description": "Zibal is an online payment company offering financial and payment solutions for businesses of all sizes. As part of Zibal's dashboard project, I contributed to creating dashboards that allow end users to monitor the status of financial transactions and generate reports.<br/> I was responsible for developing and maintaining the frontend dashboard, working closely with cross-functional teams to ensure seamless integration and a user-friendly interface.<br/>By conducting code reviews and troubleshooting, I promoted a culture of high-quality code and continuous improvement.<br/>The team comprised one DevOps engineer, three backend developers, one Scrum Master, and one QA specialist.",
+      "linkedinAddress": "https://www.linkedin.com/company/zibalco/",
+      "websiteAddress": "https://zibal.ir",
+      "logoAddress": "https://media.licdn.com/dms/image/C4D0BAQHi3aAtN3CRbQ/company-logo_200_200/0/1630576922514?e=2147483647&v=beta&t=9BXxKYTh0-HPcd5x_4O96Hqx-A-NAoOsZOLuQoSEuds",
+      "skills": "React - TypeScript - Styled-component - tailwind - CSS - HTML - Axios - GitHub - Figma - Scrum"
     },
     "Lastsecond": {
       "name": "Lastsecond",
       "position": "Frontend engineer",
-      "startDate": "January 2021",
+      "startDate": "December 2020",
       "endDate": "March 2022",
-      "description": "I worked as a front-end developer at LastSecond.ir, a Persian hotel and flight reservation website. My responsibilities included refactoring the company's website from an outdated framework to a new one that utilized Vue.js and Sass. The main aim was to create a mobile and desktop-friendly design. I had to rewrite the main pages for tours, hotels, flights, itineraries, blogs, restaurants, videos, and attractions. <br><br>To make sure that the project was aligned with the objectives, I collaborated effectively with backend developers, UI/UX designers, and the product manager. This involved clear and consistent communication throughout the process.",
+      "description": "Lastsecond is a website focused on travel and tourism in Iran. I worked as a front-end developer at LastSecond.ir, a Persian hotel and flight reservation website. My responsibilities included refactoring the company's website from an outdated framework to a new one that utilized Vue.js and Sass. The main aim was to create a mobile and desktop-friendly design. I had to rewrite the main pages for tours, hotels, flights, itineraries, blogs, restaurants, videos, and attractions. <br><br>To ensure the project aligned with the objectives, I collaborated effectively with backend developers, UI/UX designers, and the product manager. This involved clear and consistent communication throughout the process.",
       "linkedinAddress": "https://www.linkedin.com/company/lastsecond/?originalSubdomain=ir",
       "websiteAddress": "https://lastsecond.ir/",
       "logoAddress": "https://pbs.twimg.com/profile_images/1230005817832886272/raLLVHAj_400x400.jpg",
-      "skills": "Vue.js - Bootstrap-Vue - HTML - Javasciprt - SASS - Linux - GitLab - Zeplin - Scrum"
+      "skills": "Vue.js - Bootstrap-Vue - Bootstrap - HTML - Javasciprt - SASS - Linux - GitLab - Zeplin - Scrum"
     },
     "Chargoon": {
       "name": "Chargoon",
       "position": "QA engineer",
       "startDate": "March 2016",
       "endDate": "April 2020",
-      "description": "During my tenure as a Manual QA Engineer at Chargoon, a company that offers office automation solutions, human resources, finance, and other e-commerce tools. <br/> I was responsible for testing three distinct platforms: The Contract and Salary Platform, the Organization Platform, and the Employment Platform. I utilized TFS effectively to create, test, and communicate bugs with the development team.<br/> I collaborated with a team of over 10 developers, 3 scrum masters, and 2 test engineers to ensure that testing processes were efficient and seamless.",
+      "description": "Chargoon is a major platform in the human resources community. During my journey as a Manual QA Engineer at Chargoon, a company that offers office automation solutions, human resources, finance, and other e-commerce tools.<br/> I was responsible for testing three distinct platforms: the Contract and Salary Platform, the Organization Platform, and the Employment Platform.<br/> TFS was effectively utilized to create, test, and communicate bugs with the development team. <br/><br/> As a QA, I performed unit testing on each feature as well as end-to-end testing. <br/>Also I collaborated with a team of over 10 developers, 3 Scrum masters, and 2 test engineers to ensure that testing processes were efficient and seamless.",
       "linkedinAddress": "https://www.linkedin.com/company/chargoon/",
       "websiteAddress": "https://www.chargoon.com/",
       "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacszHRS5oVtwErQ8TDlJ0LEFHT5xpi9oe6vl3ZeL_Fw&s",
