@@ -3,6 +3,10 @@ import { useTranslation, Trans } from "react-i18next";
 import Resume from "../../files/home/Front end developer- Yasaman Behnam Malekzadeh.pdf";
 import FlowerBackground from "../../files/home/flower-background.png";
 import YasamanPortrait from "../../files/home/yasaman-portrait-1.png";
+import figmaIcon from "../../files/home/figma-icon.png";
+import { Meta } from "react-bootstrap-icons";
+import Tippy from "@tippyjs/react";
+import { FileEarmarkPerson } from "react-bootstrap-icons";
 
 function Home() {
   const { t } = useTranslation("home");
@@ -20,15 +24,37 @@ function Home() {
           <div className="fs-4">{t("home.location")}</div>
           <Trans>{t("home.secondDescription")}</Trans>
         </div>
-        <a
-          href={Resume}
-          download
-          target="_blank"
-          rel="noreferrer"
-          className="home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s"
-        >
-          {t("home.downloadResume")}
-        </a>
+        <Tippy content={t("home.downloadResumeTooltip")}>
+          <a
+            href={Resume}
+            download
+            target="_blank"
+            rel="noreferrer"
+            className="home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s"
+          >
+            <FileEarmarkPerson size={"20px"} />
+          </a>
+        </Tippy>
+        <Tippy content={t("home.metaTooltip")}>
+          <a
+            className="m-3 home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s"
+            href="https://www.coursera.org/account/accomplishments/specialization/certificate/697CY3FTQTKT"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Meta size={"20px"} />
+          </a>
+        </Tippy>
+        <Tippy content={t("home.figmaTooltip")}>
+          <a
+            className="home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s"
+            href="https://www.figma.com/design/Xeqf0XmZT12rMknRPAbSto/Untitled?node-id=32-15&t=P85t2hBwl526iWcg-0"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img height={"23px"} src={figmaIcon} alt="figma-icon"></img>
+          </a>
+        </Tippy>
       </div>
       <div className="home-section__right">
         <div className="home-section__right__background">

@@ -6,11 +6,13 @@
     "location": "Based on Berlin",
     "position": "Frontend engineer",
     "btnName": "Contact Me",
-    "downloadResume": "Download Resume"
+    "downloadResumeTooltip": "Download Resume",
+    "metaTooltip":"Meta Front-End developer certificate",
+    "figmaTooltip":"Portfolio Figma Plan"
   },
   "aboutMe": {
     "title": "About me",
-    "description": "<br />I began my journey as a test engineer, where I gained experience in various types of testing such as <strong>Unit testing</strong>, <strong>End-to-End testing</strong> and <strong>Intgration test </strong> were utilized. <br /> These experiences helped me develop a keen eye for details and also what is important for End users. <br />As I learned and delved deeper into Frontend development, <strong>React</strong> and <strong>Vue.js</strong> sparked my interest.<br /> In the first Frontend developer role, over 20 pages were crafted for both mobile and desktop displays using Vue.js, SASS, BEM, and Bootstrap-Vue. <br /> Later, I worked with React, Axios, TypeScript, and Styled-Components on projects in Europe. <br />Throughout my career, I've collaborated with numerous teams in environments where <strong>Agile methodologies</strong> and <strong>Scrum</strong> were employed. <br />I firmly believe that tools are important, it is even more crucial to maintain a passion for learning.<br /> This enthusiasm not only contributes to the growth of companies but also to the development of individual developers."
+    "description": "<br />I began my journey as a test engineer, where I gained experience in various types of testing, such as <strong>unit testing</strong>, <strong>end-to-end testing</strong>, and <strong>integration testing</strong>. These experiences helped me develop a keen eye for detail and an understanding of what is important for end users. These experiences helped me develop a keen eye for details and also what is important for End users. <br />As I delved deeper into frontend development, React and Vue.js sparked my interest. In my first frontend developer role, I crafted over 20 pages for both mobile and desktop displays using Vue.js, SASS, BEM, and Bootstrap-Vue. Later, I developed a dashboard for an online payment company using <strong>React</strong>, <strong>TypeScript</strong>, Styled-Components, Tailwind, and Figma. Throughout my career, I've collaborated with numerous teams in environments that employed <strong>Agile methodologies</strong> and Scrum.<br />To expand my React skills, I participated in Meta's Front-End Developer Certificate program, which was incredibly helpful and deepened my knowledge of Figma and other tools. <br/> I firmly believe that while tools are important, maintaining a passion for learning is even more crucial. This enthusiasm not only contributes to the growth of companies but also to the development of individual developers."
   },
   "contactMe": {
     "title": "Contact me",
