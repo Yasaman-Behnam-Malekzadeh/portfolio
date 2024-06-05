@@ -40,7 +40,9 @@ function Skills() {
       </div>
       <div className="skills__btn">
         <button onClick={() => setShowMore(!showMore)}>
-          {showMore === true ? "show more" : "show less"}
+          {showMore === true
+            ? t("public.showMoreBtn")
+            : t("public.showLessBtn")}
         </button>
       </div>
 

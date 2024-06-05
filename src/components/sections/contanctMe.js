@@ -62,24 +62,26 @@ function ContactMe() {
           <House className="me-2" />
           <strong>{t("contactMe.location")}</strong>
         </div>
-        <div className="contact-me__info__btn mt-4">
+        <div className="contact-me__info__btn mt-4 d-flex align-items-center flex-column">
           <div className="mb-3 fs-5">{t("contactMe.socialTitle")}</div>
-          <a
-            href="https://www.linkedin.com/in/yasaman-behnam-malekzadeh/"
-            target="_blank"
-            rel="noreferrer"
-            className="btn me-3 rounded-circle fs-5"
-          >
-            <Linkedin />
-          </a>
-          <a
-            href="https://github.com/Yasaman-Behnam-Malekzadeh?tab=repositories"
-            target="_blank"
-            rel="noreferrer"
-            className="btn me-3 rounded-circle fs-5"
-          >
-            <Github />
-          </a>
+          <div className="">
+            <a
+              href="https://www.linkedin.com/in/yasaman-behnam-malekzadeh/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn me-3 rounded-circle fs-5"
+            >
+              <Linkedin />
+            </a>
+            <a
+              href="https://github.com/Yasaman-Behnam-Malekzadeh?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+              className="btn me-3 rounded-circle fs-5"
+            >
+              <Github />
+            </a>
+          </div>
         </div>
       </div>
       {/* <form

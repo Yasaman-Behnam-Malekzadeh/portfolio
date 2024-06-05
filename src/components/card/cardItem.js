@@ -41,7 +41,7 @@ function CardItem({
               {isReadMore ? t(description).slice(0, 130) : t(description)}
               {t(description).length > 50 && (
                 <span onClick={toggleReadMore} className="more">
-                  {isReadMore ? " ...read more" : " ...show less"}
+                  {isReadMore ? t("public.readMoreText") : t("public.showLessText")}
                 </span>
               )}
             </div>

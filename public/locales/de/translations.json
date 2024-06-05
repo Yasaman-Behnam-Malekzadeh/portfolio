@@ -15,8 +15,8 @@
     "description": "<br/>Ich begann meine Reise als Testingenieur, wo ich Erfahrungen in verschiedenen Testarten wie Unit-Tests, End-to-End-Tests und Integrationstests sammelte. Diese Erfahrungen halfen mir, ein scharfes Auge für Details und ein Verständnis dafür zu entwickeln, was für Endbenutzer wichtig ist.<br/> Als ich tiefer in die Frontend-Entwicklung eintauchte, weckten React und Vue.js mein Interesse. In meiner ersten Rolle als Frontend-Entwickler habe ich über 20 Seiten für mobile und Desktop-Displays mit Vue.js, SASS, BEM und Bootstrap-Vue entwickelt. Später entwickelte ich ein Dashboard für ein Online-Zahlungsunternehmen mit React, TypeScript, Styled-Components, Tailwind und Figma. Im Laufe meiner Karriere habe ich mit zahlreichen Teams in Umgebungen zusammengearbeitet, in denen agile Methoden und Scrum zum Einsatz kamen. <br /> Um meine React-Kenntnisse zu erweitern, nahm ich am Front-End-Developer-Zertifikatsprogramm von Meta teil, das unglaublich hilfreich war und meine Kenntnisse über Figma und andere Tools vertiefte. <br/> Ich bin der festen Überzeugung, dass Tools zwar wichtig sind, dass es aber noch wichtiger ist, eine Leidenschaft für das Lernen zu entwickeln. Diese Begeisterung trägt nicht nur zum Wachstum von Unternehmen bei, sondern auch zur Entwicklung der einzelnen Entwickler."
   },
   "contactMe": {
-    "title": "kontaktiere",
-    "mainTitle": "In Kontakt kommen!",
+    "title": "kontaktiere Mich",
+    "mainTitle": "kontaktiere Mich",
     "phone": "+4917675408446",
     "emailNameTitle": "Ihr Name",
     "email": "info@yasaman.dev",
@@ -24,7 +24,7 @@
     "emailSubject": "E-Mail Betreff",
     "emailMessage": "Ihre Nachricht",
     "location": "Berlin, Deutschland",
-    "socialTitle": "Lasst uns gesellig werden:",
+    "socialTitle": "Folgen Sie mir in den sozialen Medien:",
     "btnSubmit": "Einreichen"
   },
   "portfolio": {
@@ -120,5 +120,11 @@
       "name": "Liste der Github-Benutzer",
       "description": "Eine einfache Website, die eine Liste der Github-Benutzer mit Paginierung sowie eine Seite jedes Github-Benutzers mit seinen Informationen anzeigt."
     }
+  },
+  "public": {
+    "readMoreText": "...mehr lesen",
+    "showLessText": "...zeige weniger",
+    "showMoreBtn": "Zeig mehr",
+    "showLessBtn": "Zeige weniger"
   }
 }

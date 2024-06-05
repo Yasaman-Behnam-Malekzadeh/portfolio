@@ -2,7 +2,7 @@
   "home": {
     "title": "Home",
     "firstDescription": "Hi, <br />I'm <strong>Yasaman</strong>",
-    "secondDescription": "If you are looking for a Frontend engineer <br /> who has a huge enthusisem for translating UI concept,<br /> into visually intresting, <br />a keen eye for coordination with design <strong>I'm here. </strong>",
+    "secondDescription": "If you are looking for a Frontend engineer <br /> who has a huge enthusisem for <br/> translating UI concept into visually intresting <br /> and <br/> a keen eye for coordination with design <br/><strong>I'm here. </strong>",
     "location": "Based in Berlin",
     "position": "Frontend engineer",
     "btnName": "Contact Me",
@@ -12,11 +12,11 @@
   },
   "aboutMe": {
     "title": "About me",
-    "description": "<br />I began my journey as a test engineer, where I gained experience in various types of testing, such as <strong>unit testing</strong>, <strong>end-to-end testing</strong>, and <strong>integration testing</strong>. These experiences helped me develop a keen eye for detail and an understanding of what is important for end users. These experiences helped me develop a keen eye for details and also what is important for End users. <br />As I delved deeper into frontend development, React and Vue.js sparked my interest. In my first frontend developer role, I crafted over 20 pages for both mobile and desktop displays using Vue.js, SASS, BEM, and Bootstrap-Vue. Later, I developed a dashboard for an online payment company using <strong>React</strong>, <strong>TypeScript</strong>, Styled-Components, Tailwind, and Figma. Throughout my career, I've collaborated with numerous teams in environments that employed <strong>Agile methodologies</strong> and Scrum.<br />To expand my React skills, I participated in Meta's Front-End Developer Certificate program, which was incredibly helpful and deepened my knowledge of Figma and other tools. <br/> I firmly believe that while tools are important, maintaining a passion for learning is even more crucial. This enthusiasm not only contributes to the growth of companies but also to the development of individual developers."
+    "description": "<br />I began my journey as a test engineer, where I gained experience in various types of testing, such as <strong>unit testing</strong>, <strong>end-to-end testing</strong>, and <strong>integration testing</strong>. These experiences helped me develop a keen eye for detail and also what is important for end users. <br />As I delved deeper into frontend development, React and Vue.js sparked my interest. In my first frontend developer role, I crafted over 20 pages for both mobile and desktop displays using Vue.js, SASS, BEM, and Bootstrap-Vue. Later, I developed a dashboard for an online payment company using <strong>React</strong>, <strong>TypeScript</strong>, Styled-Components, Tailwind, and Figma. Throughout my career, I've collaborated with numerous teams in environments that employed <strong>Agile methodologies</strong> and Scrum.<br />To expand my React skills, I participated in Meta's Front-End Developer Certificate program, which was incredibly helpful and deepened my knowledge of Figma and other tools. <br/> I firmly believe that while tools are important, maintaining a passion for learning is even more crucial. This enthusiasm not only contributes to the growth of companies but also help them creating expert individual developers."
   },
   "contactMe": {
     "title": "Contact me",
-    "mainTitle": "Get in Touch!",
+    "mainTitle": "Contact me",
     "phone": "+4917675408446",
     "emailNameTitle": "Your name",
     "email": "info@yasaman.dev",
@@ -24,7 +24,7 @@
     "emailSubject": "Email subject",
     "emailMessage": "Your message",
     "location": "Berlin, Germany",
-    "socialTitle": "Let's get social:",
+    "socialTitle": "Follow me on social media:",
     "btnSubmit": "Submit"
   },
   "portfolio": {
@@ -120,5 +120,11 @@
       "name": "List of Github users",
       "description": "A simple website which shows a list of github user with pagination and also a page of each github user with their information."
     }
+  },
+  "public": {
+    "readMoreText" : "...read more",
+    "showLessText" : "...show Less",
+    "showMoreBtn" : "Show more",
+    "showLessBtn" : "Show less"
   }
 }
