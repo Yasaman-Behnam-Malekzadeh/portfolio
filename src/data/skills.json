@@ -21,8 +21,8 @@
   },
   {
     "id": 5,
-    "name": "Jest",
-    "percentage": 75
+    "name": "Tailwind CSS",
+    "percentage": 95
   },
   {
     "id": 6,
@@ -48,5 +48,10 @@
     "id": 10,
     "name": "Python",
     "percentage": 60
+  },
+  {
+    "id": 11,
+    "name": "Jest",
+    "percentage": 75
   }
 ]
