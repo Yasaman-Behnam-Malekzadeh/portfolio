@@ -40,7 +40,7 @@
           scale: 1.1; }
 
 .offcanvas {
-  max-width: 200px;
+  max-width: 250px;
   background-color: #edcdbb; }
   .offcanvas .menu-language {
     display: flex;
@@ -57,7 +57,8 @@
   position: relative; }
   @media (max-width: 1200px) {
     .home-section {
-      height: 1000px; } }
+      height: 800px;
+      padding: 0 70px; } }
   @media (max-width: 1000px) {
     .home-section {
       flex-direction: column-reverse;
