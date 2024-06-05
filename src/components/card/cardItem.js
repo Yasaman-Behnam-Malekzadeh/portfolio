@@ -1,3 +1,4 @@
+import Tippy from "@tippyjs/react";
 import { useState } from "react";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
@@ -41,7 +42,9 @@ function CardItem({
               {isReadMore ? t(description).slice(0, 130) : t(description)}
               {t(description).length > 50 && (
                 <span onClick={toggleReadMore} className="more">
-                  {isReadMore ? t("public.readMoreText") : t("public.showLessText")}
+                  {isReadMore
+                    ? t("public.readMoreText")
+                    : t("public.showLessText")}
                 </span>
               )}
             </div>
@@ -54,22 +57,26 @@ function CardItem({
             )}
 
             <div className="buttons">
-              <a
-                href={t(website_address)}
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-sm"
-              >
-                <BoxArrowUpRight />
-              </a>
-              <a
-                href={t(linkedin_address)}
-                target="_blank"
-                rel="noreferrer"
-                className="ms-2 btn btn-sm"
-              >
-                <Linkedin />
-              </a>
+              <Tippy content="Website address">
+                <a
+                  href={t(website_address)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-sm"
+                >
+                  <BoxArrowUpRight />
+                </a>
+              </Tippy>
+              <Tippy content="Linkdin address">
+                <a
+                  href={t(linkedin_address)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="ms-2 btn btn-sm"
+                >
+                  <Linkedin />
+                </a>
+              </Tippy>
             </div>
           </div>
         </div>
