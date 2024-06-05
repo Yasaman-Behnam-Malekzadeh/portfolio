@@ -72,12 +72,6 @@
   @media (max-width: 380px) {
     .home-section {
       height: 950px; } }
-  @media (max-width: 1200px) {
-    .home-section__left {
-      width: 50%; } }
-  @media (max-width: 800px) {
-    .home-section__left {
-      width: 70%; } }
   .home-section__left__btn {
     background-color: #6b0f29;
     color: #f8f3f0;
@@ -91,6 +85,15 @@
     .home-section__left__btn:hover {
       background: #981d40;
       color: #f8f3f0; }
+  @media (max-width: 1200px) {
+    .home-section__left {
+      width: 50%; } }
+  @media (max-width: 800px) {
+    .home-section__left {
+      width: 100%; } }
+  @media (max-width: 380px) {
+    .home-section__left {
+      width: 220px; } }
   .home-section__right {
     position: relative;
     width: 30%;
@@ -101,17 +104,18 @@
         height: 50%; } }
     @media (max-width: 1000px) {
       .home-section__right {
-        width: 50%;
+        width: 70%;
         height: 45%; } }
     @media (max-width: 800px) {
       .home-section__right {
-        width: 80%;
+        width: 100%;
         height: 35%; } }
     @media (max-width: 440px) {
       .home-section__right {
         padding-top: 20px; } }
     @media (max-width: 380px) {
       .home-section__right {
+        width: 220px;
         padding-top: 30px; } }
     .home-section__right__background {
       background-color: #dd7e7c;
@@ -128,11 +132,11 @@
       @media (max-width: 1000px) {
         .home-section__right__background {
           width: 100%;
-          height: 450px; } }
+          height: 380px; } }
       @media (max-width: 440px) {
         .home-section__right__background {
           width: 100%;
-          height: 380px; } }
+          height: 300px; } }
       @media (max-width: 380px) {
         .home-section__right__background {
           width: 100%;
@@ -149,10 +153,10 @@
           height: 400px; } }
       @media (max-width: 1000px) {
         .home-section__right .logo-pic {
-          height: 450px; } }
+          height: 380px; } }
       @media (max-width: 440px) {
         .home-section__right .logo-pic {
-          height: 380px; } }
+          height: 300px; } }
       @media (max-width: 380px) {
         .home-section__right .logo-pic {
           height: 280px; } }
