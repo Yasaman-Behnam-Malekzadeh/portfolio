@@ -6,22 +6,22 @@
   },
   {
     "id": 2,
+    "name": "TypeScript",
+    "percentage": 90
+  },
+  {
+    "id": 3,
     "name": "Bootstrap",
     "percentage": 95
   },
   {
-    "id": 3,
-    "name": "TypeScript",
-    "percentage": 85
-  },
-  {
     "id": 4,
-    "name": "SCSS",
+    "name": "Tailwind CSS",
     "percentage": 95
   },
   {
     "id": 5,
-    "name": "Tailwind CSS",
+    "name": "SCSS",
     "percentage": 95
   },
   {
