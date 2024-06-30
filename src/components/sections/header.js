@@ -49,7 +49,7 @@ function Header() {
                     "home",
                     "about-me",
                     "experience-education",
-                    "skills",
+                    "courses",
                     "contact",
                   ]}
                   currentClassName="active"
@@ -119,7 +119,7 @@ function Header() {
                   "home",
                   "about-me",
                   "experience-education",
-                  "skills",
+                  "courses",
                   "contact",
                 ]}
                 currentClassName="active"

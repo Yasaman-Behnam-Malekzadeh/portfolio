@@ -437,3 +437,29 @@
   @media (max-width: 766px) {
     .card-item-section__items {
       border-left: none; } }
+
+.courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f8f3f0;
+  padding-bottom: 80px; }
+  @media (max-width: 1000px) {
+    .courses {
+      padding-top: 120px; } }
+  .courses__title {
+    color: #6b0f29;
+    padding-top: 300px; }
+  .courses__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px; }
+    .courses__items a {
+      display: flex;
+      border: 1px solid black;
+      width: 30%; }
+      .courses__items a img {
+        width: 100%; }
