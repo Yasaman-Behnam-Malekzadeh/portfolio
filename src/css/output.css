@@ -459,8 +459,10 @@
     padding-top: 50px; }
     .courses__items a {
       display: flex;
-      border: 1px solid black;
-      width: 30%; }
+      border: 1px solid #981d40;
+      border-radius: 5px;
+      width: 30%;
+      box-shadow: 0 3px 6px 0 rgba(146, 119, 114, 0.42); }
       @media (max-width: 1200px) {
         .courses__items a {
           width: 45%; } }
@@ -468,4 +470,5 @@
         .courses__items a {
           width: 100%; } }
       .courses__items a img {
-        width: 100%; }
+        width: 100%;
+        border-radius: 5px; }
