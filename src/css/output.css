@@ -461,5 +461,11 @@
       display: flex;
       border: 1px solid black;
       width: 30%; }
+      @media (max-width: 1200px) {
+        .courses__items a {
+          width: 45%; } }
+      @media (max-width: 1000px) {
+        .courses__items a {
+          width: 100%; } }
       .courses__items a img {
         width: 100%; }

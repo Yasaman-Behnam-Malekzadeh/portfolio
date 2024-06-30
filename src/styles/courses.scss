@@ -23,6 +23,12 @@
       display: flex;
       border: 1px solid black;
       width: 30%;
+      @media (max-width: 1200px) {
+        width: 45%;
+      }
+      @media (max-width: 1000px) {
+        width: 100%;
+      }
       img {
         width: 100%;
       }
