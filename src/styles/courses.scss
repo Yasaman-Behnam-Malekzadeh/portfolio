@@ -25,11 +25,15 @@
       border-radius: 5px;
       width: 30%;
       box-shadow: $box-shadow;
+      transition: transform 0.3s ease-in-out;
       @media (max-width: 1200px) {
         width: 45%;
       }
       @media (max-width: 1000px) {
         width: 100%;
+      }
+      &:hover {
+        transform: scale(1.05);
       }
       img {
         width: 100%;
