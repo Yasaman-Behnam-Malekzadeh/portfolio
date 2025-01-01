@@ -15,7 +15,6 @@ function Home() {
     // eslint-disable-next-line react/react-in-jsx-scope
     <div id="home" className="home-section">
       <div className="home-section__left">
-        // eslint-disable-next-line react/react-in-jsx-scope
         <div className="fs-1 mb-3 animate__animated animate__fadeInUp">
           <Trans>{t("home.firstDescription")}</Trans>
         </div>
