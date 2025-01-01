@@ -1,6 +1,6 @@
 import SvgBottom from "../../files/home/svg-bottom.png";
 import { useTranslation, Trans } from "react-i18next";
-import Resume from "../../files/home/Front end developer- Yasaman Behnam Malekzadeh.pdf";
+import Resume from "../../files/home/Yasaman-BM--Front-end.pdf";
 import FlowerBackground from "../../files/home/flower-background.png";
 import YasamanPortrait from "../../files/home/yasaman-portrait-1.png";
 import figmaIcon from "../../files/home/figma-icon.png";
@@ -12,8 +12,10 @@ function Home() {
   const { t } = useTranslation("home");
 
   return (
+    // eslint-disable-next-line react/react-in-jsx-scope
     <div id="home" className="home-section">
       <div className="home-section__left">
+        // eslint-disable-next-line react/react-in-jsx-scope
         <div className="fs-1 mb-3 animate__animated animate__fadeInUp">
           <Trans>{t("home.firstDescription")}</Trans>
         </div>
