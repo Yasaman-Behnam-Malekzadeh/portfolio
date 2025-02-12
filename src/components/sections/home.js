@@ -1,3 +1,4 @@
+import React from 'react';
 import SvgBottom from "../../files/home/svg-bottom.png";
 import { useTranslation, Trans } from "react-i18next";
 import Resume from "../../files/home/Yasaman-BM--Front-end.pdf";

@@ -1,9 +1,11 @@
+import React from 'react';
 import { Phone } from "react-bootstrap-icons";
 import { Envelope } from "react-bootstrap-icons";
 import { House } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
 import { Github } from "react-bootstrap-icons";
 import { useTranslation } from "react-i18next";
+import { TwitterX } from 'react-bootstrap-icons';
 // import { useState } from "react";
 
 import SvgBottom from "../../files/contactMe/svg-bottom.png";
@@ -84,6 +86,16 @@ function ContactMe() {
                 className="btn me-3 rounded-circle fs-5"
               >
                 <Github />
+              </a>
+            </Tippy>
+            <Tippy content="Twitter address">
+              <a
+                href="https://x.com/FrontEnd90"
+                target="_blank"
+                rel="noreferrer"
+                className="btn me-3 rounded-circle fs-5"
+              >
+                <TwitterX />
               </a>
             </Tippy>
           </div>
