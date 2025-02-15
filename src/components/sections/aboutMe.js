@@ -1,3 +1,4 @@
+import React from 'react';
 import SvgBottom from "../../files/aboutMe/svg-bottom.png";
 import { useTranslation, Trans } from "react-i18next";
 import YasamanPortrait from "../../files/aboutMe/yasaman-portrait-2.png";
