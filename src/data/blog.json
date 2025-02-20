@@ -1,136 +1,131 @@
 [
   {
     "id": 1,
-    "title": "Health & Fitness",
+    "title": "myBlog.Health.title",
     "items": [
       {
         "id": 1,
-        "title": "Constansy is the key",
-        "description": "On August 4, 2024, I made a decision—I was gonna run every single day. And let me tell you, at first, it sucked. Like, really sucked. It wasn’t like brushing my teeth or eating dinner; it felt like straight-up torture. <br/> The first week was all about just pushing through. I kept telling myself, Hey, you’ve been working out for a whole week now, that’s something! At first, I picked this really nice running spot, but it was kinda far from home. And guess what? That turned into the perfect excuse not to go. “Ugh, it’s too far,” “I’ll go tomorrow,” you know the drill. So, I switched to a spot right near my place—no more excuses. <br/>The first month? Brutal. It was hot, I kept finding reasons to skip, but slowly, things started changing. Before I started, I’d be gasping for air just running fast or climbing stairs. But after a month? No more heavy breathing. And that annoying belly fat I could always feel? Yeah, that was gone too. <br/>I won’t lie—every single day for the first five months, I had the same thoughts: I don’t wanna go out. Can’t I just skip today? But then, I’d remember something Cristiano Ronaldo (yep, I’m a football fan) once said: Even after all these years, I still don’t feel like going to training. That hit home.<br/>After five months, running finally started feeling like brushing my teeth—just another habit. And after nine months? I don’t just feel stronger physically, but mentally too. Like, if I can stick with this, I can do anything.<br/>Oh, and in case you’re wondering—nope, my weight hasn’t changed. But honestly? I don’t even care. I feel amazing, and that’s what really matters.",
-        "img": "https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/8/akub2mfjn0rpc2ado4xd.jpeg",
-        "date": "2025-02-19"
+        "title": "myBlog.Health.subject1.title",
+        "description": "myBlog.Health.subject1.description",
+        "img":"myBlog.Health.subject1.img",
+        "date":"myBlog.Health.subject1.date"
       },
       {
         "id": 2,
-        "title": "How to gain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
-      },
-      {
+        "title": "myBlog.Health.subject2.title",
+        "description": "myBlog.Health.subject2.description",
+        "img":"myBlog.Health.subject2.img",
+        "date":"myBlog.Health.subject2.date"
+      },{
         "id": 3,
-        "title": "How to maintain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2025-02-19"
+        "title": "myBlog.Health.subject3.title",
+        "description": "myBlog.Health.subject3.description",
+        "img":"myBlog.Health.subject3.img",
+        "date":"myBlog.Health.subject3.date"
       }
     ]
   },
   {
     "id": 2,
-    "title": "React",
+    "title": "myBlog.React.title",
     "items": [
       {
         "id": 1,
-        "title": "How to lose weight2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
+        "title": "myBlog.React.subject1.title",
+        "description": "myBlog.React.subject1.description",
+        "img":"myBlog.React.subject1.img",
+        "date":"myBlog.React.subject1.date"
       },
       {
         "id": 2,
-        "title": "How to gain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
-      },
-      {
+        "title": "myBlog.React.subject2.title",
+        "description": "myBlog.React.subject2.description",
+        "img":"myBlog.React.subject2.img",
+        "date":"myBlog.React.subject2.date"
+      },{
         "id": 3,
-        "title": "How to maintain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
+        "title": "myBlog.React.subject3.title",
+        "description": "myBlog.React.subject3.description",
+        "img":"myBlog.React.subject3.img",
+        "date":"myBlog.React.subject3.date"
       }
     ]
   },
   {
     "id": 3,
-    "title": "Vue",
+    "title": "myBlog.Vue.title",
     "items": [
       {
         "id": 1,
-        "title": "How to lose weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
+        "title": "myBlog.Vue.subject1.title",
+        "description": "myBlog.Vue.subject1.description",
+        "img":"myBlog.Vue.subject1.img",
+        "date":"myBlog.Vue.subject1.date"
       },
       {
         "id": 2,
-        "title": "How to gain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
-      },
-      {
+        "title": "myBlog.Vue.subject2.title",
+        "description": "myBlog.Vue.subject2.description",
+        "img":"myBlog.Vue.subject2.img",
+        "date":"myBlog.Vue.subject2.date"
+      },{
         "id": 3,
-        "title": "How to maintain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
+        "title": "myBlog.Vue.subject3.title",
+        "description": "myBlog.Vue.subject3.description",
+        "img":"myBlog.Vue.subject3.img",
+        "date":"myBlog.Vue.subject3.date"
       }
     ]
   },
   {
     "id": 4,
-    "title": "Test",
+    "title": "myBlog.Test.title",
     "items": [
       {
         "id": 1,
-        "title": "How to lose weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
+        "title": "myBlog.Test.subject1.title",
+        "description": "myBlog.Test.subject1.description",
+        "img":"myBlog.Test.subject1.img",
+        "date":"myBlog.Test.subject1.date"
       },
       {
         "id": 2,
-        "title": "How to gain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
-      },
-      {
+        "title": "myBlog.Test.subject2.title",
+        "description": "myBlog.Test.subject2.description",
+        "img":"myBlog.Test.subject2.img",
+        "date":"myBlog.Test.subject2.date"
+      },{
         "id": 3,
-        "title": "How to maintain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
+        "title": "myBlog.Test.subject3.title",
+        "description": "myBlog.Test.subject3.description",
+        "img":"myBlog.Test.subject3.img",
+        "date":"myBlog.Test.subject3.date"
       }
     ]
   },
   {
     "id": 5,
-    "title": "Other",
+    "title": "myBlog.Others.title",
     "items": [
       {
         "id": 1,
-        "title": "How to lose weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
+        "title": "myBlog.Others.subject1.title",
+        "description": "myBlog.Others.subject1.description",
+        "img":"myBlog.Others.subject1.img",
+        "date":"myBlog.Others.subject1.date"
       },
       {
         "id": 2,
-        "title": "How to gain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
-      },
-      {
+        "title": "myBlog.Others.subject2.title",
+        "description": "myBlog.Others.subject2.description",
+        "img":"myBlog.Others.subject2.img",
+        "date":"myBlog.Others.subject2.date"
+      },{
         "id": 3,
-        "title": "How to maintain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
+        "title": "myBlog.Others.subject3.title",
+        "description": "myBlog.Others.subject3.description",
+        "img":"myBlog.Others.subject3.img",
+        "date":"myBlog.Others.subject3.date"
       }
     ]
   }
