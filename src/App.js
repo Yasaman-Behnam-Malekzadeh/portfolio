@@ -11,7 +11,7 @@ import i18n from "./i18n";
 import Copyright from "./components/sections/copyright";
 import Courses from "./components/sections/Courses";
 import Blog from "./components/pages/blog/Blog";
-
+    
 function App() {
   return (
     <I18nextProvider i18n={i18n} style={{ fontFamily: "Georgia, sans-serif" }}>

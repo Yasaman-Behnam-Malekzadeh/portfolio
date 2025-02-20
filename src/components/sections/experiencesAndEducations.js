@@ -3,6 +3,7 @@ import SvgBottom from "../../files/experiencesEducation/svg-bottom.png";
 import { useTranslation } from "react-i18next";
 import experiences from "../../data/experiences.json";
 import educations from "../../data/education.json";
+import React from "react";
 
 function ExperiencesAndEducations() {
   const { t } = useTranslation("experiencesEducations");

@@ -1,5 +1,25 @@
 @import "../variable.scss";
 
 .blog {
-    background-color: $light-cream;
+  &__nav {
+    .nav {
+     &-item{
+        button{
+            color:$medium-dark-red;
+        }
+        .active{
+            background-color: $medium-cream;
+            color: $dark-red;
+            border: 1px solid $dark-red;
+            border-bottom: none;
+        }
+     }
+    }
+  }
+  &__content{
+    overflow-y: scroll;
+    background-color: $medium-cream;
+    border-radius: 5px;
+    border: 1px solid $dark-red;
+  }
 }

@@ -634,8 +634,36 @@
   border-radius: 5px;
 }
 
-.blog {
-  background-color: #f8f3f0;
+.blog__nav .nav-item button {
+  color: #981d40;
+}
+.blog__nav .nav-item .active {
+  background-color: #edcdbb;
+  color: #6b0f29;
+  border: 1px solid #6b0f29;
+  border-bottom: none;
+}
+.blog__content {
+  overflow-y: scroll;
+  background-color: #edcdbb;
+  border-radius: 5px;
+  border: 1px solid #6b0f29;
+}
+
+.blog-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  align-items: start;
+}
+.blog-card img {
+  height: 150px;
+  width: 150px;
+}
+.blog-card .card-text {
+  height: 50px;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=output.css.map */

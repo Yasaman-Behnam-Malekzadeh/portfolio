@@ -59,7 +59,7 @@ function Header() {
                     return (
                       <ScrollLink
                         className="menu-list__item nav-link mb-3"
-                        to={`/#+${item.address}`}
+                        to={`${item.address}`}
                         smooth={true}
                         duration={100}
                         key={item.id}
@@ -129,7 +129,7 @@ function Header() {
                   return (
                     <ScrollLink
                       className="menu-list__item nav-link me-3 p-2"
-                      to={`/#+${item.address}`}
+                      to={`${item.address}`}
                       smooth={true}
                       duration={100}
                       key={item.id}

@@ -1,62 +1,40 @@
 import React, { useState } from "react";
+import  blogList from "../../../data/blog.json";
+import BlogCard from "./BlogCard";
 
 function Blog() {
   const [activeTab, setActiveTab] = useState("Health & Fitness");
   return (
-    <div className="blog ">
-      <div className="blog__nav container p-5">
-        <h1 className="mt-5">my blog</h1>
-        <ul className="nav nav-tabs p-10">
-          <li className="nav-item">
-            <button
-              className={`nav-link ${
-                activeTab === "Health & Fitness" ? "active" : ""
-              }`}
-              onClick={() => setActiveTab("Health & Fitness")}
-              href="#"
-            >
-              Health & Fitness
-            </button>
-          </li>
-          <li className="nav-item">
-            <button
-              className={`nav-link ${
-                activeTab === "React" ? "active" : ""
-              }`}
-              onClick={() => setActiveTab("React")}
-              href="#"
-            >
-              React
-            </button>
-          </li>
-          <li className="nav-item">
-            <button
-              className={`nav-link ${
-                activeTab === "Vue" ? "active" : ""
-              }`}
-              onClick={() => setActiveTab("Vue")}
-              href="#"
-            >
-              Vue
-            </button>
-          </li>
-          <li className="nav-item">
-            <button
-              className={`nav-link ${activeTab === "Test" ? "active" : ""}`}
-              onClick={() => setActiveTab("Test")}
-              href="#"
-            >
-              Test
-            </button>
-          </li>
+    <div className="blog container">
+      <div className="blog__nav pt-5">
+        <h1 className="my-5">my blog</h1>
+        <ul className="nav nav-tabs">
+          {blogList.map((blog) => (
+            <li className="nav-item" key={blog.id}>
+              <button
+                className={`nav-link ${
+                  activeTab === blog.title ? "active" : ""
+                }`}
+                onClick={() => setActiveTab(blog.title)}
+                href="#"
+              >
+                {blog.title}
+              </button>
+            </li>
+          ))}
         </ul>
       </div>
 
-      <div className="blog__content container p-5">
-        {activeTab==="Health & Fitness" && <div> Health & Fitness</div>}
-        {activeTab==="React" && <div> React</div>}
-        {activeTab==="Vue" && <div>Vue</div>}
-        {activeTab==="Test" && <div> Test</div>}
+      <div className="blog__content p-5">
+        {blogList
+          .filter((blog) => blog.title === activeTab)
+          .map((blog) => (
+            <div key={blog.id}>
+              {blog.items.map((item) => (
+                <BlogCard blog={item} key={item.id} />
+              ))}
+            </div>
+          ))}        
       </div>
     </div>
   );
