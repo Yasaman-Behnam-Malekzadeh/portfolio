@@ -1,0 +1,17 @@
+@import "../variable.scss";
+
+.blog-card {
+    @include flex-between;
+    flex-direction: row-reverse;
+    align-items: start;
+    img{
+        height: 150px;
+        width: 150px;
+    }
+    .card{
+        &-text{
+            height: 50px;
+            overflow: hidden;
+        }
+    }
+}
