@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import  blogList from "../../../data/blog.json";
 import BlogCard from "./BlogCard";
+import { useTranslation } from "react-i18next";
 
 function Blog() {
   const [activeTab, setActiveTab] = useState("Health & Fitness");
+  const { t } = useTranslation("blog");
   return (
     <div className="blog container">
       <div className="blog__nav pt-5">
@@ -18,7 +20,7 @@ function Blog() {
                 onClick={() => setActiveTab(blog.title)}
                 href="#"
               >
-                {blog.title}
+                {t(blog.title)}
               </button>
             </li>
           ))}
