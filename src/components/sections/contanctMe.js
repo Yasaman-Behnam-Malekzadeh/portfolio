@@ -7,8 +7,6 @@ import { Github } from "react-bootstrap-icons";
 import { useTranslation } from "react-i18next";
 import { TwitterX } from 'react-bootstrap-icons';
 // import { useState } from "react";
-
-import SvgBottom from "../../files/contactMe/svg-bottom.png";
 import Tippy from "@tippyjs/react";
 
 function ContactMe() {
@@ -141,7 +139,6 @@ function ContactMe() {
           {t("btnSubmit")}
         </button>
       </form> */}
-      <img className="contact-me__svg" src={SvgBottom} alt="wave" />
     </div>
   );
 }

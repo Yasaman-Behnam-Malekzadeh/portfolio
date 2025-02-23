@@ -3,6 +3,11 @@
 .copyright {
   height: 40px;
   background-color: $dark-red;
+  position: relative;
+  &__svg {
+    @include svg-design;
+    bottom: 39px;
+  }
 
   &__text {
     display: flex;

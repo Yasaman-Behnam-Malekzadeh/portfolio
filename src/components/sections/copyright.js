@@ -1,3 +1,6 @@
+import React from "react";
+import SvgBottom from "../../files/copyright/svg-bottom.png";
+
 function Copyright() {
   return (
     <div className="copyright">
@@ -8,6 +11,7 @@ function Copyright() {
         </footer>
         2024 yasaman.dev. All Rights Reserved
       </div>
+      <img className="copyright__svg" src={SvgBottom} alt="wave" />
     </div>
   );
 }

@@ -483,16 +483,17 @@
   background: #981d40;
   color: #f8f3f0;
 }
-.contact-me__svg {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  bottom: -3px;
-}
 
 .copyright {
   height: 40px;
   background-color: #6b0f29;
+  position: relative;
+}
+.copyright__svg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  bottom: 39px;
 }
 .copyright__text {
   display: flex;
@@ -634,6 +635,9 @@
   border-radius: 5px;
 }
 
+.blog {
+  margin-bottom: 120px;
+}
 .blog__nav .nav-item button {
   color: #981d40;
 }

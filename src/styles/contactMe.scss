@@ -51,8 +51,4 @@
       @include red-button;
     }
   }
-  &__svg {
-    @include svg-design;
-    bottom: -3px;
-  }
 }
