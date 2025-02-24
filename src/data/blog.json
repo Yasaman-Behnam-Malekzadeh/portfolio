@@ -27,58 +27,32 @@
   },
   {
     "id": 2,
-    "title": "myBlog.React.title",
+    "title": "myBlog.FrontEnd.title",
     "items": [
       {
         "id": 1,
-        "title": "myBlog.React.subject1.title",
-        "description": "myBlog.React.subject1.description",
-        "img":"myBlog.React.subject1.img",
-        "date":"myBlog.React.subject1.date"
+        "title": "myBlog.FrontEnd.subject1.title",
+        "description": "myBlog.FrontEnd.subject1.description",
+        "img":"myBlog.FrontEnd.subject1.img",
+        "date":"myBlog.FrontEnd.subject1.date"
       },
       {
         "id": 2,
-        "title": "myBlog.React.subject2.title",
-        "description": "myBlog.React.subject2.description",
-        "img":"myBlog.React.subject2.img",
-        "date":"myBlog.React.subject2.date"
+        "title": "myBlog.FrontEnd.subject2.title",
+        "description": "myBlog.FrontEnd.subject2.description",
+        "img":"myBlog.FrontEnd.subject2.img",
+        "date":"myBlog.FrontEnd.subject2.date"
       },{
         "id": 3,
-        "title": "myBlog.React.subject3.title",
-        "description": "myBlog.React.subject3.description",
-        "img":"myBlog.React.subject3.img",
-        "date":"myBlog.React.subject3.date"
+        "title": "myBlog.FrontEnd.subject3.title",
+        "description": "myBlog.FrontEnd.subject3.description",
+        "img":"myBlog.FrontEnd.subject3.img",
+        "date":"myBlog.FrontEnd.subject3.date"
       }
     ]
   },
   {
     "id": 3,
-    "title": "myBlog.Vue.title",
-    "items": [
-      {
-        "id": 1,
-        "title": "myBlog.Vue.subject1.title",
-        "description": "myBlog.Vue.subject1.description",
-        "img":"myBlog.Vue.subject1.img",
-        "date":"myBlog.Vue.subject1.date"
-      },
-      {
-        "id": 2,
-        "title": "myBlog.Vue.subject2.title",
-        "description": "myBlog.Vue.subject2.description",
-        "img":"myBlog.Vue.subject2.img",
-        "date":"myBlog.Vue.subject2.date"
-      },{
-        "id": 3,
-        "title": "myBlog.Vue.subject3.title",
-        "description": "myBlog.Vue.subject3.description",
-        "img":"myBlog.Vue.subject3.img",
-        "date":"myBlog.Vue.subject3.date"
-      }
-    ]
-  },
-  {
-    "id": 4,
     "title": "myBlog.Test.title",
     "items": [
       {
@@ -104,7 +78,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "myBlog.Others.title",
     "items": [
       {
