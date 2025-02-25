@@ -121,12 +121,6 @@
       "description": "A simple website which shows a list of github user with pagination and also a page of each github user with their information."
     }
   },
-  "public": {
-    "readMoreText": "...read more",
-    "showLessText": "...show Less",
-    "showMoreBtn": "Show more",
-    "showLessBtn": "Show less"
-  },
   "myBlog": {
     "title": "My blog",
     "Health": {
@@ -213,5 +207,12 @@
         "date": "2021-09-01"
       }
     }
+  },
+  "public": {
+    "readMoreText": "...read more",
+    "showLessText": "...show Less",
+    "showMoreBtn": "Show more",
+    "showLessBtn": "Show less",
+    "back": "Back"
   }
 }

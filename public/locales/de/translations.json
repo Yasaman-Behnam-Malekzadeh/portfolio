@@ -121,12 +121,6 @@
       "description": "Eine einfache Website, die eine Liste der Github-Benutzer mit Paginierung sowie eine Seite jedes Github-Benutzers mit seinen Informationen anzeigt."
     }
   },
-  "public": {
-    "readMoreText": "...mehr lesen",
-    "showLessText": "...zeige weniger",
-    "showMoreBtn": "Zeig mehr",
-    "showLessBtn": "Zeige weniger"
-  },
   "myBlog": {
     "title": "Mein blog",
     "Health": {
@@ -213,5 +207,12 @@
         "date": "2021-09-01"
       }
     }
+  },
+  "public": {
+    "readMoreText": "...mehr lesen",
+    "showLessText": "...zeige weniger",
+    "showMoreBtn": "Zeig mehr",
+    "showLessBtn": "Zeige weniger",
+    "back": "Zurück"
   }
 }

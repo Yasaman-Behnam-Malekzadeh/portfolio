@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import blogData from "../../../data/blog.json";
 import Copyright from "../../sections/copyright";
@@ -24,7 +24,11 @@ function BlogItem() {
 
         <p className="blog-item__container__date">{t(item.date)}</p>
         <p className="blog-item__container__content">{t(item.description)}</p>
+        <Link to="/myblog" className="blog-item__container__button btn btn-lg px-5">
+          {t("back")}
+        </Link>
       </div>
+
       <Copyright />
     </div>
   );
