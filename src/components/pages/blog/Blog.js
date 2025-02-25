@@ -43,7 +43,7 @@ function Blog() {
             .map((blog) => (
               <div key={blog.id}>
                 {blog.items.map((item) => (
-                 <Link to={`/blog/${blog.id}/${item.id}`}key={item.id}>
+                 <Link to={`/myblog/${blog.id}/${item.id}`}key={item.id}>
                   <BlogCard blog={item}  />
                   </Link>
                 ))}

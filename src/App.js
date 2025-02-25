@@ -34,7 +34,7 @@ function App() {
             }
           />
           <Route path="/myblog" element={<Blog />} />
-          <Route path="myblog/:categoryid/:blogid" element={<BlogItem />} />
+          <Route path="myblog/:categoryId/:blogId" element={<BlogItem />} />
         </Routes>
       </Router>
     </I18nextProvider>
