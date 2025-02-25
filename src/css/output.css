@@ -670,4 +670,38 @@
   overflow: hidden;
 }
 
+.blog-item {
+  background-color: #edcdbb;
+  padding-top: 100px;
+}
+.blog-item__container {
+  border-radius: 5px;
+  border: 1px solid #6b0f29;
+  margin-bottom: 200px;
+  background-color: white;
+}
+.blog-item__container__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #6b0f29;
+  margin-bottom: 20px;
+}
+.blog-item__container__date {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #981d40;
+  margin-bottom: 20px;
+}
+.blog-item__container__content {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #981d40;
+}
+.blog-item__container__img {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=output.css.map */
