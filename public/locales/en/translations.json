@@ -159,10 +159,10 @@
         "date": "2025-02-24"
       },
       "subject2": {
-        "title": "How to gain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
+        "title": "Why Is TypeScript Important?",
+        "description": "Why Is TypeScript Important?<br/>Okay, so you’ve probably heard people talking about TypeScript, and you might be wondering — what’s the big deal? Isn’t JavaScript enough? Well, not exactly. Let me break it down.<br/>**It Catches Your Mistakes Early**<br/>TypeScript is like a helpful buddy who taps you on the shoulder and says, “Hey, you messed up,” *before* your code even runs. It checks your code for errors while you’re writing it, so you don’t end up scratching your head for hours later, wondering why everything is broken.<br/>**It Makes Your Code Easier to Understand**<br/>When your project grows, it’s easy to forget what each part of your code is supposed to do. TypeScript lets you add types to your variables and functions, so you (and your teammates) can quickly figure out what’s going on without digging through files for hours.<br/>**Better Autocomplete and Suggestions**<br/>If you’ve ever wished your code editor could read your mind, TypeScript is pretty close. It gives you smart autocompletion and suggestions, making writing code faster and way less frustrating.<br/>**It Helps with Big Projects**<br/>For small projects, JavaScript might be fine, but as soon as your app gets bigger, things can get messy fast. TypeScript helps keep things organized and makes it way easier to refactor or add new features without accidentally breaking everything.<br/>**It’s Super Popular (for a Reason)**<br/>A lot of big companies use TypeScript because it makes their code more reliable and easier to maintain. So, if you learn it, you’ll not only level up your skills but also open up more job opportunities.<br/>**So, Should You Use It?**<br/>If you’re serious about web development, learning TypeScript is 100% worth it. It might seem like extra work at first, but it saves you so much time and stress in the long run. Plus, once you get used to it, you’ll wonder how you ever lived without it!<br/>",
         "img": "img1.jpg",
-        "date": "2021-09-01"
+        "date": "2025-02-23"
       },
       "subject3": {
         "title": "How to maintain weight",
@@ -195,16 +195,16 @@
     "Others": {
       "title": "Others",
       "subject1": {
-        "title": "Why Is TypeScript Important?",
-        "description": "Why Is TypeScript Important?<br/>Okay, so you’ve probably heard people talking about TypeScript, and you might be wondering — what’s the big deal? Isn’t JavaScript enough? Well, not exactly. Let me break it down.<br/>**It Catches Your Mistakes Early**<br/>TypeScript is like a helpful buddy who taps you on the shoulder and says, “Hey, you messed up,” *before* your code even runs. It checks your code for errors while you’re writing it, so you don’t end up scratching your head for hours later, wondering why everything is broken.<br/>**It Makes Your Code Easier to Understand**<br/>When your project grows, it’s easy to forget what each part of your code is supposed to do. TypeScript lets you add types to your variables and functions, so you (and your teammates) can quickly figure out what’s going on without digging through files for hours.<br/>**Better Autocomplete and Suggestions**<br/>If you’ve ever wished your code editor could read your mind, TypeScript is pretty close. It gives you smart autocompletion and suggestions, making writing code faster and way less frustrating.<br/>**It Helps with Big Projects**<br/>For small projects, JavaScript might be fine, but as soon as your app gets bigger, things can get messy fast. TypeScript helps keep things organized and makes it way easier to refactor or add new features without accidentally breaking everything.<br/>**It’s Super Popular (for a Reason)**<br/>A lot of big companies use TypeScript because it makes their code more reliable and easier to maintain. So, if you learn it, you’ll not only level up your skills but also open up more job opportunities.<br/>**So, Should You Use It?**<br/>If you’re serious about web development, learning TypeScript is 100% worth it. It might seem like extra work at first, but it saves you so much time and stress in the long run. Plus, once you get used to it, you’ll wonder how you ever lived without it!<br/>",
-        "img": "img1.jpg",
-        "date": "2025-02-23"
-      },
-      "subject2": {
-        "title": "How to gain weight",
+        "title": "How to maintain weight",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
         "img": "img1.jpg",
         "date": "2021-09-01"
+      },
+      "subject2": {
+        "title": "Why Do We Always Compare Frontend and Backend?",
+        "description": "Why Do We Always Compare Frontend and Backend? <br/>Okay, seriously — why do people act like frontend and backend are rivals? It’s like comparing shoes to pants. They both serve a purpose, but you can’t wear one instead of the other (unless you’re really into experimental fashion, I guess).<br/>Frontend is all about what users see and interact with: buttons, forms, animations, and making things pretty. Backend is the hidden powerhouse — databases, servers, APIs — the stuff that makes everything actually work.<br/>Imagine building a car. Frontend is the sleek design, comfy seats, and the touch screen dashboard. Backend is the engine, transmission, and all the complex machinery under the hood. You wouldn’t argue that one is better — because without both, you’re not going anywhere.<br/>The magic happens when frontend and backend work together like a dream team. So instead of picking sides, let’s just appreciate how awesome it is when a killer UI and a powerful server make a seamless experience.<br/>Next time someone tries to start the frontend vs backend debate, just tell them: “You need both, just like you need shoes and pants.”",
+        "img": "img1.jpg",
+        "date": "2025-02-25"
       },
       "subject3": {
         "title": "How to maintain weight",

@@ -180,10 +180,10 @@
         "date": "2021-09-01"
       },
       "subject2": {
-        "title": "How to gain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
+        "title": "Warum ist TypeScript wichtig?",
+        "description": "Warum ist TypeScript wichtig?<br/>Okay, du hast wahrscheinlich schon Leute über TypeScript reden hören und fragst dich vielleicht — was ist eigentlich so besonders daran? Reicht JavaScript nicht aus? Naja, nicht ganz. Lass mich das mal erklären.<br/>**Es fängt deine Fehler frühzeitig ab**<br/>TypeScript ist wie ein hilfreicher Kumpel, der dir auf die Schulter klopft und sagt: „Hey, da ist ein Fehler“, *bevor* dein Code überhaupt läuft. Es prüft deinen Code schon beim Schreiben auf Fehler, damit du später nicht stundenlang grübelst, warum nichts funktioniert.<br/>**Dein Code wird verständlicher**<br/>Wenn dein Projekt wächst, vergisst du schnell, was welcher Teil des Codes eigentlich macht. Mit TypeScript kannst du Typen zu Variablen und Funktionen hinzufügen, sodass du (und dein Team) sofort versteht, was los ist, ohne ewig durch Dateien zu scrollen.<br/>**Bessere Autovervollständigung und Vorschläge**<br/>Wenn du dir jemals gewünscht hast, dein Code-Editor könnte Gedanken lesen — TypeScript kommt dem ziemlich nah. Es gibt dir intelligente Vorschläge und Autovervollständigungen, die das Schreiben viel schneller und weniger frustrierend machen.<br/>**Perfekt für größere Projekte**<br/>Für kleine Projekte reicht JavaScript vielleicht aus, aber sobald deine App wächst, wird’s schnell chaotisch. TypeScript hilft, alles übersichtlicher zu halten und macht es viel leichter, neue Features hinzuzufügen oder den Code umzustrukturieren, ohne versehentlich alles kaputtzumachen.<br/>**Beliebt aus gutem Grund**<br/>Viele große Unternehmen setzen auf TypeScript, weil ihr Code dadurch zuverlässiger und leichter wartbar wird. Wenn du es lernst, verbesserst du nicht nur deine Skills, sondern erhöhst auch deine Jobchancen.<br/>**Solltest du TypeScript verwenden?**<br/>Wenn du ernsthaft in der Webentwicklung durchstarten willst, ist TypeScript ein absolutes Muss. Es fühlt sich anfangs nach mehr Arbeit an, aber auf lange Sicht spart es dir so viel Zeit und Nerven. Und ganz ehrlich? Wenn du dich einmal daran gewöhnt hast, wirst du dich fragen, wie du jemals ohne klargekommen bist!<br/>",
         "img": "img1.jpg",
-        "date": "2021-09-01"
+        "date": "2025-02-23"
       },
       "subject3": {
         "title": "How to maintain weight",
@@ -195,16 +195,16 @@
     "Others": {
       "title": "Others",
       "subject1": {
-        "title": "Warum ist TypeScript wichtig?",
-        "description": "Warum ist TypeScript wichtig?<br/>Okay, du hast wahrscheinlich schon Leute über TypeScript reden hören und fragst dich vielleicht — was ist eigentlich so besonders daran? Reicht JavaScript nicht aus? Naja, nicht ganz. Lass mich das mal erklären.<br/>**Es fängt deine Fehler frühzeitig ab**<br/>TypeScript ist wie ein hilfreicher Kumpel, der dir auf die Schulter klopft und sagt: „Hey, da ist ein Fehler“, *bevor* dein Code überhaupt läuft. Es prüft deinen Code schon beim Schreiben auf Fehler, damit du später nicht stundenlang grübelst, warum nichts funktioniert.<br/>**Dein Code wird verständlicher**<br/>Wenn dein Projekt wächst, vergisst du schnell, was welcher Teil des Codes eigentlich macht. Mit TypeScript kannst du Typen zu Variablen und Funktionen hinzufügen, sodass du (und dein Team) sofort versteht, was los ist, ohne ewig durch Dateien zu scrollen.<br/>**Bessere Autovervollständigung und Vorschläge**<br/>Wenn du dir jemals gewünscht hast, dein Code-Editor könnte Gedanken lesen — TypeScript kommt dem ziemlich nah. Es gibt dir intelligente Vorschläge und Autovervollständigungen, die das Schreiben viel schneller und weniger frustrierend machen.<br/>**Perfekt für größere Projekte**<br/>Für kleine Projekte reicht JavaScript vielleicht aus, aber sobald deine App wächst, wird’s schnell chaotisch. TypeScript hilft, alles übersichtlicher zu halten und macht es viel leichter, neue Features hinzuzufügen oder den Code umzustrukturieren, ohne versehentlich alles kaputtzumachen.<br/>**Beliebt aus gutem Grund**<br/>Viele große Unternehmen setzen auf TypeScript, weil ihr Code dadurch zuverlässiger und leichter wartbar wird. Wenn du es lernst, verbesserst du nicht nur deine Skills, sondern erhöhst auch deine Jobchancen.<br/>**Solltest du TypeScript verwenden?**<br/>Wenn du ernsthaft in der Webentwicklung durchstarten willst, ist TypeScript ein absolutes Muss. Es fühlt sich anfangs nach mehr Arbeit an, aber auf lange Sicht spart es dir so viel Zeit und Nerven. Und ganz ehrlich? Wenn du dich einmal daran gewöhnt hast, wirst du dich fragen, wie du jemals ohne klargekommen bist!<br/>",
-        "img": "img1.jpg",
-        "date": "2025-02-23"
-      },
-      "subject2": {
-        "title": "How to gain weight",
+        "title": "How to maintain weight",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
         "img": "img1.jpg",
         "date": "2021-09-01"
+      },
+      "subject2": {
+        "title":"Warum vergleichen wir immer Frontend und Backend? ",
+        "description": "Warum vergleichen wir immer Frontend und Backend? <br/> Mal ehrlich — warum tun die Leute so, als wären Frontend und Backend Rivalen? Das ist, als würde man Schuhe mit Hosen vergleichen. Beide haben ihren Zweck, aber du würdest ja auch nicht das eine anstelle des anderen tragen (außer du bist auf einem richtig wilden Modetrip).<br/>Frontend dreht sich um das, was Nutzer sehen und womit sie interagieren: Buttons, Formulare, Animationen und alles, was hübsch aussieht. Backend ist die unsichtbare Power — Datenbanken, Server, APIs — das Zeug, das alles überhaupt zum Laufen bringt.<br/>Stell dir vor, du baust ein Auto. Frontend ist das schicke Design, die bequemen Sitze und das Touchscreen-Display. Backend ist der Motor, das Getriebe und die ganze komplexe Mechanik unter der Haube. Du würdest doch nicht behaupten, dass das eine wichtiger ist — ohne beides kommst du nirgendwo hin.<br/>Die Magie passiert, wenn Frontend und Backend als Dream-Team zusammenarbeiten. Also statt sich für eine Seite zu entscheiden, lasst uns einfach feiern, wie genial es ist, wenn eine großartige UI und ein leistungsstarker Server perfekt harmonieren.<br/>Das nächste Mal, wenn jemand die Frontend-vs-Backend-Debatte anzettelt, sag ihnen einfach: „Du brauchst beides, genau wie Schuhe und Hosen.“ ",
+        "img": "img1.jpg",
+        "date": "2025-02-25"
       },
       "subject3": {
         "title": "How to maintain weight",
