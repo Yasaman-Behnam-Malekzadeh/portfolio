@@ -11,6 +11,7 @@ import i18n from "./i18n";
 import Copyright from "./components/sections/copyright";
 import Courses from "./components/sections/Courses";
 import Blog from "./components/pages/blog/Blog";
+import BlogItem from "./components/pages/blog/BlogItem";
     
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             }
           />
           <Route path="/myblog" element={<Blog />} />
+          <Route path="myblog/:categoryid/:blogid" element={<BlogItem />} />
         </Routes>
       </Router>
     </I18nextProvider>
