@@ -3,6 +3,7 @@ import blogList from "../../../data/blog.json";
 import BlogCard from "./BlogCard";
 import { useTranslation } from "react-i18next";
 import Copyright from "../../sections/copyright";
+import { Link } from "react-router-dom";
 
 function Blog() {
   const { t, i18n } = useTranslation("blog");
@@ -42,7 +43,9 @@ function Blog() {
             .map((blog) => (
               <div key={blog.id}>
                 {blog.items.map((item) => (
-                  <BlogCard blog={item} key={item.id} />
+                 <Link to={`/blog/${blog.id}/${item.id}`}key={item.id}>
+                  <BlogCard blog={item}  />
+                  </Link>
                 ))}
               </div>
             ))}
