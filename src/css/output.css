@@ -665,6 +665,9 @@
   height: 150px;
   width: 150px;
 }
+.blog-card .card:hover {
+  box-shadow: 0 3px 6px 0 hsla(9, 13%, 51%, 0.42);
+}
 .blog-card .card-text {
   height: 50px;
   overflow: hidden;
@@ -682,20 +685,17 @@
   position: relative;
 }
 .blog-item__container__title {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2rem;
   color: #6b0f29;
   margin-bottom: 20px;
 }
 .blog-item__container__date {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1rem;
   color: #981d40;
   margin-bottom: 20px;
 }
 .blog-item__container__content {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1rem;
   color: #981d40;
 }
 .blog-item__container__img {

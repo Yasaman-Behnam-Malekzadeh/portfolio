@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { useTranslation } from "react-i18next";
+import { useTranslation,Trans } from "react-i18next";
 
 export default function BlogCard({ blog }) {
     const { t } = useTranslation("blog");
@@ -10,7 +10,9 @@ export default function BlogCard({ blog }) {
       <div>
         <div className="mb-1">{t(blog.date)}</div>
         <h3 className="card-title mb-4">{t(blog.title)}</h3>
-        <p className="card-text">{t(blog.description)}</p>
+        <div className="card-text">
+        <Trans >{t(blog.description)}</Trans>
+        </div>
       </div>
     </div>
   );
