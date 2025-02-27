@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import { Phone } from "react-bootstrap-icons";
 import { Envelope } from "react-bootstrap-icons";
 import { House } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
 import { Github } from "react-bootstrap-icons";
 import { useTranslation } from "react-i18next";
-import { TwitterX } from 'react-bootstrap-icons';
+import { TwitterX } from "react-bootstrap-icons";
 // import { useState } from "react";
 import Tippy from "@tippyjs/react";
 
@@ -57,7 +57,11 @@ function ContactMe() {
         </div>
         <div className="mb-3">
           <Envelope className="me-2" />
-          <strong>{t("contactMe.email")}</strong>
+          <strong>
+            <a href={`mailto:${t("contactMe.email")}?body=Hello%20Yasaman%20,`}>
+              {t("contactMe.email")}
+            </a>
+          </strong>
         </div>
         <div className="mb-3">
           <House className="me-2" />
@@ -94,6 +98,20 @@ function ContactMe() {
                 className="btn me-3 rounded-circle fs-5"
               >
                 <TwitterX />
+              </a>
+            </Tippy>
+            <Tippy content="Xing address">
+              <a
+                href="https://www.xing.com/profile/Yasaman_BM/web_profiles?sc_o=navigation_profile_icon&sc_o_PropActionOrigin=navigation_neffi_50&expandNeffi=true"
+                target="_blank"
+                rel="noreferrer"
+                className="btn rounded-circle fs-5"
+              >
+                <img
+                  src="https://www.elisabeth-mantl.de/wp-content/uploads/2019/05/xing-icon-logo-black-and-white.png"
+                  alt="Xing"
+                  height={"22px"}
+                />
               </a>
             </Tippy>
           </div>
