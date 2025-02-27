@@ -635,19 +635,26 @@
   border-radius: 5px;
 }
 
-.blog {
+.blog-component__svg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  top: 5%;
+  position: sticky;
+}
+.blog-component .blog {
   margin-bottom: 120px;
 }
-.blog__nav .nav-item button {
+.blog-component .blog__nav .nav-item button {
   color: #981d40;
 }
-.blog__nav .nav-item .active {
+.blog-component .blog__nav .nav-item .active {
   background-color: #edcdbb;
   color: #6b0f29;
   border: 1px solid #6b0f29;
   border-bottom: none;
 }
-.blog__content {
+.blog-component .blog__content {
   overflow-y: scroll;
   background-color: #edcdbb;
   border-radius: 5px;
