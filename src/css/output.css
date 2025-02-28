@@ -663,6 +663,11 @@
   border: 1px solid #6b0f29;
   border-bottom: none;
 }
+@media (max-width: 768px) {
+  .blog-component .blog__nav .nav-item .active {
+    border: 1px solid #6b0f29;
+  }
+}
 .blog-component .blog__content {
   background-color: #f8f3f0;
   border-radius: 5px;
