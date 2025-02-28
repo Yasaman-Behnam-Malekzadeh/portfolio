@@ -648,6 +648,15 @@
   background-color: #edcdbb;
   color: #6b0f29;
 }
+@media (max-width: 768px) {
+  .blog-component .blog__nav .nav-item button {
+    border: 1px solid #6b0f29;
+    border-radius: 20px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+  }
+}
 .blog-component .blog__nav .nav-item .active {
   background-color: #f8f3f0;
   color: #6b0f29;
@@ -661,21 +670,12 @@
 }
 @media (max-width: 768px) {
   .blog-component .blog__content {
-    height: 440px;
+    height: 480px;
     overflow-x: scroll;
+    overflow-y: hidden;
   }
   .blog-component .blog__content > div {
     display: flex;
-  }
-}
-@media (max-width: 440px) {
-  .blog-component .blog__content {
-    height: 300px;
-  }
-}
-@media (max-width: 350px) {
-  .blog-component .blog__content {
-    height: 270px;
   }
 }
 
@@ -691,7 +691,7 @@
 }
 @media (max-width: 768px) {
   .blog-card {
-    height: 330px;
+    height: 360px;
     width: 280px;
     margin-right: 20px;
     display: flex;
@@ -700,12 +700,7 @@
 }
 @media (max-width: 440px) {
   .blog-card {
-    height: 300px;
-  }
-}
-@media (max-width: 350px) {
-  .blog-card {
-    height: 270px;
+    width: 260px;
   }
 }
 .blog-card:hover {
@@ -720,6 +715,17 @@
 .blog-card .card-text {
   height: 50px;
   overflow: hidden;
+}
+@media (max-width: 768px) {
+  .blog-card .card-title {
+    height: 60px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 440px) {
+  .blog-card .card-title {
+    height: 55px;
+  }
 }
 
 .blog-item {
