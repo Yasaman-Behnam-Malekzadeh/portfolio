@@ -641,6 +641,9 @@
 .blog-component .blog {
   margin-bottom: 120px;
 }
+.blog-component .blog__nav h1 {
+  color: #6b0f29;
+}
 .blog-component .blog__nav .nav-item button {
   background-color: #edcdbb;
   color: #6b0f29;

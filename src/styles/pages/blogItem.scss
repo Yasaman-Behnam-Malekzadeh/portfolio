@@ -3,7 +3,7 @@
 .blog-item {
   background-color: $medium-cream;
   padding-top: 200px;
-  
+
   &__container {
     border-radius: 5px;
     border: 1px solid $dark-red;
@@ -16,7 +16,7 @@
       position: absolute;
       top: -10%;
       left: 0%;
-      div{
+      div {
         margin-left: 10px;
       }
     }
