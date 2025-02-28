@@ -652,7 +652,6 @@
   border-bottom: none;
 }
 .blog-component .blog__content {
-  overflow-y: scroll;
   background-color: #f8f3f0;
   border-radius: 5px;
   border: 1px solid #6b0f29;
