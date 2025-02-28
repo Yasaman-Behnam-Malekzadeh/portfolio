@@ -4,8 +4,6 @@
   background-color: $medium-cream;
   .blog {
     margin-bottom: 120px;
-    
-
     &__nav {
       h1{
         color: $dark-red;
@@ -30,6 +28,19 @@
       background-color: $light-cream;
       border-radius: 5px;
       border: 1px solid $dark-red;
+      @media (max-width: 768px) {
+        height: 440px;
+        overflow-x: scroll;
+        > div {
+          display: flex;
+        }
+      }
+      @media (max-width: 440px) {
+        height: 300px;
+      }
+      @media (max-width: 350px) {
+        height: 270px;
+      }
     }
   }
 }
