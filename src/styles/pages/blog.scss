@@ -1,22 +1,21 @@
 @import "../variable.scss";
 
 .blog-component {
-  &__svg {
-    @include svg-design;
-    top: 5%;
-    position: sticky;
-  }
+  background-color: $medium-cream;
   .blog {
     margin-bottom: 120px;
+    
 
     &__nav {
       .nav {
         &-item {
+          
           button {
-            color: $medium-dark-red;
+            background-color: $medium-cream;
+            color: $dark-red;
           }
           .active {
-            background-color: $medium-cream;
+            background-color: $light-cream;
             color: $dark-red;
             border: 1px solid $dark-red;
             border-bottom: none;
@@ -26,7 +25,7 @@
     }
     &__content {
       overflow-y: scroll;
-      background-color: $medium-cream;
+      background-color: $light-cream;
       border-radius: 5px;
       border: 1px solid $dark-red;
     }
