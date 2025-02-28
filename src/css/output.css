@@ -716,6 +716,12 @@
 .blog-card img {
   height: 150px;
   width: 150px;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .blog-card img {
+    width: 100%;
+  }
 }
 .blog-card .card-text {
   height: 50px;
