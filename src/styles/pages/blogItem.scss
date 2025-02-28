@@ -2,13 +2,24 @@
 
 .blog-item {
   background-color: $medium-cream;
-  padding-top: 100px;
+  padding-top: 200px;
+  
   &__container {
     border-radius: 5px;
     border: 1px solid $dark-red;
-    margin-bottom: 250px;
+    margin-bottom: 180px;
     background-color: white;
     position: relative;
+    &__button {
+      @include red-button;
+      @include flex-center;
+      position: absolute;
+      top: -10%;
+      left: 0%;
+      div{
+        margin-left: 10px;
+      }
+    }
 
     &__title {
       font-size: 2rem;
@@ -28,14 +39,7 @@
       width: 100%;
       height: 400px;
       margin-bottom: 20px;
-      object-fit: cover ;
+      object-fit: cover;
     }
-    &__button{
-        @include red-button;
-        position: absolute;
-        bottom: -10%;
-        left: 0%;
-      }
   }
-
 }

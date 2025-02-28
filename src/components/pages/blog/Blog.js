@@ -4,7 +4,6 @@ import BlogCard from "./BlogCard";
 import { useTranslation } from "react-i18next";
 import Copyright from "../../sections/copyright";
 import { Link } from "react-router-dom";
-// import SvgBottom from "../../../files/experiencesEducation/svg-bottom.png";
 
 function Blog() {
   const { t, i18n } = useTranslation("blog");
@@ -18,9 +17,6 @@ function Blog() {
 
   return (
     <div className="blog-component">
-      {/* <div className="blog-component__svg">
-        <img src={SvgBottom} alt="curve" height={"100%"} width={"100%"} />
-      </div> */}
       <div className="blog container">
         <div className="blog__nav pt-5">
           <h1 className="my-5">{t("myBlog.title")}</h1>

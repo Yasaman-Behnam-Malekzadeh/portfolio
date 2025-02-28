@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
 import blogData from "../../../data/blog.json";
 import Copyright from "../../sections/copyright";
+import { ArrowLeftCircle } from "react-bootstrap-icons"; 
 
 function BlogItem() {
   const { categoryId, blogId } = useParams();
@@ -13,8 +14,16 @@ function BlogItem() {
 
   if (!item) return <div>Blog not found</div>;
   return (
-    <div className="blog-item">
+    <div className="blog-item ">
+      
       <div className="blog-item__container container p-4">
+      <Link
+          to="/myblog"
+          className="blog-item__container__button btn btn-lg px-5"
+        >
+          <ArrowLeftCircle/> 
+          <div className="ml-2">{t("back")}</div>
+        </Link>
         <h1 className="blog-item__container__title">{t(item.title)}</h1>
         <p className="blog-item__container__date">{t(item.date)}</p>
         <img
@@ -26,12 +35,7 @@ function BlogItem() {
         <div className="blog-item__container__content">
           <Trans>{t(item.description)}</Trans>
         </div>
-        <Link
-          to="/myblog"
-          className="blog-item__container__button btn btn-lg px-5"
-        >
-          {t("back")}
-        </Link>
+        
       </div>
 
       <Copyright />
