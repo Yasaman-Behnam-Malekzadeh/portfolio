@@ -774,6 +774,33 @@
 .blog-item__container__button div {
   margin-left: 10px;
 }
+@media (max-width: 991px) {
+  .blog-item__container__button {
+    top: -8%;
+  }
+}
+@media (max-width: 767px) {
+  .blog-item__container__button {
+    top: -6%;
+  }
+}
+@media (max-width: 565px) {
+  .blog-item__container__button {
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+  }
+}
+@media (max-width: 410px) {
+  .blog-item__container__button {
+    top: -5%;
+  }
+}
+@media (max-width: 320px) {
+  .blog-item__container__button {
+    top: -4%;
+  }
+}
 .blog-item__container__title {
   font-size: 2rem;
   color: #6b0f29;
