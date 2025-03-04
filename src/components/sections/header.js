@@ -7,11 +7,15 @@ import navbarItems from "../../data/navbarItems.json";
 import { Link as ScrollLink } from "react-scroll";
 import FlagOfGermany from "../../files/header/Flag_of_Germany.png";
 import FlagOfTheUK from "../../files/header/Flag_of_the_United_Kingdom.png";
+import { Link, useLocation } from "react-router-dom";
 
 function Header() {
   const { t, i18n } = useTranslation("header");
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
 
   useEffect(() => {
     const handleResize = () => {
@@ -56,17 +60,24 @@ function Header() {
                   className="menu-list d-flex flex-column"
                 >
                   {navbarItems.map((item) => {
-                    return (
+                    return isHomePage ? (
                       <ScrollLink
-                        className="menu-list__item nav-link mb-3"
-                        to={`${item.address}`}
+                        className="menu-list__item nav-link me-3 p-2"
+                        to={item.address}
                         smooth={true}
                         duration={100}
                         key={item.id}
-                        onClick={() => setShowMenu(false)}
                       >
                         {t(item.name)}
                       </ScrollLink>
+                    ) : (
+                      <Link
+                        className="menu-list__item nav-link me-3 p-2"
+                        to={`/#${item.address}`}
+                        key={item.id}
+                      >
+                        {t(item.name)}
+                      </Link>
                     );
                   })}
                 </Scrollspy>
@@ -126,16 +137,24 @@ function Header() {
                 className="menu-list d-flex"
               >
                 {navbarItems.map((item) => {
-                  return (
+                  return isHomePage ? (
                     <ScrollLink
                       className="menu-list__item nav-link me-3 p-2"
-                      to={`${item.address}`}
+                      to={item.address}
                       smooth={true}
                       duration={100}
                       key={item.id}
                     >
                       {t(item.name)}
                     </ScrollLink>
+                  ) : (
+                    <Link
+                      className="menu-list__item nav-link me-3 p-2"
+                      to={`/#${item.address}`}
+                      key={item.id}
+                    >
+                      {t(item.name)}
+                    </Link>
                   );
                 })}
               </Scrollspy>
