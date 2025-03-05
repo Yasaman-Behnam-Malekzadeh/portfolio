@@ -123,27 +123,6 @@
   },
   "myBlog": {
     "title": "More Than Code: Thoughts, Interests, and Insights from a Developer’s Perspective:",
-    "Health": {
-      "title": "Health & Fitness",
-      "subject1": {
-        "title": "Constansy is the key",
-        "description": "On August 4, 2024, I made a decision—I was gonna run every single day. And let me tell you, at first, it sucked. Like, really sucked. It wasn’t like brushing my teeth or eating dinner; it felt like straight-up torture. <br/> The first week was all about just pushing through. I kept telling myself, Hey, you’ve been working out for a whole week now, that’s something! At first, I picked this really nice running spot, but it was kinda far from home. And guess what? That turned into the perfect excuse not to go. “Ugh, it’s too far,” “I’ll go tomorrow,” you know the drill. So, I switched to a spot right near my place—no more excuses. <br/>The first month? Brutal. It was hot, I kept finding reasons to skip, but slowly, things started changing. Before I started, I’d be gasping for air just running fast or climbing stairs. But after a month? No more heavy breathing. And that annoying belly fat I could always feel? Yeah, that was gone too. <br/>I won’t lie—every single day for the first five months, I had the same thoughts: I don’t wanna go out. Can’t I just skip today? But then, I’d remember something Cristiano Ronaldo (yep, I’m a football fan) once said: Even after all these years, I still don’t feel like going to training. That hit home.<br/>After five months, running finally started feeling like brushing my teeth—just another habit. And after nine months? I don’t just feel stronger physically, but mentally too. Like, if I can stick with this, I can do anything.<br/>Oh, and in case you’re wondering—nope, my weight hasn’t changed. But honestly? I don’t even care. I feel amazing, and that’s what really matters.",
-        "img": "https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/8/akub2mfjn0rpc2ado4xd.jpeg",
-        "date": "2025-02-19"
-      },
-      "subject2": {
-        "title": "How to lose weight",
-        "description": "You’ve probably heard about the keto diet, right? It’s been super popular for a while, and I’ve actually tried it twice. I didn’t have a huge amount of weight to lose — just around 5 kilos over my normal weight — but I wanted to feel lighter and healthier. Even with working out every day, I could only drop around 3 kilos. That’s when I decided to give keto a shot.<br/>**What Is the Keto Diet?**<br/>Keto is basically a way of eating where you cut way down on carbs (like bread, pasta, and sugar) and load up on healthy fats and moderate protein. The idea is to get your body into a state called ketosis, where it starts burning fat for energy instead of carbs. So, your meals end up being things like eggs, meat, cheese, avocados, and nuts — while saying goodbye to things like rice, potatoes, and sweets. It can be tough at first, but a lot of people (myself included) find that it works pretty well for weight loss and boosting energy.<br/>**My Experience with Keto**<br/>I went all in: no carbs, no sugar, for 2 months. And honestly? It worked. But after the first month, I realized that just cutting carbs wasn’t enough. I also had to reduce my portions — even protein — to keep losing weight. It turns out, eating unlimited steak and bacon doesn’t magically burn fat if you’re still overeating.<br/>Another thing I noticed is that almost everything has hidden sugar. You really have to check labels, even for things you wouldn’t expect! Plus, the food variety isn’t great. It’s a lot of meat, eggs, and cheese, so if you like diversity in your meals, it might get boring after a while.<br/>**Would I Do It Again?**<br/>Even though it’s hard to stick to for more than 2 months, I’d totally try keto again. It’s not something I’d do long-term, but as a short-term reset or to drop a few kilos, it works. And honestly, it’s kind of satisfying to see results so quickly.<br/>If you’re thinking about trying keto, my advice is: go for it, but be prepared. It’s not a magic fix, and you’ll need some discipline, but it can be a pretty powerful tool if you use it right.<br/>Would you ever try keto? Or have you already? Let me know — I’d love to hear about your experience!",
-        "img": "https://www.health.com/thmb/McVo5I4voMdVDjKKrBBJRCW8Ox4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HowLongItTakesToLoseWeight-078592d9075a4a20bada42212f54f3c0.jpg",
-        "date": "2025-02-22"
-      },
-      "subject3": {
-        "title": "How to maintain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2025-02-19"
-      }
-    },
     "FrontEnd": {
       "title": "Front-End",
       "subject1": {
@@ -184,6 +163,27 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
         "img": "img1.jpg",
         "date": "2021-09-01"
+      }
+    },
+    "Health": {
+      "title": "Health & Fitness",
+      "subject1": {
+        "title": "Constansy is the key",
+        "description": "On August 4, 2024, I made a decision—I was gonna run every single day. And let me tell you, at first, it sucked. Like, really sucked. It wasn’t like brushing my teeth or eating dinner; it felt like straight-up torture. <br/> The first week was all about just pushing through. I kept telling myself, Hey, you’ve been working out for a whole week now, that’s something! At first, I picked this really nice running spot, but it was kinda far from home. And guess what? That turned into the perfect excuse not to go. “Ugh, it’s too far,” “I’ll go tomorrow,” you know the drill. So, I switched to a spot right near my place—no more excuses. <br/>The first month? Brutal. It was hot, I kept finding reasons to skip, but slowly, things started changing. Before I started, I’d be gasping for air just running fast or climbing stairs. But after a month? No more heavy breathing. And that annoying belly fat I could always feel? Yeah, that was gone too. <br/>I won’t lie—every single day for the first five months, I had the same thoughts: I don’t wanna go out. Can’t I just skip today? But then, I’d remember something Cristiano Ronaldo (yep, I’m a football fan) once said: Even after all these years, I still don’t feel like going to training. That hit home.<br/>After five months, running finally started feeling like brushing my teeth—just another habit. And after nine months? I don’t just feel stronger physically, but mentally too. Like, if I can stick with this, I can do anything.<br/>Oh, and in case you’re wondering—nope, my weight hasn’t changed. But honestly? I don’t even care. I feel amazing, and that’s what really matters.",
+        "img": "https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/page-assets/8/akub2mfjn0rpc2ado4xd.jpeg",
+        "date": "2025-02-19"
+      },
+      "subject2": {
+        "title": "How to lose weight",
+        "description": "You’ve probably heard about the keto diet, right? It’s been super popular for a while, and I’ve actually tried it twice. I didn’t have a huge amount of weight to lose — just around 5 kilos over my normal weight — but I wanted to feel lighter and healthier. Even with working out every day, I could only drop around 3 kilos. That’s when I decided to give keto a shot.<br/>**What Is the Keto Diet?**<br/>Keto is basically a way of eating where you cut way down on carbs (like bread, pasta, and sugar) and load up on healthy fats and moderate protein. The idea is to get your body into a state called ketosis, where it starts burning fat for energy instead of carbs. So, your meals end up being things like eggs, meat, cheese, avocados, and nuts — while saying goodbye to things like rice, potatoes, and sweets. It can be tough at first, but a lot of people (myself included) find that it works pretty well for weight loss and boosting energy.<br/>**My Experience with Keto**<br/>I went all in: no carbs, no sugar, for 2 months. And honestly? It worked. But after the first month, I realized that just cutting carbs wasn’t enough. I also had to reduce my portions — even protein — to keep losing weight. It turns out, eating unlimited steak and bacon doesn’t magically burn fat if you’re still overeating.<br/>Another thing I noticed is that almost everything has hidden sugar. You really have to check labels, even for things you wouldn’t expect! Plus, the food variety isn’t great. It’s a lot of meat, eggs, and cheese, so if you like diversity in your meals, it might get boring after a while.<br/>**Would I Do It Again?**<br/>Even though it’s hard to stick to for more than 2 months, I’d totally try keto again. It’s not something I’d do long-term, but as a short-term reset or to drop a few kilos, it works. And honestly, it’s kind of satisfying to see results so quickly.<br/>If you’re thinking about trying keto, my advice is: go for it, but be prepared. It’s not a magic fix, and you’ll need some discipline, but it can be a pretty powerful tool if you use it right.<br/>Would you ever try keto? Or have you already? Let me know — I’d love to hear about your experience!",
+        "img": "https://www.health.com/thmb/McVo5I4voMdVDjKKrBBJRCW8Ox4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HowLongItTakesToLoseWeight-078592d9075a4a20bada42212f54f3c0.jpg",
+        "date": "2025-02-22"
+      },
+      "subject3": {
+        "title": "How to maintain weight",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
+        "img": "img1.jpg",
+        "date": "2025-02-19"
       }
     },
     "Others": {
