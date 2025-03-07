@@ -9,7 +9,7 @@ function Blog() {
   const { t, i18n } = useTranslation("blog");
   const currentLanguage = i18n.language;
 
-  const [activeTab, setActiveTab] = useState(t("myBlog.Health.title"));
+  const [activeTab, setActiveTab] = useState(t("myBlog.FrontEnd.title"));
 
   useEffect(() => {
     setActiveTab(t("myBlog.Health.title"));
