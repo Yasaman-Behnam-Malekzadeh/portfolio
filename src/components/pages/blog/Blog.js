@@ -12,7 +12,7 @@ function Blog() {
   const [activeTab, setActiveTab] = useState(t("myBlog.FrontEnd.title"));
 
   useEffect(() => {
-    setActiveTab(t("myBlog.Health.title"));
+    setActiveTab(t("myBlog.FrontEnd.title"));
   }, [currentLanguage, t]);
 
   return (
