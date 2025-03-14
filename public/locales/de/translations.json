@@ -201,10 +201,10 @@
         "date": "2025-02-25"
       },
       "subject3": {
-        "title": "How to maintain weight",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc",
-        "img": "img1.jpg",
-        "date": "2021-09-01"
+        "title": "Roadmap für Frontend-Entwickler: Backend, mobile Apps oder beides?",
+        "description": "Was kommt als Nächstes für einen Frontend-Entwickler? Express.js, Python oder React Native?<b/>Hey! Bist du ein Frontend-Entwickler und fragst dich, was der nächste Schritt sein könnte? Ich war genau an diesem Punkt, und ehrlich gesagt, es ist ein ziemlich aufregender Ort.<b/>Nachdem ich in die Welt des Frontends eingetaucht war, fand ich mich hin- und hergerissen: Sollte ich Express.js lernen, um die Backend-Entwicklung zu verstehen? Oder sollte ich bei meinen JavaScript-Wurzeln bleiben und React Native erkunden, um mobile Apps zu erstellen? Und was ist mit Python – das ist doch überall, oder?<b/>Hier ist, was ich herausgefunden habe: Warum nicht beides?<b/>Das Lernen von Express.js gibt dir die Superkraft, Full-Stack-Apps zu erstellen. Du verstehst die Serverseite, arbeitest mit Datenbanken und erstellst APIs, mit denen dein Frontend kommunizieren kann. Das ist ein Game-Changer, wenn du Projekte von Anfang bis Ende bauen willst.<b/>Andererseits ist React Native pure Magie für Frontend-Entwickler. Wenn du bereits React kennst, fühlt sich der Einstieg in die mobile Entwicklung an, als würdest du ein ganz neues Level freischalten. Ich lerne gerade React Native und liebe es, meine Apps auf dem Handy zum Leben zu erwecken – es macht süchtig.<b/>Und Python? Das ist wie ein Schweizer Taschenmesser. Schon die Grundlagen zu kennen, kann Türen zu Automatisierung, Datenanalyse und sogar KI öffnen.<b/>Für mich fühlt sich die Herausforderung, sowohl Express.js als auch React Native zu lernen, wie der beste Weg zum Wachsen an. Es hält die Dinge spannend, und jede neue Fähigkeit fügt ein weiteres Puzzlestück hinzu.<b/>Also, wenn du dich festgefahren fühlst, fang einfach an, das zu lernen, was deine Neugier weckt. Das Wichtigste ist, weiter voranzukommen. 🚀",
+        "img": "https://s3.amazonaws.com/angularminds.com/blog/cta/python-vs-react-js-a-complete-comparison-guide-of-2025-1956063119a.webp",
+        "date": "2025-03-14"
       }
     }
   },
