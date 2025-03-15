@@ -716,7 +716,7 @@
 .blog-card img {
   height: 150px;
   width: 150px;
-  object-fit: cover;
+  object-fit: fill;
 }
 @media (max-width: 768px) {
   .blog-card img {
@@ -807,19 +807,18 @@
   margin-bottom: 20px;
 }
 .blog-item__container__date {
-  font-size: 1rem;
+  font-size: 20px;
   color: #981d40;
   margin-bottom: 20px;
 }
 .blog-item__container__content {
-  font-size: 1rem;
+  font-size: 20px;
   color: #981d40;
 }
 .blog-item__container__img {
   width: 100%;
   height: 400px;
   margin-bottom: 20px;
-  object-fit: cover;
 }
 
 /*# sourceMappingURL=output.css.map */
