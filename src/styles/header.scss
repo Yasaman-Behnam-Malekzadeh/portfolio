@@ -9,7 +9,7 @@
       color: $dark-red;
       &:hover {
         color: $dark-red;
-        scale: 1.05;
+        opacity: 0.6;
         cursor: pointer;
       }
     }
@@ -33,6 +33,7 @@
           color: $dark-red;
           &:hover {
             cursor: pointer;
+            opacity: 0.6;
           }
 
           &.active {

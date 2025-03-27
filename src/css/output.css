@@ -9,7 +9,7 @@
 }
 .header-section__wrapped__logo:hover {
   color: #6b0f29;
-  scale: 1.05;
+  opacity: 0.6;
   cursor: pointer;
 }
 .header-section__wrapped__menu {
@@ -34,6 +34,7 @@
 }
 .header-section__wrapped__menu .menu-list__item:hover {
   cursor: pointer;
+  opacity: 0.6;
 }
 .header-section__wrapped__menu .menu-list__item.active {
   border-bottom: 2px solid #6b0f29;
