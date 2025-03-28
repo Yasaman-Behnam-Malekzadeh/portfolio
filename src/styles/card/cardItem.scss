@@ -4,6 +4,21 @@
   background-color: $light-cream !important;
   border: 1px solid $dark-red !important;
   box-shadow: $box-shadow;
+
+  opacity: 0.4;
+  animation: fade-in linear;
+  animation-timeline: view();
+
+  @keyframes fade-in {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
   @media (max-width: 766px) {
     margin: 0 0 50px 0 !important;
   }
