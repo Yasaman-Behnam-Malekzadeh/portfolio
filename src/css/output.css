@@ -744,6 +744,7 @@
 .blog-item {
   background-color: #edcdbb;
   padding-top: 200px;
+  padding-bottom: 70px;
 }
 .blog-item__container {
   border-radius: 5px;
