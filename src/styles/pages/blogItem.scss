@@ -3,6 +3,7 @@
 .blog-item {
   background-color: $medium-cream;
   padding-top: 200px;
+  padding-bottom: 70px;
 
   &__container {
     border-radius: 5px;
@@ -35,7 +36,6 @@
       }
       @media (max-width: 320px) {
         top: -4%;
-        
       }
     }
 
