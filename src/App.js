@@ -12,7 +12,7 @@ import Copyright from "./components/sections/copyright";
 import Courses from "./components/sections/Courses";
 import Blog from "./components/pages/blog/Blog";
 import BlogItem from "./components/pages/blog/BlogItem";
-    
+
 function App() {
   return (
     <I18nextProvider i18n={i18n} style={{ fontFamily: "Georgia, sans-serif" }}>
@@ -29,13 +29,13 @@ function App() {
                 <Courses />
                 {/* <Skills /> */}
                 <ContactMe />
-                <Copyright />
               </>
             }
           />
           <Route path="/myblog" element={<Blog />} />
           <Route path="myblog/:categoryId/:blogId" element={<BlogItem />} />
         </Routes>
+        <Copyright />
       </Router>
     </I18nextProvider>
   );

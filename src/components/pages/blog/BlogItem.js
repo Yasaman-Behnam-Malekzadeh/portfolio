@@ -2,7 +2,6 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
 import blogData from "../../../data/blog.json";
-import Copyright from "../../sections/copyright";
 import { ArrowLeftCircle } from "react-bootstrap-icons";
 
 function BlogItem() {
@@ -35,8 +34,6 @@ function BlogItem() {
           <Trans>{t(item.description)}</Trans>
         </div>
       </div>
-
-      <Copyright />
     </div>
   );
 }
