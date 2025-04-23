@@ -7,7 +7,7 @@ import navbarItems from "../../data/navbarItems.json";
 import { Link as ScrollLink } from "react-scroll";
 import FlagOfGermany from "../../files/header/Flag_of_Germany.png";
 import FlagOfTheUK from "../../files/header/Flag_of_the_United_Kingdom.png";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Header() {
   const { t, i18n } = useTranslation("header");
@@ -15,8 +15,8 @@ function Header() {
   const [isMobile, setIsMobile] = useState(false);
 
   const location = useLocation();
-  const navigate = useNavigate();
   const isHomePage = location.pathname === "/";
+  const isMyBlog = location.pathname === "/myblog";
 
   useEffect(() => {
     const handleResize = () => {
@@ -32,24 +32,21 @@ function Header() {
     i18n.changeLanguage(lng);
   };
 
-  const handleNavigateAndScroll = (address) => {
-    navigate("/");
-    setTimeout(() => {
-      const element = document.getElementById(address);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 100);
-  };
-
   const renderNavItems = () =>
     navbarItems.map((item) => {
-      if (item.address === "myblog") {
+      const isMyBlogItem = item.address === "myblog";
+      const isActive =
+        (location.hash === `#${item.address}` && !isHomePage) ||
+        (location.pathname === "/myblog" && isMyBlogItem);
+
+      if (isMyBlogItem) {
         return (
           <Link
-            className="menu-list__item nav-link me-3 p-2"
-            to="/myblog"
             key={item.id}
+            to="/myblog"
+            className={`menu-list__item nav-link me-3 p-2 ${
+              isMyBlog ? "active" : ""
+            }`}
           >
             {t(item.name)}
           </Link>
@@ -59,11 +56,13 @@ function Header() {
       if (isHomePage) {
         return (
           <ScrollLink
-            className="menu-list__item nav-link me-3 p-2"
+            key={item.id}
             to={item.address}
+            className="menu-list__item nav-link me-3 p-2"
             smooth={true}
             duration={100}
-            key={item.id}
+            spy={true}
+            offset={-80}
           >
             {t(item.name)}
           </ScrollLink>
@@ -71,14 +70,15 @@ function Header() {
       }
 
       return (
-        <div
-          className="menu-list__item nav-link me-3 p-2"
-          style={{ cursor: "pointer" }}
-          onClick={() => handleNavigateAndScroll(item.address)}
+        <Link
           key={item.id}
+          to={`/#${item.address}`}
+          className={`menu-list__item nav-link me-3 p-2 ${
+            isActive ? "active" : ""
+          }`}
         >
           {t(item.name)}
-        </div>
+        </Link>
       );
     });
 
