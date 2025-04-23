@@ -4,6 +4,7 @@
   background-color: $medium-cream;
   padding-top: 200px;
   padding-bottom: 70px;
+  
 
   &__container {
     border-radius: 5px;
@@ -11,20 +12,21 @@
     margin-bottom: 180px;
     background-color: white;
     position: relative;
+
     &__button {
       @include red-button;
       @include flex-center;
       position: absolute;
-      top: -5%;
-      left: 0%;
+      top: -70px;
+      left: 0;
       div {
         margin-left: 10px;
       }
       @media (max-width: 991px) {
-        top: -4%;
+        top: -70px;
       }
       @media (max-width: 767px) {
-        top: -4%;
+        top: -70px;
       }
       @media (max-width: 565px) {
         left: 50%;
@@ -32,10 +34,10 @@
         width: 80%;
       }
       @media (max-width: 410px) {
-        top: -5%;
+        top: -70px;
       }
       @media (max-width: 320px) {
-        top: -4%;
+        top: -70px;
       }
     }
 

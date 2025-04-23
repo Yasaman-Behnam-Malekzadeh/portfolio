@@ -767,8 +767,8 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -5%;
-  left: 0%;
+  top: -70px;
+  left: 0;
 }
 .blog-item__container__button:hover {
   background: #981d40;
@@ -779,12 +779,12 @@
 }
 @media (max-width: 991px) {
   .blog-item__container__button {
-    top: -4%;
+    top: -70px;
   }
 }
 @media (max-width: 767px) {
   .blog-item__container__button {
-    top: -4%;
+    top: -70px;
   }
 }
 @media (max-width: 565px) {
@@ -796,12 +796,12 @@
 }
 @media (max-width: 410px) {
   .blog-item__container__button {
-    top: -5%;
+    top: -70px;
   }
 }
 @media (max-width: 320px) {
   .blog-item__container__button {
-    top: -4%;
+    top: -70px;
   }
 }
 .blog-item__container__title {
