@@ -36,10 +36,6 @@
   cursor: pointer;
   opacity: 0.6;
 }
-.header-section__wrapped__menu .menu-list__item.active {
-  border-bottom: 2px solid #6b0f29;
-  opacity: 1;
-}
 @media (max-width: 991px) {
   .header-section__wrapped__menu .menu-language {
     display: flex;

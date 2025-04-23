@@ -35,11 +35,6 @@
             cursor: pointer;
             opacity: 0.6;
           }
-
-          &.active {
-            border-bottom: 2px solid $dark-red;
-            opacity: 1;
-          }
         }
       }
       .menu-language {
