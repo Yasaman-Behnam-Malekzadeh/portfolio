@@ -16,7 +16,7 @@ function Blog() {
   }, [currentLanguage, t]);
 
   return (
-    <div className="blog-component">
+    <div id="myblog" className="blog-component">
       <div className="blog container">
         <div className="blog__nav pt-5">
           <h1 className="my-5">{t("myBlog.title")}</h1>

@@ -7,7 +7,7 @@ import navbarItems from "../../data/navbarItems.json";
 import { Link as ScrollLink } from "react-scroll";
 import FlagOfGermany from "../../files/header/Flag_of_Germany.png";
 import FlagOfTheUK from "../../files/header/Flag_of_the_United_Kingdom.png";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 function Header() {
   const { t, i18n } = useTranslation("header");
@@ -15,6 +15,7 @@ function Header() {
   const [isMobile, setIsMobile] = useState(false);
 
   const location = useLocation();
+  const navigate = useNavigate();
   const isHomePage = location.pathname === "/";
 
   useEffect(() => {
@@ -31,15 +32,66 @@ function Header() {
     i18n.changeLanguage(lng);
   };
 
+  const handleNavigateAndScroll = (address) => {
+    navigate("/");
+    setTimeout(() => {
+      const element = document.getElementById(address);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
+  };
+
+  const renderNavItems = () =>
+    navbarItems.map((item) => {
+      if (item.address === "myblog") {
+        return (
+          <Link
+            className="menu-list__item nav-link me-3 p-2"
+            to="/myblog"
+            key={item.id}
+          >
+            {t(item.name)}
+          </Link>
+        );
+      }
+
+      if (isHomePage) {
+        return (
+          <ScrollLink
+            className="menu-list__item nav-link me-3 p-2"
+            to={item.address}
+            smooth={true}
+            duration={100}
+            key={item.id}
+          >
+            {t(item.name)}
+          </ScrollLink>
+        );
+      }
+
+      return (
+        <div
+          className="menu-list__item nav-link me-3 p-2"
+          style={{ cursor: "pointer" }}
+          onClick={() => handleNavigateAndScroll(item.address)}
+          key={item.id}
+        >
+          {t(item.name)}
+        </div>
+      );
+    });
+
+  const scrollSpyItems = navbarItems
+    .filter((item) => item.address !== "myblog")
+    .map((item) => item.address);
+
   return (
     <>
       {isMobile ? (
         <Navbar className="navbar header-section fixed-top">
           <div className="header-section__wrapped container-md">
-            <Nav.Link
-              href="/"
-              className="fs-3 header-section__wrapped__logo"
-            >
+            <Nav.Link href="/" className="fs-3 header-section__wrapped__logo">
               {"< Yasaman.dev />"}
             </Nav.Link>
             <Offcanvas
@@ -49,37 +101,11 @@ function Header() {
             >
               <Offcanvas.Body>
                 <Scrollspy
-                  items={[
-                    "home",
-                    "about-me",
-                    "experience-education",
-                    "courses",
-                    "contact",
-                  ]}
+                  items={scrollSpyItems}
                   currentClassName="active"
                   className="menu-list d-flex flex-column"
                 >
-                  {navbarItems.map((item) => {
-                    return isHomePage ? (
-                      <ScrollLink
-                        className="menu-list__item nav-link me-3 p-2"
-                        to={item.address}
-                        smooth={true}
-                        duration={100}
-                        key={item.id}
-                      >
-                        {t(item.name)}
-                      </ScrollLink>
-                    ) : (
-                      <Link
-                        className="menu-list__item nav-link me-3 p-2"
-                        to={`/#${item.address}`}
-                        key={item.id}
-                      >
-                        {t(item.name)}
-                      </Link>
-                    );
-                  })}
+                  {renderNavItems()}
                 </Scrollspy>
                 <Nav className="menu-language">
                   <Nav.Link onClick={() => changeLanguage("en")}>
@@ -114,10 +140,7 @@ function Header() {
       ) : (
         <Navbar id="navbar" className="navbar header-section fixed-top">
           <div className="header-section__wrapped container-md">
-            <Nav.Link
-              href="/"
-              className="fs-3 header-section__wrapped__logo"
-            >
+            <Nav.Link href="/" className="fs-3 header-section__wrapped__logo">
               {"< Yasaman.dev />"}
             </Nav.Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -126,39 +149,12 @@ function Header() {
               className="header-section__wrapped__menu"
             >
               <Scrollspy
-                items={[
-                  "home",
-                  "about-me",
-                  "experience-education",
-                  "courses",
-                  "contact",
-                ]}
+                items={scrollSpyItems}
                 currentClassName="active"
                 className="menu-list d-flex"
               >
-                {navbarItems.map((item) => {
-                  return isHomePage ? (
-                    <ScrollLink
-                      className="menu-list__item nav-link me-3 p-2"
-                      to={item.address}
-                      smooth={true}
-                      duration={100}
-                      key={item.id}
-                    >
-                      {t(item.name)}
-                    </ScrollLink>
-                  ) : (
-                    <Link
-                      className="menu-list__item nav-link me-3 p-2"
-                      to={`/#${item.address}`}
-                      key={item.id}
-                    >
-                      {t(item.name)}
-                    </Link>
-                  );
-                })}
+                {renderNavItems()}
               </Scrollspy>
-
               <Nav className="menu-language">
                 <Nav.Link onClick={() => changeLanguage("en")}>
                   <img

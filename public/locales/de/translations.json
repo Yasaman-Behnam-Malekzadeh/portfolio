@@ -33,7 +33,7 @@
   "courses": {
     "title": "Zertifizierungen"
   },
-  "experienceEducation": "Erfahrungen/Ausbildung",
+  "experienceEducation": "Historie",
   "experiences": {
     "title": "Arbeitserfahrungen",
     "zibal": {
@@ -122,6 +122,7 @@
     }
   },
   "myBlog": {
+    "name":"Mein Blog",
     "title": "Mehr als Code: Gedanken, Interessen und Einblicke aus der Perspektive eines Entwicklers:",
     "FrontEnd": {
       "title": "Front-End",
