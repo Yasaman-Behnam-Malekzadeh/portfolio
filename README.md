@@ -1,41 +1,36 @@
-![screenshot](./src/files/home/Screenshot.png)
+📘 Project Title
+My Portfolio Webpage
 
-##📘 Project Title
-My portfolio webpage 
+✨ Overview / Description
+This is a responsive personal website that showcases my experience, blog, and provides a way to contact me. Built to support both English and German languages.
 
+🚀 Demo
+Live Demo: yasaman.dev
 
-##✨ Overview / Description
-This is a responsive personal website, my experience,my blog and contact with me.
+🔧 Features
+Responsive design
 
-##🚀 Demo 
-Live Demo: [yasaman.dev](https://yasaman.dev/)
+English and German language toggle
 
-##🔧 Features
-
--Responsive design
-
--English and German languages
-
-
-##🛠️ Tech Stack
-
+🛠️ Tech Stack
 React
 
 TypeScript / JavaScript
 
 Bootstrap CSS / SCSS
 
-
 📦 Installation
+To run the project locally:
 
--npm install
--npm start
-
-
+bash
+Copy
+Edit
+npm install
+npm start
 🙋‍♀️ Author
 Yasaman Behnam Malekzadeh
-https://github.com/Yasaman-Behnam-Malekzadeh
-https://www.linkedin.com/in/yasaman-behnam-malekzadeh/
 
+GitHub
 
+LinkedIn
 
