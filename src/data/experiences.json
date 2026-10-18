@@ -11,8 +11,20 @@
     "logo_address": "experiences.zibal.logoAddress",
     "skills": "experiences.zibal.skills"
   },
-  {
+    {
     "id": 2,
+    "name": "experiences.probatix.name",
+    "position": "experiences.probatix.position",
+    "start_date": "experiences.probatix.startDate",
+    "end_date": "experiences.probatix.endDate",
+    "description": "experiences.probatix.description",
+    "linkedin_address": "experiences.probatix.linkedinAddress",
+    "website_address": "experiences.probatix.websiteAddress",
+    "logo_address": "experiences.probatix.logoAddress",
+    "skills": "experiences.probatix.skills"
+  },
+  {
+    "id": 3,
     "name": "experiences.Lastsecond.name",
     "position": "experiences.Lastsecond.position",
     "start_date": "experiences.Lastsecond.startDate",
@@ -24,7 +36,7 @@
     "skills": "experiences.Lastsecond.skills"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "experiences.Chargoon.name",
     "position": "experiences.Chargoon.position",
     "start_date": "experiences.Chargoon.startDate",

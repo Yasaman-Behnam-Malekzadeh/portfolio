@@ -38,36 +38,47 @@
     "title": "Arbeitserfahrungen",
     "zibal": {
       "name": "Zibal",
-      "position": "Front-End Ingenieur",
-      "startDate": "Juni 2022",
-      "endDate": "Jan 2025",
-      "description": "Zibal ist ein Online-Zahlungsunternehmen, das Finanz- und Zahlungslösungen für Unternehmen jeder Größe anbietet. Im Rahmen des Dashboard-Projekts von Zibal habe ich an der Erstellung von Dashboards mitgewirkt, mit denen Endbenutzer den Status von Finanztransaktionen überwachen und Berichte erstellen können. <br/> Ich war für die Entwicklung und Pflege des Frontend-Dashboards verantwortlich und arbeitete eng mit funktionsübergreifenden Teams zusammen, um eine nahtlose Integration und eine benutzerfreundliche Oberfläche zu gewährleisten. <br/> Durch die Durchführung von Code-Reviews und Fehlerbehebungen förderte ich eine Kultur des hochwertigen Codes und der kontinuierlichen Verbesserung.<br/>Das Team bestand aus einem DevOps-Ingenieur, drei Backend-Entwicklern, einem Scrum Master und einem QA-Spezialisten.",
+      "position": "Frontend-Entwicklerin & QA (Vertrag / Projektbasiert)",
+      "startDate": "März 2023",
+      "endDate": "Jan. 2025",
+      "description": "• Entwicklung und Pflege von benutzerfreundlichen Finanz-Dashboards mit React und TypeScript zur Echtzeit-Überwachung von Transaktionen.<br/>• Erstellung von wiederverwendbaren UI-Komponenten und Optimierung der Frontend-Performance für komplexe Datenvisualisierungen.<br/>• Anbindung und Validierung von RESTful APIs mit Postman sowie enges Debugging mit dem Backend-Team (Symfony/PHP).<br/>• Durchführung von manuellen Tests und Code-Reviews zur Gewährleistung hoher Softwarequalität und reibungsloser Zahlungsabläufe.",
       "linkedinAddress": "https://www.linkedin.com/company/zibalco/",
       "websiteAddress": "https://zibal.ir",
-      "logoAddress": "https://media.licdn.com/dms/image/C4D0BAQHi3aAtN3CRbQ/company-logo_200_200/0/1630576922514?e=2147483647&v=beta&t=9BXxKYTh0-HPcd5x_4O96Hqx-A-NAoOsZOLuQoSEuds",
-      "skills": "React - TypeScript - Styled-component - Tailwind - GraphQL - REST APIs - Figma - Jest - CSS - HTML - GitHub - Scrum"
+      "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgTy6ZweejvVlKjeCzXs6us8OitkIiQq5os5Rjk4JBbQ&s=10",
+      "skills": "React.js - TypeScript - Styled-Components - Tailwind CSS - Postman - REST APIs - Symfony (PHP) - GitHub - Scrum"
+    },
+    "probatix": {
+      "name": "Probatix",
+      "position": "Frontend-Entwicklerin & QA",
+      "startDate": "Sept. 2022",
+      "endDate": "Feb. 2023",
+      "description": "• Mitwirkung an der Entwicklung und Optimierung von Webanwendungen und Widgets für Test- und Gesundheitsmanagement-Plattformen.<br/>• Refactoring von Legacy-JavaScript-Codebasen hin zu modernen, modularen Komponentenstrukturen zur Verbesserung der Wartbarkeit.<br/>• Durchführung von End-to-End- und Integrationstests zur Sicherstellung der Zuverlässigkeit von Patientendaten und Buchungssystemen.<br/>• Enge Zusammenarbeit mit funktionsübergreifenden Teams in Berlin zur Fehlerdiagnose und kontinuierlichen Qualitätssicherung.",
+      "linkedinAddress": "https://www.linkedin.com/company/probatix/",
+      "websiteAddress": "https://www.probatix.de/",
+      "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSp5MUoj2dyk4OhOvFn2LlXBzndql8iR_buX8iJBTmIQ&s=10",
+      "skills": "React.js - Styled-Components - JavaScript (ES6+) - Manual Testing - End-to-End Testing - REST APIs - Git"
     },
     "Lastsecond": {
       "name": "Lastsecond",
-      "position": "Front-End Ingenieur",
-      "startDate": "Dezember 2020",
-      "endDate": "March 2022",
-      "description": "Ich habe als Frontend-Entwickler bei LastSecond.ir gearbeitet, einer persischen Hotel- und Flugreservierungswebsite. Zu meinen Aufgaben gehörte die Umgestaltung der Website des Unternehmens von einem veralteten Framework zu einem neuen, das Vue.js und Sass nutzte. Das Hauptziel bestand darin, ein mobiles und Desktop-freundliches Design zu schaffen. Ich musste die Hauptseiten für Touren, Hotels, Flüge, Reiserouten, Blogs, Restaurants, Videos und Attraktionen neu schreiben. <br/> Um sicherzustellen, dass das Projekt mit den Zielen übereinstimmte, arbeitete ich effektiv mit Backend-Entwicklern, UI/UX-Designern und dem Produktmanager zusammen. Dazu gehörte eine klare und konsistente Kommunikation während des gesamten Prozesses.",
+      "position": "Frontend-Entwicklerin",
+      "startDate": "Dez. 2020",
+      "endDate": "März 2022",
+      "description": "• Durchführung eines vollständigen Web-Refactorings und Migration von veralteten Technologien (Blade, HTML, CSS) zu Vue.js, Nuxt.js und SCSS für 7 Kernproduktbereiche (Touren, Hotels, Flüge, Reiserouten, Blogs, Restaurants).<br/>• Neugestaltung von ca. 90 % der Plattform für mobile und Desktop-Schnittstellen unter Verwendung von Bootstrap-Vue und Responsive Design-Prinzipien.<br/>• Optimierung der Web-Performance und SEO mit einer Steigerung der Lighthouse-Performance-Werte um 85 %+ sowie deutlicher Erhöhung des Nutzer-Engagements.<br/>• Zusammenarbeit in einer Agile/Scrum-Umgebung mit GitLab, Zeplin und Webpack für eine nahtlose Versionskontrolle und präzise Umsetzungen von Design zu Code.",
       "linkedinAddress": "https://www.linkedin.com/company/lastsecond/?originalSubdomain=ir",
       "websiteAddress": "https://lastsecond.ir/",
       "logoAddress": "https://pbs.twimg.com/profile_images/1230005817832886272/raLLVHAj_400x400.jpg",
-      "skills": "Vue.js - Bootstrap-Vue - Bootstrap - REST APIs - HTML - CSS - SASS - Linux - GitLab - Zeplin - Scrum - BEM"
+      "skills": "Vue.js - Nuxt.js - SCSS - Bootstrap-Vue - REST APIs - Webpack - GitLab - Zeplin - SEO - Scrum"
     },
     "Chargoon": {
       "name": "Chargoon",
-      "position": "QA Ingenieur",
+      "position": "QA-Ingenieurin",
       "startDate": "März 2016",
       "endDate": "April 2020",
-      "description": "Während meiner Tätigkeit als manueller QA-Ingenieur bei Chargoon, einem Unternehmen, das Büroautomatisierungslösungen, Personalwesen, Finanzen und andere E-Commerce-Tools anbietet. <br/> war ich für das Testen von drei verschiedenen Plattformen verantwortlich: Die Vertrags- und Gehaltsplattform, die Organisationsplattform, und die Beschäftigungsplattform.<br/> Ich habe TFS effektiv genutzt, um Fehler zu erstellen, zu testen und mit dem Entwicklungsteam zu kommunizieren. Ich habe mit einem Team von über 10 Entwicklern, 3 Scrum Mastern und 2 Testingenieuren zusammengearbeitet, um sicherzustellen, dass die Testprozesse effizient und nahtlos waren.",
+      "description": "• Verantwortung für das manuelle Testen von drei zentralen Unternehmensplattformen: Vertrags- & Gehaltsabrechnung, Organisationssysteme und Beschäftigungsmanagement.<br/>• Effektiver Einsatz von TFS zur Erfassung, Verwaltung und Nachverfolgung von Fehlern sowie zur klaren Kommunikation mit den Entwicklungsteams.<br/>• Enge Zusammenarbeit mit über 10 Entwicklern, 3 Scrum Mastern und weiteren QA-Spezialisten zur Sicherstellung effizienter und strukturierter Qualitätssicherungsprozesse.",
       "linkedinAddress": "https://www.linkedin.com/company/chargoon/",
       "websiteAddress": "https://www.chargoon.com/",
       "logoAddress": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacszHRS5oVtwErQ8TDlJ0LEFHT5xpi9oe6vl3ZeL_Fw&s",
-      "skills": "TFS - Unit testing - End to End testing - Integration test - Scrum"
+      "skills": "TFS - Manual Testing - Unit Testing - End-to-End Testing - Integration Testing - Scrum"
     }
   },
   "education": {
@@ -122,7 +133,7 @@
     }
   },
   "myBlog": {
-    "name":"Mein Blog",
+    "name": "Mein Blog",
     "title": "Mehr als Code: Gedanken, Interessen und Einblicke aus der Perspektive eines Entwicklers:",
     "FrontEnd": {
       "title": "Front-End",

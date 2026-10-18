@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { useState } from "react";
 import skills from "../../data/skills.json";
 import { useTranslation } from "react-i18next";
@@ -8,6 +9,7 @@ function Skills() {
   const { t } = useTranslation("skills");
 
   return (
+    // eslint-disable-next-line react/react-in-jsx-scope
     <div id="skills" className="skills">
       <div className="skills__title fs-3 mb-5">{t("skills.title")}:</div>
       <div
