@@ -1,13 +1,13 @@
 import React from 'react';
 import SvgBottom from "../../files/home/svg-bottom.png";
 import { useTranslation, Trans } from "react-i18next";
-import Resume from "../../files/home/Yasaman-BM--Front-end.pdf";
+// import Resume from "../../files/home/Yasaman-BM--Front-end.pdf";
 import FlowerBackground from "../../files/home/flower-background.png";
 import YasamanPortrait from "../../files/home/yasaman-portrait-1.png";
-import figmaIcon from "../../files/home/figma-icon.png";
-import { Meta } from "react-bootstrap-icons";
-import Tippy from "@tippyjs/react";
-import { FileEarmarkPerson } from "react-bootstrap-icons";
+// import figmaIcon from "../../files/home/figma-icon.png";
+// import { Meta } from "react-bootstrap-icons";
+// import Tippy from "@tippyjs/react";
+// import { FileEarmarkPerson } from "react-bootstrap-icons";
 
 function Home() {
   const { t } = useTranslation("home");
@@ -26,7 +26,7 @@ function Home() {
           <div className="fs-4">{t("home.location")}</div>
           <Trans>{t("home.secondDescription")}</Trans>
         </div>
-        <Tippy content={t("home.downloadResumeTooltip")}>
+        {/* <Tippy content={t("home.downloadResumeTooltip")}>
           <a
             href={Resume}
             download
@@ -36,8 +36,8 @@ function Home() {
           >
             <FileEarmarkPerson size={"20px"} />
           </a>
-        </Tippy>
-        <Tippy content={t("home.metaTooltip")}>
+        </Tippy> */}
+        {/* <Tippy content={t("home.metaTooltip")}>
           <a
             className="m-3 home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s"
             href="https://www.coursera.org/account/accomplishments/specialization/certificate/697CY3FTQTKT"
@@ -56,7 +56,7 @@ function Home() {
           >
             <img height={"23px"} src={figmaIcon} alt="figma-icon"></img>
           </a>
-        </Tippy>
+        </Tippy> */}
       </div>
       <div className="home-section__right">
         <div className="home-section__right__background">
