@@ -34,6 +34,10 @@
     "title": "Zertifizierungen"
   },
   "experienceEducation": "Historie",
+   "featuredProjects": {
+    "title": "Ausgewählte Projekte",
+    
+  },
   "experiences": {
     "title": "Arbeitserfahrungen",
     "zibal": {
@@ -49,7 +53,7 @@
     },
     "probatix": {
       "name": "Probatix",
-      "position": "Frontend-Entwicklerin & QA",
+      "position": "Frontend-Entwicklerin",
       "startDate": "Sept. 2022",
       "endDate": "Feb. 2023",
       "description": "• Mitwirkung an der Entwicklung und Optimierung von Webanwendungen und Widgets für Test- und Gesundheitsmanagement-Plattformen.<br/>• Refactoring von Legacy-JavaScript-Codebasen hin zu modernen, modularen Komponentenstrukturen zur Verbesserung der Wartbarkeit.<br/>• Durchführung von End-to-End- und Integrationstests zur Sicherstellung der Zuverlässigkeit von Patientendaten und Buchungssystemen.<br/>• Enge Zusammenarbeit mit funktionsübergreifenden Teams in Berlin zur Fehlerdiagnose und kontinuierlichen Qualitätssicherung.",

@@ -34,6 +34,9 @@
     "title": "Certifications"
   },
   "experienceEducation": "History",
+   "featuredProjects": {
+    
+  },
   "experiences": {
     "title": "Work Experiences",
     "zibal": {
@@ -49,7 +52,7 @@
     },
     "probatix": {
       "name": "Probatix",
-      "position": "Frontend Developer and QA",
+      "position": "Frontend Developer",
       "startDate": "Sep 2022",
       "endDate": "Feb 2023",
       "description": "• Contributed to building and refining web widgets and booking interfaces for health-testing management software.<br/>• Refactored legacy JavaScript codebases into modern modular components, improving code maintainability and user experience.<br/>• Executed end-to-end and integration testing to ensure accurate data entry, scheduling reliability, and platform stability.<br/>• Partnered closely with Berlin-based cross-functional teams to diagnose bugs and streamline continuous quality assurance processes.",
