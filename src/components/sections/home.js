@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
 import SvgBottom from "../../files/home/svg-bottom.png";
 import { useTranslation, Trans } from "react-i18next";
-// import Resume from "../../files/home/Yasaman-BM--Front-end.pdf";
+import EnResume from "../../files/home/YasamanBM-Front-QA-En.pdf";
+import DeResume from "../../files/home/YasamanBM-Front-De.pdf";
 import FlowerBackground from "../../files/home/flower-background.png";
 import YasamanPortrait from "../../files/home/yasaman-portrait-1.png";
 // import figmaIcon from "../../files/home/figma-icon.png";
 // import { Meta } from "react-bootstrap-icons";
-// import Tippy from "@tippyjs/react";
-// import { FileEarmarkPerson } from "react-bootstrap-icons";
+import Tippy from "@tippyjs/react";
+import { FileEarmarkPerson } from "react-bootstrap-icons";
 
 function Home() {
   const { t } = useTranslation("home");
@@ -26,17 +27,28 @@ function Home() {
           <div className="fs-4">{t("home.location")}</div>
           <Trans>{t("home.secondDescription")}</Trans>
         </div>
-        {/* <Tippy content={t("home.downloadResumeTooltip")}>
+        <Tippy content={t("home.downloadResumeTooltip")} >
           <a
-            href={Resume}
+            href={EnResume}
             download
             target="_blank"
             rel="noreferrer"
             className="home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s"
           >
-            <FileEarmarkPerson size={"20px"} />
+            English Resume <FileEarmarkPerson size={"20px"} />
           </a>
-        </Tippy> */}
+        </Tippy>
+        <Tippy content={t("home.downloadResumeTooltip")}>
+          <a
+            href={DeResume}
+            download
+            target="_blank"
+            rel="noreferrer"
+            className="home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s mx-3"
+          >
+            Deutsch Resume <FileEarmarkPerson size={"20px"} />
+          </a>
+        </Tippy>
         {/* <Tippy content={t("home.metaTooltip")}>
           <a
             className="m-3 home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s"
