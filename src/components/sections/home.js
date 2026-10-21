@@ -27,7 +27,7 @@ function Home() {
           <div className="fs-4">{t("home.location")}</div>
           <Trans>{t("home.secondDescription")}</Trans>
         </div>
-        <Tippy content={t("home.downloadResumeTooltip")}>
+        <Tippy content={t("home.downloadEnResumeTooltip")}>
           <a
             href={EnResume}
             download
@@ -38,7 +38,7 @@ function Home() {
             Eng <FileEarmarkPerson size={"20px"} />
           </a>
         </Tippy>
-        <Tippy content={t("home.downloadResumeTooltip")}>
+        <Tippy content={t("home.downloadDeResumeTooltip")}>
           <a
             href={DeResume}
             download

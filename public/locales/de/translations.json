@@ -6,7 +6,8 @@
     "location": "Sitz in Berlin",
     "position": "Frontend Ingenieurin",
     "btnName": "Kontaktiere mich",
-    "downloadResumeTooltip": "Lebenslauf herunterladen",
+    "downloadDeResumeTooltip": "Deutsch Lebenslauf herunterladen",
+    "downloadEnResumeTooltip": "Englisch Lebenslauf herunterladen",
     "metaTooltip": "Meta Frontend-Ingenieur Zertifikat",
     "figmaTooltip": "Portfolio Figma Planen"
   },

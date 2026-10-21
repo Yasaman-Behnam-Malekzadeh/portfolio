@@ -6,7 +6,8 @@
     "location": "Based in Berlin",
     "position": "Frontend engineer",
     "btnName": "Contact Me",
-    "downloadResumeTooltip": "Download Resume",
+    "downloadDeResumeTooltip": "Download German Resume",
+    "downloadEnResumeTooltip": "Download English Resume",
     "metaTooltip": "Meta Front-End developer certificate",
     "figmaTooltip": "Portfolio Figma Plan"
   },
