@@ -27,7 +27,7 @@ function Home() {
           <div className="fs-4">{t("home.location")}</div>
           <Trans>{t("home.secondDescription")}</Trans>
         </div>
-        <Tippy content={t("home.downloadResumeTooltip")} >
+        <Tippy content={t("home.downloadResumeTooltip")}>
           <a
             href={EnResume}
             download
@@ -35,7 +35,7 @@ function Home() {
             rel="noreferrer"
             className="home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s"
           >
-            English Resume <FileEarmarkPerson size={"20px"} />
+            Eng <FileEarmarkPerson size={"20px"} />
           </a>
         </Tippy>
         <Tippy content={t("home.downloadResumeTooltip")}>
@@ -46,7 +46,7 @@ function Home() {
             rel="noreferrer"
             className="home-section__left__btn btn-lg animate__animated animate__fadeInUp animate__delay-2s mx-3"
           >
-            Deutsch Resume <FileEarmarkPerson size={"20px"} />
+            De <FileEarmarkPerson size={"20px"} />
           </a>
         </Tippy>
         {/* <Tippy content={t("home.metaTooltip")}>
